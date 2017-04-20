@@ -5,7 +5,7 @@
 
 ####  AnKaLu-Tetris  ###
 
-####  Use-Case Specification: Epilepsie-Mode spielen  ###
+####  Use-Case Specification: Standard-Mode spielen  ###
 
 #####  Version 2.1  #####
 
