@@ -68,6 +68,10 @@ n/a
 
 ####  2.3 Mock-Ups  ####
 
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Mock-Ups/MU%20Musik%20%C3%A4ndern.png](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Mock-Ups/MU%20Musik%20%C3%A4ndern.png)
+
+![Mock-Up](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Mock-Ups/MU%20Musik%20%C3%A4ndern.png "Mock-Up")
+
 ####  2.4 Screenshots  ####
 
 ####  2.5 Features  ####
