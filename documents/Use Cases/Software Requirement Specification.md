@@ -5,7 +5,7 @@
 
 #### <div style="text-align: right"> AnKaLu-Tetris</div> ####
 #### <div style="text-align: right"> Software Requirements Specification</div> ###
-##### <div style="text-align: right"> Version<2.1></div> ####
+##### <div style="text-align: right"> Version 2.1</div> ####
 
 
 
