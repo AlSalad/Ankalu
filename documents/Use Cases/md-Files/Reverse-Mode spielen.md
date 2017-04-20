@@ -5,9 +5,9 @@
 
 ####  AnKaLu-Tetris  ###
 
-####  Use-Case Specification: Revers-Mode spielen  ###
+####  Use-Case Specification: Reverse-Mode spielen  ###
 
-#####  Version2.0  #####
+#####  Version 2.1  #####
 
 </br>
 
