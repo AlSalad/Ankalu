@@ -5,17 +5,17 @@
 
 ####  AnKaLu-Tetris  ###
 ####  Use-Case Spectfication: Musik ändern  ###
-#####  Version2.0  ####
+#####  Version 2.1  ####
 
 </br>
 
 ##  Revision History  ##
 
 <table> 
-<tr b><td><b>Date</b></td><td><b>Version</b></td><td><b>Description</b></td><td><b>Author</b></td></tr>
+<tr><td><b>Date</b></td><td><b>Version</b></td><td><b>Description</b></td><td><b>Author</b></td></tr>
 <tr><td>04.04.2017</td><td>1.0</td><td>Version 1.0</td><td>André, Katharina, Luka</td></tr>
 <tr><td>19.04.2017</td><td>2.0</td><td>Version 2.0 als Markdown</td><td>Katharina</td></tr>
-<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td>20.04.2017</td><td>2.1</td><td>Hinzufügen von Usecase Diagrams und Mock-Ups</td><td>André, Katharina, Luka</td></tr>
 <tr><td></td><td></td><td></td><td></td></tr>
 </table>
 </br>
@@ -37,7 +37,7 @@
 </ol>
 <li>Special Requirements
 <ol type = i>
-<li>Functionality on Windows</li>
+<li>Functionality</li>
 </ol>
 <li>Preconditions</li>
 <li>Postcondotions</li>
