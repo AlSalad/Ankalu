@@ -1,30 +1,31 @@
 
 ----------
-## <div style="text-align: right">  AnKaLu-Tetris </div> ##
+##  AnKaLu-Tetris  ##
 ----------
 
-#### <div style="text-align: right"> AnKaLu-Tetris</div>###
-#### <div style="text-align: right"> Use-Case Specification: Highscore löschen</div>###
-##### <div style="text-align: right"> Version<2.0></div>####
+####  AnKaLu-Tetris  ###
 
+####  Use-Case Specification: Epilepsie-Mode spielen  ###
 
+#####  Version2.0  #####
 
 </br>
-##Revision History##
+
+##  Revision History  ##
 
 <table> 
 <tr><td><b>Date</b></td><td><b>Version</b></td><td><b>Description</b></td><td><b>Author</b></td></tr>
 <tr><td>05.04.2017</td><td>1.0</td><td>Version 1.0</td><td>André, Katharina, Luka</td></tr>
 <tr><td>19.04.2017</td><td>2.0</td><td>Version 2.0 als Markdown</td><td>Katharina</td></tr>
-<tr><td><font color = white>j</font></td><td></td><td></td><td></td></tr>
-<tr><td><font color = white>j</font></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
 </table>
 </br>
 
-##Table of Contents
+##  Table of Contents  ##
 
 <ol>
-<li>Use-Case Name
+<li>Use-Case Highscore löschen
 <ol type = i>
 <li>Brief Description</li>
 </ol>
@@ -46,28 +47,46 @@
 </ol>
 </br>
 
-##Use-Case Specifications: Highscore löschen##
+##  Use-Case Specifications: Highscore löschen  ##
 
-###1. Use-Case Highscore löschen
-####1.1 Brief Description
+###  1. Use-Case Highscore löschen  ###
+
+####  1.1 Brief Description  ####
 Dieser Use-Case ermöglicht es dem User den aktuellen Highscore des Spiels einzusehen und diesen wenn gewünscht zu löschen. </br>
-Link zum SRS: [http://srs](http://srs)
+Link zum SRS: [https://github.com/AlSalad/Ankalu/blob/master/documents/SRS/Software%20Requirement%20Specification.md](https://github.com/AlSalad/Ankalu/blob/master/documents/SRS/Software%20Requirement%20Specification.md)
 
-###2. Overall Description
-####2.1 Basic Flow
-####2.2 Alternative Flows
+###  2. Overall Description  ###
+
+####  2.1 Basic Flow  ####
+
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Use%20Case%20Diagrams/UCD%20Highscore%20l%C3%B6schen.png](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Use%20Case%20Diagrams/UCD%20Highscore%20l%C3%B6schen.png)
+
+![UCD](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Use%20Case%20Diagrams/UCD%20Highscore%20l%C3%B6schen.png "UCD")
+
+####  2.2 Alternative Flows  ####
+
 n/a
 
-####2.3 Mock-Ups
-####2.4 Screenshots
-####2.5 Features
+####  2.3 Mock-Ups  ####
 
-###3. Special Requirements
-####3.1 Functionality on Windows
-Die Anwendung wird vorerst nur für Windows programmiert und erfordert daher ein Winows-basiertes Betriebssystem. 
-###4. Preconditions
+####  2.4 Screenshots ####
+
+####  2.5 Features  ####
+
+###  3. Special Requirements  ###
+
+####  3.1 Functionality  ####
+
+Die Anwendung benötigt jediglich ein Java Runtime Environment.
+
+###  4. Preconditions  ###
+
 Bevor der Highscore gelöscht wird, sieht der User eine Auflistung des Highscores und kann somit die Bestenliste begutachten.
-###5. Postconditions
+
+###  5. Postconditions  ###
+
 Nachdem der Highscore gelöscht wurde, sind keine Daten mehr im Highscore verfügbar und werden ab diesem Zeitpunkt bei jedem Spiel wieder neu angelegt.
-###Extension Points
+
+###  6.Extension Points  ###
+
 n/a
