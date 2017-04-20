@@ -18,7 +18,7 @@
 <tr><td>04.04.2017</td><td>1.0</td><td>Version 1.0</td><td>André, Katharina, Luka</td></tr>
 <tr><td>19.04.2017</td><td>2.0</td><td>Version 2.0 als Markdown</td><td>Katharina</td></tr>
 <tr><td>20.04.2017</td><td>2.1</td><td>Update Overall Use Case Diagram</td><td>Katharina</td></tr>
-<tr><td><font color = white>j</font></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
 </table>
 </br>
 
@@ -44,9 +44,9 @@
 <li>Functionality</li>
 <ol type = a>
 <li>Overall Use-Case-Diagram</li>
-<li>Startseiten-Optionen</li>
-<li>Bearbeitung-ijl,s</li>
-<li>Bearbeds</li>
+<li>Spiel konfigurieren</li>
+<li>Highscore verwalten</li>
+<li>Gamemode spielen</li>
 </ol>
 <li>Usability
 <ol type = a>
