@@ -106,7 +106,7 @@ n/a - not appliciable<br>
 <tr><td>IntelliJ</td><td><a href url="https://www.jetbrains.com/idea/">https://www.jetbrains.com/idea/</a></td></tr>
 <tr><td>Jira</td><td><a href url="http://193.196.7.27:8080/secure/Dashboard.jspa">http://193.196.7.27:8080/secure/Dashboard.jspa</a></td></tr>
 <tr><td>Use-Case: Musik ändern</td><td><a href url=""></a></td></tr>
-<tr><td>Use-Case: Highscore löschen</td><td><a href url=""></a></td></tr><tr><td>Use-Case: Standard-Mode spielen</td><td><a href url=""></a></td></tr><tr><td>Use-Case: Fast-Mode spielen</td><td><a href url=""></a></td></tr><tr><td>Use-Case: Reversed-Mode spielen</td><td><a href url=""></a></td></tr><tr><td>Use-Case: Epilepsie-Mode spielen</td><td><a href url=""></a></td></tr>
+<tr><td>Use-Case: Highscore löschen</td><td><a href url=""></a></td></tr><tr><td>Use-Case: Standard-Mode spielen</td><td><a href url="https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Standard-Mode%20spielen.md"></a></td></tr><tr><td>Use-Case: Fast-Mode spielen</td><td><a href url=""></a></td></tr><tr><td>Use-Case: Reversed-Mode spielen</td><td><a href url=""></a></td></tr><tr><td>Use-Case: Epilepsie-Mode spielen</td><td><a href url=""></a></td></tr>
 <tr><td>Software Architecture Document</td><td><a href = ""></a></td></tr>
 </table>
 
@@ -167,30 +167,30 @@ Github: [https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Use
 Der User ist in der Lage die Musik im Spiel seinen Wünschen anzupassen.
 
 Usecase Musik ändern:
-----
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Musik%20%C3%A4ndern.md](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Musik%20%C3%A4ndern.md)
 
 ##### 3.1.3 Highscore verwalten  #####
 
 Der User kann den erstellten Highscore direkt vom Hauptmenü aus aufrufen und diesen, falls gewünscht löschen.
 
 Usecase Highscore löschen:
-----
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Highscore%20l%C3%B6schen.md](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Highscore%20l%C3%B6schen.md)
 
 ##### 3.1.4 Gamemode spielen  #####
 
 Der User kann zwischen verschiedenen Spielmodi entscheiden, welche er am liebsten spielen möchte. 
 
 Usecase Standard-Mode spielen:
-----
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Standard-Mode%20spielen.md](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Standard-Mode%20spielen.md)
 
 Usecase Fast-Mode spielen:
-----
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Fast-Mode%20spielen.md](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Fast-Mode%20spielen.md)
 
 Usecase Reverse-Mode spielen:
-----
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Reverse-Mode%20spielen.md](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Reverse-Mode%20spielen.md)
 
 Usecase Epilepsie-Mode spielen:
-----
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Epilepsie-Mode%20spielen.md](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Epilepsie-Mode%20spielen.md)
 
 ####  3.2 Usability  ####
 
@@ -272,10 +272,10 @@ n/a
 #####  3.9.1 User Interfaces  #####
 
 Screenshots:
-------
+-noch hinzuzufügen
 
 Mock-Ups:
-------
+[https://github.com/AlSalad/Ankalu/tree/master/documents/Use%20Cases/Mock-Ups](https://github.com/AlSalad/Ankalu/tree/master/documents/Use%20Cases/Mock-Ups)
 
 #####  3.9.2 Hardware Interfaces  #####
 
