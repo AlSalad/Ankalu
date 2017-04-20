@@ -1,6 +1,6 @@
 
 ----------
-## <div style="text-align: right">  AnKaLu-Tetris </div> ##
+##   AnKaLu-Tetris  ##
 ----------
 
 #### <div style="text-align: right"> AnKaLu-Tetris</div> ####
