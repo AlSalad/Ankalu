@@ -3,9 +3,9 @@
 ## <div style="text-align: right">  AnKaLu-Tetris </div> ##
 ----------
 
-#### <div style="text-align: right"> AnKaLu-Tetris</div>###
-#### <div style="text-align: right"> Software Requirements Specification</div>###
-##### <div style="text-align: right"> Version<2.1></div>####
+#### <div style="text-align: right"> AnKaLu-Tetris</div>####
+#### <div style="text-align: right"> Software Requirements Specification</div>####
+##### <div style="text-align: right"> Version<2.1></div>#####
 
 
 
@@ -21,7 +21,7 @@
 </table>
 </br>
 
-##Table of Contents
+##Table of Contents##
 
 <ol>
 <li>Introduction
@@ -79,20 +79,20 @@
 
 ##Software Requirements Specification##
 
-###1. Introduction
+###1. Introduction###
 Unser Ziel ist es, das legendäre Tetris Spiel aus den 80ern wieder aufleben zu lassen. Hier werden einige Änderungen vorgenommen und verschiedene, noch nie dagewesene, Spielmodi hinzugefügt.
 
-####1.1 Purpose
+####1.1 Purpose####
 Dieses Software Requirement Specification Dokument soll einen Überblick über die Anforderungen und Dokumente unseres Projektes bieten.
 
-####1.2 Scope
+####1.2 Scope####
 Dieses Software Requirement Specification Dokument dient als Richtlinie für die Entwickler sowie als Überblick für externe.
 
-####1.3 Definitions, Acronyms, and Abbreviations
+####1.3 Definitions, Acronyms, and Abbreviations####
 
 AnKaLu - André, Katharina, Luka</br>
 n/a - not appliciable
-####1.4 Document - References
+####1.4 Document - References####
 <table>
 <tr><td>Blog</td><td><a href url="https://ankalublog.wordpress.com/blog/">https://ankalublog.wordpress.com/blog/</a></td></tr>
 <tr><td>Github</td><td><a href url="https://github.com/AlSalad/Ankalu">https://github.com/AlSalad/Ankalu</a></td></tr>
