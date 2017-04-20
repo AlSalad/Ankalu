@@ -3,9 +3,9 @@
 ##   AnKaLu-Tetris  ##
 ----------
 
-#### <div style="text-align: right"> AnKaLu-Tetris</div> ####
-#### <div style="text-align: right"> Software Requirements Specification</div> ###
-##### <div style="text-align: right"> Version 2.1</div> ####
+####  AnKaLu-Tetris  ####
+####  Software Requirements Specification  ####
+#####  Version 2.1 #####
 
 
 
@@ -22,7 +22,7 @@
 </table>
 </br>
 
-##Table of Contents
+##  Table of Contents  ##
 
 <ol>
 <li>Introduction
@@ -80,9 +80,9 @@
 
 <font size= 4><b>Software Requirements Specifications</b></font><br>
 
-#Software Requirements Specification#
+#  Software Requirements Specification  #
 <br>
-<font size= 4><b>1. Introduction</b></font><br>
+### 1. Introduction  ###
 
 Unser Ziel ist es, das legendäre Tetris Spiel aus den 80ern wieder aufleben zu lassen. Hier werden einige Änderungen vorgenommen und verschiedene, noch nie dagewesene, Spielmodi hinzugefügt.
 
