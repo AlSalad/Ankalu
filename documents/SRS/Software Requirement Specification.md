@@ -5,7 +5,7 @@
 
 ####  AnKaLu-Tetris  ####
 ####  Software Requirements Specification  ####
-#####  Version 2.1 #####
+#####  Version 2.2 #####
 
 
 
@@ -18,7 +18,7 @@
 <tr><td>04.04.2017</td><td>1.0</td><td>Version 1.0</td><td>André, Katharina, Luka</td></tr>
 <tr><td>19.04.2017</td><td>2.0</td><td>Version 2.0 als Markdown</td><td>Katharina</td></tr>
 <tr><td>20.04.2017</td><td>2.1</td><td>Update Overall Use Case Diagram</td><td>Katharina</td></tr>
-<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td>20.04.2017</td><td>2.2</td><td>Update Links</td><td>André, Katharina, Luka</td></tr>
 </table>
 </br>
 
@@ -106,7 +106,7 @@ n/a - not appliciable<br>
 <tr><td>IntelliJ</td><td><a href url="https://www.jetbrains.com/idea/">https://www.jetbrains.com/idea/</a></td></tr>
 <tr><td>Jira</td><td><a href url="http://193.196.7.27:8080/secure/Dashboard.jspa">http://193.196.7.27:8080/secure/Dashboard.jspa</a></td></tr>
 <tr><td>Use-Case: Musik ändern</td><td><a href url="https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Musik%20%C3%A4ndern.md">https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Musik%20%C3%A4ndern.md</a></td></tr>
-<tr><td>Use-Case: Highscore löschen</td><td><a href url="https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Highscore%20l%C3%B6schen.md">https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Highscore%20l%C3%B6schen.md</a></td></tr><tr><td>Use-Case: Standard-Mode spielen</td><td><a href url="https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Standard-Mode%20spielen.md">https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Standard-Mode%20spielen.md</a></td></tr><tr><td>Use-Case: Fast-Mode spielen</td><td><a href url="https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Fast-Mode%20spielen.md">https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Fast-Mode%20spielen.md</a></td></tr><tr><td>Use-Case: Reversed-Mode spielen</td><td><a href url="https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Reverse-Mode%20spielen.md">https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Reverse-Mode%20spielen.md</a></td></tr><tr><td>Use-Case: Epilepsie-Mode spielen</td><td><a href url="https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Epilepsie-Mode%20spielen.md">https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Epilepsie-Mode%20spielen.md</a></td></tr>
+<tr><td>Use-Case: Highscore löschen</td><td><a href url="https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Highscore%20l%C3%B6schen.md">https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Highscore%20l%C3%B6schen.md</a></td></tr><tr><td>Use-Case: Standard-Mode spielen</td><td><a href url="https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Standard-Mode%20spielen.md">https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Standard-Mode%20spielen.md</a></td></tr><tr><td>Use-Case: Fast-Mode spielen</td><td><a href url="https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Fast-Mode%20spielen.md">https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Fast-Mode%20spielen.md</a></td></tr><tr><td>Use-Case: Reverse-Mode spielen</td><td><a href url="https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Reverse-Mode%20spielen.md">https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Reverse-Mode%20spielen.md</a></td></tr><tr><td>Use-Case: Epilepsie-Mode spielen</td><td><a href url="https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Epilepsie-Mode%20spielen.md">https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Epilepsie-Mode%20spielen.md</a></td></tr>
 <tr><td>Software Architecture Document</td><td><a href = ""></a></td></tr>
 </table>
 
