@@ -1,0 +1,73 @@
+
+----------
+## <div style="text-align: right">  AnKaLu-Tetris </div> ##
+----------
+
+#### <div style="text-align: right"> AnKaLu-Tetris</div>###
+#### <div style="text-align: right"> Use-Case Specification: Highscore löschen</div>###
+##### <div style="text-align: right"> Version<2.0></div>####
+
+
+
+</br>
+##Revision History##
+
+<table> 
+<tr><td><b>Date</b></td><td><b>Version</b></td><td><b>Description</b></td><td><b>Author</b></td></tr>
+<tr><td>05.04.2017</td><td>1.0</td><td>Version 1.0</td><td>André, Katharina, Luka</td></tr>
+<tr><td>19.04.2017</td><td>2.0</td><td>Version 2.0 als Markdown</td><td>Katharina</td></tr>
+<tr><td><font color = white>j</font></td><td></td><td></td><td></td></tr>
+<tr><td><font color = white>j</font></td><td></td><td></td><td></td></tr>
+</table>
+</br>
+
+##Table of Contents
+
+<ol>
+<li>Use-Case Name
+<ol type = i>
+<li>Brief Description</li>
+</ol>
+<li> Overall Description
+<ol type = i>
+<li>Basic Flow</li>
+<li>Alternative Flows</li>
+<li>Mock-Ups</li>
+<li>Screenshots</li>
+<li>Features</li>
+</ol>
+<li>Special Requirements
+<ol type = i>
+<li>Functionality on Windows</li>
+</ol>
+<li>Preconditions</li>
+<li>Postcondotions</li>
+<li>Extension Points</li>
+</ol>
+</br>
+
+##Use-Case Specifications: Highscore löschen##
+
+###1. Use-Case Highscore löschen
+####1.1 Brief Description
+Dieser Use-Case ermöglicht es dem User den aktuellen Highscore des Spiels einzusehen und diesen wenn gewünscht zu löschen. </br>
+Link zum SRS: [http://srs](http://srs)
+
+###2. Overall Description
+####2.1 Basic Flow
+####2.2 Alternative Flows
+n/a
+
+####2.3 Mock-Ups
+####2.4 Screenshots
+####2.5 Features
+
+###3. Special Requirements
+####3.1 Functionality on Windows
+Die Anwendung wird vorerst nur für Windows programmiert und erfordert daher ein Winows-basiertes Betriebssystem. 
+###4. Preconditions
+Bevor der Highscore gelöscht wird, sieht der User eine Auflistung des Highscores und kann somit die Bestenliste begutachten.
+###5. Postconditions
+Nachdem der Highscore gelöscht wurde, sind keine Daten mehr im Highscore verfügbar und werden ab diesem Zeitpunkt bei jedem Spiel wieder neu angelegt.
+###Extension Points
+n/a
