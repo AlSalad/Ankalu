@@ -90,6 +90,6 @@ Bevor die Musik vom User geändert wurde, läuft die standartisiert ausgewählte
 
 Nachdem die gewünschte Musik ausgewählt wurde, ist diese gesetzt und läuft während des Spiels ab.
 
-###  Extension Points  ###
+###  6. Extension Points  ###
 
 n/a
