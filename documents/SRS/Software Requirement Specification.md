@@ -167,30 +167,30 @@ Github: [https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Use
 Der User ist in der Lage die Musik im Spiel seinen Wünschen anzupassen.
 
 Usecase Musik ändern:
-
+----
 
 ##### 3.1.3 Highscore verwalten  #####
 
 Der User kann den erstellten Highscore direkt vom Hauptmenü aus aufrufen und diesen, falls gewünscht löschen.
 
 Usecase Highscore löschen:
-
+----
 
 ##### 3.1.4 Gamemode spielen  #####
 
 Der User kann zwischen verschiedenen Spielmodi entscheiden, welche er am liebsten spielen möchte. 
 
 Usecase Standard-Mode spielen:
-
+----
 
 Usecase Fast-Mode spielen:
-
+----
 
 Usecase Reverse-Mode spielen:
-
+----
 
 Usecase Epilepsie-Mode spielen:
-
+----
 
 ####  3.2 Usability  ####
 
@@ -232,7 +232,7 @@ n/a
 
 #####  3.4.1 Responce Time  #####
 
-Start der Anwendung: 1 Sekunde
+Start der Anwendung: 1 Sekunde<br>
 Reaktion auf Interaktionen: Sofort
 
 #####  3.4.2 Throughput  #####
@@ -272,10 +272,10 @@ n/a
 #####  3.9.1 User Interfaces  #####
 
 Screenshots:
-
+------
 
 Mock-Ups:
-
+------
 
 #####  3.9.2 Hardware Interfaces  #####
 
