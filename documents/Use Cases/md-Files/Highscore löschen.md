@@ -89,4 +89,18 @@ Nachdem der Highscore gelöscht wurde, sind keine Daten mehr im Highscore verfü
 
 ###  6.Extension Points  ###
 
-n/a
+
+####  6.1 Function Points  ####
+
+Function Points = 14,11 <br>
+Estimation = 6,3h <br>
+
+
+<table>
+<tr><td>Transaction Data/ Functionality</td><td>DET</td><td>RET</td><td>FTR</td><td>Complexity</td></tr>
+<tr><td>External Inputs</td><td>1</td><td>x</td><td>1</td><td>LOW</td></tr>
+<tr><td>External Outputs</td><td>1</td><td>x</td><td>1</td><td>LOW</td></tr>
+<tr><td>External Inqueries</td><td>1</td><td>x</td><td>0</td><td>LOW</td></tr>
+<tr><td>Internal Logical Files</td><td>1</td><td>1</td><td>x</td><td>LOW</td></tr>
+<tr><td>External Interface Files</td><td>0</td><td>0</td><td>x</td><td>LOW</td></tr>
+</table>
