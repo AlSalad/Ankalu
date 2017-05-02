@@ -94,7 +94,9 @@ Nachdem der Highscore gelöscht wurde, sind keine Daten mehr im Highscore verfü
 
 Function Points = 14,11 <br>
 Estimation = 6,3h <br>
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Function%20Points/Use%20Case%20Highscore%20%C3%A4ndern.PNG](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Function%20Points/Use%20Case%20Highscore%20%C3%A4ndern.PNG)
 
+![Function Points](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Function%20Points/Use%20Case%20Highscore%20%C3%A4ndern.PNG "Function Points")
 
 <table>
 <tr><td>Transaction Data/ Functionality</td><td>DET</td><td>RET</td><td>FTR</td><td>Complexity</td></tr>
