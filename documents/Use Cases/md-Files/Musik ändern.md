@@ -5,7 +5,7 @@
 
 ####  AnKaLu-Tetris  ###
 ####  Use-Case Spectfication: Musik ändern  ###
-#####  Version 2.1  ####
+#####  Version 2.2  ####
 
 </br>
 
@@ -16,7 +16,7 @@
 <tr><td>04.04.2017</td><td>1.0</td><td>Version 1.0</td><td>André, Katharina, Luka</td></tr>
 <tr><td>19.04.2017</td><td>2.0</td><td>Version 2.0 als Markdown</td><td>Katharina</td></tr>
 <tr><td>20.04.2017</td><td>2.1</td><td>Hinzufügen von Usecase Diagrams und Mock-Ups</td><td>André, Katharina, Luka</td></tr>
-<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td>01.05.2017</td><td>2.2</td><td>Function Points hinzufügen</td><td>André, Katharina, Luka</td></tr>
 </table>
 </br>
 
@@ -41,7 +41,10 @@
 </ol>
 <li>Preconditions</li>
 <li>Postcondotions</li>
-<li>Extension Points</li>
+<li>Extension Points
+<ol type = i>
+<li>Function Points</li>
+</ol>
 </ol>
 </br>
 
