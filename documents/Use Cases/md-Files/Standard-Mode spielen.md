@@ -94,4 +94,18 @@ Nachdem das Standardspiel gespielt wurde, wird der aktuelle Highscore gespeicher
 
 ###  6.Extension Points ###
 
-n/a
+
+####  6.1 Function Points  ####
+
+Function Points = 65,57 <br>
+Estimation = 23h <br>
+
+
+<table>
+<tr><td>Transaction Data/ Functionality</td><td>DET</td><td>RET</td><td>FTR</td><td>Complexity</td></tr>
+<tr><td>External Inputs</td><td>5</td><td>x</td><td>1</td><td>LOW</td></tr>
+<tr><td>External Outputs</td><td>10</td><td>x</td><td>2</td><td>AVERAGE</td></tr>
+<tr><td>External Inqueries</td><td>0</td><td>x</td><td>0</td><td>LOW</td></tr>
+<tr><td>Internal Logical Files</td><td>2</td><td>1</td><td>x</td><td>LOW</td></tr>
+<tr><td>External Interface Files</td><td>0</td><td>0</td><td>x</td><td>LOW</td></tr>
+</table>
