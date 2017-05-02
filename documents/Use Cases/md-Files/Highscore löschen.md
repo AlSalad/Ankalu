@@ -72,6 +72,10 @@ n/a
 
 ####  2.3 Mock-Ups  ####
 
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Mock-Ups/MU%20Highscore%20l%C3%B6schen.png](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Mock-Ups/MU%20Highscore%20l%C3%B6schen.png)
+
+![Mock-Up](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Mock-Ups/MU%20Highscore%20l%C3%B6schen.png "Mock-Up")
+
 ####  2.4 Screenshots ####
 
 ####  2.5 Features  ####
