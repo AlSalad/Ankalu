@@ -97,9 +97,9 @@ Nachdem das Standardspiel gespielt wurde, wird der aktuelle Highscore gespeicher
 
 ###  6. Extension Points  ###
 
-####  6.1 Function Points
+####  6.1 Function Points  ####
 
-Function Points = 69,71
+Function Points = 69,71 <br>
 Estimation = 24,3h
 
 <table>
