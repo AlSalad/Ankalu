@@ -100,7 +100,11 @@ Nachdem das Standardspiel gespielt wurde, wird der aktuelle Highscore gespeicher
 ####  6.1 Function Points  ####
 
 Function Points = 69,71 <br>
-Estimation = 24,3h
+Estimation = 24,3h <br>
+
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Function%20Points/Use%20Case%20Epilepsie%20Mode%20spielen.PNG](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Function%20Points/Use%20Case%20Epilepsie%20Mode%20spielen.PNG)
+
+![Function Points](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Function%20Points/Use%20Case%20Epilepsie%20Mode%20spielen.PNG "Function Points")
 
 <table>
 <tr><td>Transaction Data/ Functionality</td><td>DET</td><td>RET</td><td>FTR</td><td>Complexity</td></tr>
