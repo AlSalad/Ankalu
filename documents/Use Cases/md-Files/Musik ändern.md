@@ -92,4 +92,18 @@ Nachdem die gewünschte Musik ausgewählt wurde, ist diese gesetzt und läuft w�
 
 ###  6. Extension Points  ###
 
-n/a
+
+####  6.1 Function Points  ####
+
+Function Points = 16,6 <br>
+Estimation = 7,5h <br>
+
+
+<table>
+<tr><td>Transaction Data/ Functionality</td><td>DET</td><td>RET</td><td>FTR</td><td>Complexity</td></tr>
+<tr><td>External Inputs</td><td>2</td><td>x</td><td>1</td><td>LOW</td></tr>
+<tr><td>External Outputs</td><td>1</td><td>x</td><td>0</td><td>LOW</td></tr>
+<tr><td>External Inqueries</td><td>1</td><td>x</td><td>0</td><td>LOW</td></tr>
+<tr><td>Internal Logical Files</td><td>1</td><td>1</td><td>x</td><td>LOW</td></tr>
+<tr><td>External Interface Files</td><td>0</td><td>0</td><td>x</td><td>LOW</td></tr>
+</table>
