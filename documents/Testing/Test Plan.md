@@ -176,7 +176,7 @@ Mitglieder des Projektteams und Entwickler
 <tr><td><b>Technique Objective</b></td><td><b>Testing the webpages for correct behavior</b></td></tr>
 <tr><td>Technique</td><td>Für jede Ansicht einen Test erstellen um die korrekte Darstellung und Navigation sicherzustellen</td></tr>
 <tr><td>Oracles</td><td>Tests sind erfolgreich, wenn jede Interaktion mit der GUI das gewünschte Ergebnis bringt</td></tr>
-<tr><td>Required Tools</td><td>Calabash</td></tr>
+<tr><td>Required Tools</td><td></td></tr>
 <tr><td>Success Criteria</td><td>All tests pass successfully</td></tr>
 <tr><td>Special Considerations</td><td>/</td></tr>
 </table>
