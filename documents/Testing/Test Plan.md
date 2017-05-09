@@ -172,13 +172,13 @@ Mitglieder des Projektteams und Entwickler
 
 #####  5.2.4  User Interface Testing  ##### 
 
-	|Technique Objective|Testing the webpages for correct behavior|
-	|----|----|
-	|Technique|Für jede Ansicht einen Test erstellen um die korrekte Darstellung und Navigation sicherzustellen|
-	|Oracles|Tests sind erfolgreich, wenn jede Interaktion mit der GUI das gewünschte Ergebnis bringt|
-	|Required Tools|Calabash|
-	|Success Criteria|All tests pass successfully|
-	|Special Considerations|/|
+<table>
+<tr><td><b>Technique Objective</b></td><td><b>Testing the webpages for correct behavior</b></td></tr>
+<tr><td>Technique</td><td>Für jede Ansicht einen Test erstellen um die korrekte Darstellung und Navigation sicherzustellen</td></tr>
+<tr><td>Oracles</td><td>Tests sind erfolgreich, wenn jede Interaktion mit der GUI das gewünschte Ergebnis bringt</td></tr>
+<tr><td>Required Tools</td><td>Calabash</td></tr>
+<tr><td>Success Criteria</td><td>All tests pass successfully</td></tr>
+<tr><td>Special Considerations</td><td>/</td></tr>
 
 #####  5.3.5 Performance Profiling  #####
 
