@@ -179,6 +179,7 @@ Mitglieder des Projektteams und Entwickler
 <tr><td>Required Tools</td><td>Calabash</td></tr>
 <tr><td>Success Criteria</td><td>All tests pass successfully</td></tr>
 <tr><td>Special Considerations</td><td>/</td></tr>
+</table>
 
 #####  5.3.5 Performance Profiling  #####
 
