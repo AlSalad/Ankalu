@@ -5,6 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 
 /**
@@ -58,7 +59,36 @@ public class PlayMenu {
             public void actionPerformed(ActionEvent e) {
                 frame.dispose();
                 Tetris tetris = new Tetris();
+                //GameMode
+                try {
+                    File newTextFile = new File("C:\\repos\\AnKaLu\\code\\Ankalu\\src\\TextFiles\\GameMode.txt");
+                    FileWriter fw = new FileWriter(newTextFile);
+                    fw.write(0);
+                    fw.close();
 
+                } catch (IOException iox) {
+                    //do stuff with exception
+                    iox.printStackTrace();
+                }
+
+            }
+        });
+        fastButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                frame.dispose();
+                Tetris tetris = new Tetris();
+                //GameMode
+                try {
+                    File newTextFile = new File("C:\\repos\\AnKaLu\\code\\Ankalu\\src\\TextFiles\\GameMode.txt");
+                    FileWriter fw = new FileWriter(newTextFile);
+                    fw.write("1");
+                    fw.close();
+
+                } catch (IOException iox) {
+                    //do stuff with exception
+                    iox.printStackTrace();
+                }
             }
         });
     }

@@ -10,12 +10,12 @@ import java.io.IOException;
 
 public class MainMenu extends JFrame{
 
-    private JPanel panelMenu;
-    private JButton playButton;
-    private JButton settingsButton;
-    private JButton highscoreButton;
-    private JButton xButton;
-    private JButton _Button;
+    public JPanel panelMenu;
+    public JButton playButton;
+    public JButton settingsButton;
+    public JButton highscoreButton;
+    public JButton xButton;
+    public JButton _Button;
 
 
     public MainMenu() {
@@ -23,7 +23,6 @@ public class MainMenu extends JFrame{
 
         frame.setContentPane(panelMenu);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        //frame.setSize(1000, 700);
         frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
         frame.setUndecorated(true);
         frame.setVisible(true);
@@ -46,8 +45,6 @@ public class MainMenu extends JFrame{
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    //Tetris tetris = new Tetris();
-                    //frame.dispose();
                     frame.dispose();
                     PlayMenu playMenu = new PlayMenu();
                 }

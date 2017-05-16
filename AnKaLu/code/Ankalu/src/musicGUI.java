@@ -15,15 +15,16 @@ import java.util.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class musicGUI {
 
-    private JPanel musicPanel;
-    private JButton selectMusic;
-    private JList musicList;
-    private JButton backToSettings;
+public class MusicGUI {
 
-    public musicGUI(){
-        JFrame frame = new JFrame("musicGUI");
+    public JPanel musicPanel;
+    public JButton selectMusic;
+    public JList musicList;
+    public JButton backToSettings;
+
+    public MusicGUI(){
+        JFrame frame = new JFrame("MusicGUI");
         frame.setContentPane(musicPanel);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
@@ -41,6 +42,7 @@ public class musicGUI {
                 }
             }
         });
+
         musicList.addListSelectionListener(new ListSelectionListener() {
             public void valueChanged(ListSelectionEvent event) {
                 if (!event.getValueIsAdjusting()){
@@ -53,7 +55,7 @@ public class musicGUI {
                             String selected = source.getSelectedValue().toString();
                             if(selected.equals("Tetris")){
                                 try {
-                                    String str = "C:/Users/Koopa/Music/tetris-gameboy.wav";
+                                    String str = "Music/tetris-gameboy.wav";
                                     File newTextFile = new File("musicfile.txt");
 
                                     FileWriter fw = new FileWriter(newTextFile);
@@ -67,7 +69,7 @@ public class musicGUI {
                             }
                             if(selected.equals("Sandstorm")){
                                 try {
-                                    String str = "C:/Users/Koopa/Music/Hannes.wav";
+                                    String str = "Music/Hannes.wav";
                                     File newTextFile = new File("musicfile.txt");
 
                                     FileWriter fw = new FileWriter(newTextFile);

@@ -21,10 +21,10 @@ public class settingsMenuGUI extends JFrame{
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    musicGUI sm = new musicGUI();
+                    MusicGUI sm = new MusicGUI();
                     frame.dispose();
                 }
-                catch (Exception ex){
+                catch (Exception ignored){
 
                 }
             }
@@ -36,7 +36,7 @@ public class settingsMenuGUI extends JFrame{
                     MainMenu mM = new MainMenu();
                     frame.dispose();
                 }
-                catch (Exception ex){
+                catch (Exception ignored){
 
                 }
             }

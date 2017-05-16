@@ -22,10 +22,7 @@ import java.awt.event.WindowEvent;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.Hashtable;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -34,6 +31,8 @@ import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 import javax.swing.*;
+
+import static org.testng.reporters.jq.BasePanel.C;
 
 
 public class Tetris
@@ -70,6 +69,7 @@ public class Tetris
 
     public Tetris(){
 
+        //Music at start
         try {
             FileReader fr = new FileReader("musicfile.txt");
             BufferedReader br = new BufferedReader(fr);
@@ -1603,12 +1603,41 @@ class Game extends Object
          * sleeping time is calculated with a function making larger
          * steps initially an smaller as the level increases. A level
          * above ten (10) doesn't have any further effect.
+         *
+         * FAST MODE
          */
         public void adjustSpeed() {
-            sleepTime = 4500 / (level + 5) - 250;
-            if (sleepTime < 50) {
-                sleepTime = 50;
+            String gamemode = null;
+            try {
+                FileReader fr = new FileReader("C:\\repos\\AnKaLu\\code\\Ankalu\\src\\TextFiles\\GameMode.txt");
+                BufferedReader br = new BufferedReader(fr);
+                gamemode = br.readLine();
             }
+            catch (IOException iox) {
+                iox.printStackTrace();
+            }
+
+            switch(gamemode){
+                //Standard
+                case "0":
+                    sleepTime = 4500 / (level + 5) - 250;
+                    if (sleepTime < 50) {
+                        sleepTime = 50;
+                    }
+                    break;
+                //Fast
+                case "1":
+                    sleepTime = 1000 / (level + 5) - 250;
+                    if (sleepTime < 50) {
+                        sleepTime = 50;
+                    }
+                    break;
+                default:
+                    System.out.println("Fehler");
+            }
+
+
+
         }
 
         /**
