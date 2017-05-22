@@ -26,7 +26,6 @@ public class PlayMenu {
 
         frame.setContentPane(panelPlayMenu);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        //frame.setSize(1000, 700);
 
         frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
         frame.setUndecorated(true);
@@ -66,6 +65,22 @@ public class PlayMenu {
             public void actionPerformed(ActionEvent e) {
                 frame.dispose();
                 GameMode.setGameMode(1);
+                new Tetris();
+            }
+        });
+        reverseButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                frame.dispose();
+                GameMode.setGameMode(2);
+                new Tetris();
+            }
+        });
+        epilepsyButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                frame.dispose();
+                GameMode.setGameMode(3);
                 new Tetris();
             }
         });

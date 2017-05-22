@@ -4,10 +4,17 @@
     <list default="true" id="16e19574-ed68-4c8c-ad42-7019c4a99d03" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Configuration.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Configuration.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Figure.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Figure.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Game$1.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Game$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Game$GameThread.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Game$GameThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Arquillian_TestNG_Release.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Arquillian_TestNG_Release.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Game.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Game.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu$1.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu$2.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu$3.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu$4.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu$5.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PlayMenu.java" afterPath="$PROJECT_DIR$/src/PlayMenu.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tetris.java" afterPath="$PROJECT_DIR$/src/Tetris.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,94 +34,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="TetrisTest.class" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/production/Ankalu/TetrisTest.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="start.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="start.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/start.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImagePanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ImagePanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tetris.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Tetris.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tetris.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26724">
-              <caret line="1624" column="30" lean-forward="false" selection-start-line="1624" selection-start-column="30" selection-end-line="1624" selection-end-column="30" />
+            <state relative-caret-position="266">
+              <caret line="634" column="0" lean-forward="true" selection-start-line="634" selection-start-column="0" selection-end-line="634" selection-end-column="0" />
               <folding>
-                <element signature="e#5650#5782#0" expanded="true" />
-                <element signature="e#5781#5782#0" expanded="true" />
-                <element signature="e#11967#11968#0" expanded="true" />
-                <element signature="e#11999#12000#0" expanded="true" />
-                <element signature="e#12233#12234#0" expanded="true" />
-                <element signature="e#12262#12263#0" expanded="true" />
-                <element signature="e#12495#12496#0" expanded="true" />
-                <element signature="e#12523#12524#0" expanded="true" />
-                <element signature="e#12718#12719#0" expanded="true" />
-                <element signature="e#12753#12754#0" expanded="true" />
-                <element signature="e#16486#16487#0" expanded="true" />
-                <element signature="e#16520#16521#0" expanded="true" />
-                <element signature="e#22357#22358#0" expanded="true" />
-                <element signature="e#22392#22393#0" expanded="true" />
-                <element signature="e#22579#22580#0" expanded="true" />
-                <element signature="e#22648#22649#0" expanded="true" />
-                <element signature="e#22829#22830#0" expanded="true" />
-                <element signature="e#22878#22879#0" expanded="true" />
-                <element signature="e#23059#23060#0" expanded="true" />
-                <element signature="e#23108#23109#0" expanded="true" />
-                <element signature="e#33973#33974#0" expanded="true" />
-                <element signature="e#34001#34002#0" expanded="true" />
-                <element signature="e#34501#34627#0" expanded="true" />
-                <element signature="e#34626#34627#0" expanded="true" />
-                <element signature="e#35461#35462#0" expanded="true" />
-                <element signature="e#35509#35510#0" expanded="true" />
-                <element signature="e#35707#35708#0" expanded="true" />
-                <element signature="e#35758#35759#0" expanded="true" />
-                <element signature="e#35968#35969#0" expanded="true" />
-                <element signature="e#35996#35997#0" expanded="true" />
-                <element signature="e#36110#36111#0" expanded="true" />
-                <element signature="e#36138#36139#0" expanded="true" />
-                <element signature="e#36253#36254#0" expanded="true" />
-                <element signature="e#36281#36282#0" expanded="true" />
-                <element signature="e#36460#36461#0" expanded="true" />
-                <element signature="e#36506#36507#0" expanded="true" />
-                <element signature="e#36674#36675#0" expanded="true" />
-                <element signature="e#36717#36718#0" expanded="true" />
-                <element signature="e#36900#36901#0" expanded="true" />
-                <element signature="e#36950#36951#0" expanded="true" />
-                <element signature="e#37302#37303#0" expanded="true" />
-                <element signature="e#37331#37332#0" expanded="true" />
-                <element signature="e#37906#37907#0" expanded="true" />
-                <element signature="e#37938#37939#0" expanded="true" />
-                <element signature="e#40770#40771#0" expanded="true" />
-                <element signature="e#40826#40827#0" expanded="true" />
-                <element signature="e#46370#46371#0" expanded="true" />
-                <element signature="e#46440#46441#0" expanded="true" />
-                <element signature="e#47782#47783#0" expanded="true" />
-                <element signature="e#47819#47820#0" expanded="true" />
-                <element signature="e#47997#47998#0" expanded="true" />
-                <element signature="e#48041#48042#0" expanded="true" />
+                <element signature="e#1036#1045#0" expanded="false" />
+                <element signature="docComment;method#invalidateSquare#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="method#invalidateSquare#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#redraw#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="method#redraw#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#redrawAll#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="method#redrawAll#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#isDoubleBuffered#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#getPreferredSize#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#getMinimumSize#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;class#Game#0" expanded="false" />
+                <element signature="e#46182#46183#0" expanded="true" />
+                <element signature="e#46252#46253#0" expanded="true" />
                 <element signature="docComment;method#getRelativeY#0;class#Figure#0" expanded="false" />
                 <element signature="docComment;method#paint#0;class#Figure#0" expanded="false" />
               </folding>
@@ -122,17 +70,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="PlayMenu.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PlayMenu.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GameMode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GameMode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-              <folding>
-                <element signature="e#154#155#0" expanded="true" />
-                <element signature="e#193#194#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
-              </folding>
+              <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -140,8 +90,8 @@
       <file leaf-file-name="PlayMenu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PlayMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="70" column="11" lean-forward="false" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
+            <state relative-caret-position="272">
+              <caret line="27" column="70" lean-forward="false" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -170,6 +120,8 @@
       <find>fast</find>
       <find>speed</find>
       <find>fast mode</find>
+      <find>key</find>
+      <find>key.</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -212,9 +164,9 @@
         <option value="$PROJECT_DIR$/src/MusicGUI.java" />
         <option value="$PROJECT_DIR$/out/production/Ankalu/TetrisTest.class" />
         <option value="$PROJECT_DIR$/src/GameMode.java" />
-        <option value="$PROJECT_DIR$/src/Tetris.java" />
-        <option value="$PROJECT_DIR$/src/PlayMenu.java" />
         <option value="$PROJECT_DIR$/src/start.java" />
+        <option value="$PROJECT_DIR$/src/PlayMenu.java" />
+        <option value="$PROJECT_DIR$/src/Tetris.java" />
       </list>
     </option>
   </component>
@@ -907,7 +859,7 @@
       <workItem from="1495443856452" duration="1786000" />
       <workItem from="1495463616335" duration="1434000" />
       <workItem from="1495465163183" duration="2056000" />
-      <workItem from="1495469178810" duration="7000" />
+      <workItem from="1495469178810" duration="1133000" />
     </task>
     <task id="LOCAL-00001" summary="first test">
       <created>1492589214181</created>
@@ -966,7 +918,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30471000" />
+    <option name="totallyTimeSpent" value="31597000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1045,6 +997,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="70" lean-forward="false" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1073,6 +1028,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="70" lean-forward="false" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1101,6 +1059,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1166,11 +1127,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PlayMenu.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/awt/Button.java" />
     <entry file="file://$PROJECT_DIR$/src/TextFiles/GameMode.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -1197,6 +1153,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="67" column="33" lean-forward="false" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1211,15 +1170,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/MainMenuTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1238,87 +1190,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PlayMenu.java">
+    <entry file="file://$PROJECT_DIR$/out/production/Ankalu/TetrisTest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="70" column="11" lean-forward="false" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
+        <state relative-caret-position="238">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameMode.java">
+    <entry file="file://$PROJECT_DIR$/src/Tests/MainMenuTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tetris.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26724">
-          <caret line="1624" column="30" lean-forward="false" selection-start-line="1624" selection-start-column="30" selection-end-line="1624" selection-end-column="30" />
-          <folding>
-            <element signature="e#5650#5782#0" expanded="true" />
-            <element signature="e#5781#5782#0" expanded="true" />
-            <element signature="e#11967#11968#0" expanded="true" />
-            <element signature="e#11999#12000#0" expanded="true" />
-            <element signature="e#12233#12234#0" expanded="true" />
-            <element signature="e#12262#12263#0" expanded="true" />
-            <element signature="e#12495#12496#0" expanded="true" />
-            <element signature="e#12523#12524#0" expanded="true" />
-            <element signature="e#12718#12719#0" expanded="true" />
-            <element signature="e#12753#12754#0" expanded="true" />
-            <element signature="e#16486#16487#0" expanded="true" />
-            <element signature="e#16520#16521#0" expanded="true" />
-            <element signature="e#22357#22358#0" expanded="true" />
-            <element signature="e#22392#22393#0" expanded="true" />
-            <element signature="e#22579#22580#0" expanded="true" />
-            <element signature="e#22648#22649#0" expanded="true" />
-            <element signature="e#22829#22830#0" expanded="true" />
-            <element signature="e#22878#22879#0" expanded="true" />
-            <element signature="e#23059#23060#0" expanded="true" />
-            <element signature="e#23108#23109#0" expanded="true" />
-            <element signature="e#33973#33974#0" expanded="true" />
-            <element signature="e#34001#34002#0" expanded="true" />
-            <element signature="e#34501#34627#0" expanded="true" />
-            <element signature="e#34626#34627#0" expanded="true" />
-            <element signature="e#35461#35462#0" expanded="true" />
-            <element signature="e#35509#35510#0" expanded="true" />
-            <element signature="e#35707#35708#0" expanded="true" />
-            <element signature="e#35758#35759#0" expanded="true" />
-            <element signature="e#35968#35969#0" expanded="true" />
-            <element signature="e#35996#35997#0" expanded="true" />
-            <element signature="e#36110#36111#0" expanded="true" />
-            <element signature="e#36138#36139#0" expanded="true" />
-            <element signature="e#36253#36254#0" expanded="true" />
-            <element signature="e#36281#36282#0" expanded="true" />
-            <element signature="e#36460#36461#0" expanded="true" />
-            <element signature="e#36506#36507#0" expanded="true" />
-            <element signature="e#36674#36675#0" expanded="true" />
-            <element signature="e#36717#36718#0" expanded="true" />
-            <element signature="e#36900#36901#0" expanded="true" />
-            <element signature="e#36950#36951#0" expanded="true" />
-            <element signature="e#37302#37303#0" expanded="true" />
-            <element signature="e#37331#37332#0" expanded="true" />
-            <element signature="e#37906#37907#0" expanded="true" />
-            <element signature="e#37938#37939#0" expanded="true" />
-            <element signature="e#40770#40771#0" expanded="true" />
-            <element signature="e#40826#40827#0" expanded="true" />
-            <element signature="e#46370#46371#0" expanded="true" />
-            <element signature="e#46440#46441#0" expanded="true" />
-            <element signature="e#47782#47783#0" expanded="true" />
-            <element signature="e#47819#47820#0" expanded="true" />
-            <element signature="e#47997#47998#0" expanded="true" />
-            <element signature="e#48041#48042#0" expanded="true" />
-            <element signature="docComment;method#getRelativeY#0;class#Figure#0" expanded="false" />
-            <element signature="docComment;method#paint#0;class#Figure#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1330,19 +1214,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Ankalu/TetrisTest.class">
+    <entry file="file://$PROJECT_DIR$/src/start.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
+    <entry file="file://$PROJECT_DIR$/src/GameMode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="51">
+          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PlayMenu.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PlayMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="27" column="70" lean-forward="false" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tetris.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="634" column="0" lean-forward="true" selection-start-line="634" selection-start-column="0" selection-end-line="634" selection-end-column="0" />
+          <folding>
+            <element signature="e#1036#1045#0" expanded="false" />
+            <element signature="docComment;method#invalidateSquare#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+            <element signature="method#invalidateSquare#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;method#redraw#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+            <element signature="method#redraw#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;method#redrawAll#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+            <element signature="method#redrawAll#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;method#isDoubleBuffered#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;method#getPreferredSize#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;method#getMinimumSize#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;class#Game#0" expanded="false" />
+            <element signature="e#46182#46183#0" expanded="true" />
+            <element signature="e#46252#46253#0" expanded="true" />
+            <element signature="docComment;method#getRelativeY#0;class#Figure#0" expanded="false" />
+            <element signature="docComment;method#paint#0;class#Figure#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

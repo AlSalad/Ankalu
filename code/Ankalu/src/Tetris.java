@@ -633,22 +633,6 @@ class SquareBoard extends Object {
                     "#ffffff");
         }
 
-
-
-//   long time = System.currentTimeMillis();
-//
-//          if(time % 2 == 0)
-//      	{
-//      setBackground(Color.white);
-//      	}
-//      	else {
-//      	setBackground(Color.black);}
-//      	}
-
-
-
-
-
         /**
          * Adds a square to the set of squares in need of redrawing.
          *
@@ -677,7 +661,6 @@ class SquareBoard extends Object {
                 }
             }
         }
-
 
         /**
          * Redraws all the invalidated squares. If no squares have
@@ -957,31 +940,13 @@ class SquareBoard extends Object {
         }
     }
 }
- /*
-  * @(#)Game.java
-  *
-  * This work is free software; you can redistribute it and/or
-  * modify it under the terms of the GNU General Public License as
-  * published by the Free Software Foundation; either version 2 of
-  * the License, or (at your option) any later version.
-  *
-  * This work is distributed in the hope that it will be useful,
-  * but WITHOUT ANY WARRANTY; without even the implied warranty of
-  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-  * GNU General Public License for more details.
-  *
-  * Copyright (c) 2003 Per Cederberg. All rights reserved.
-  */
-
 
 /**
  * The Tetris game. This class controls all events in the game and
  * handles all the game logics. The game is started through user
  * interaction with the graphical game component provided by this
  * class.
- *
- * @version  1.2
- * @author   Per Cederberg, per@percederberg.net
+ * @author   Luka Kröger
  */
 class Game extends Object
 {
@@ -1465,6 +1430,7 @@ class Game extends Object
      */
     private synchronized void handleKeyEvent(KeyEvent e)
     {
+
         // Handle start (any key to start !!!)
         if (state == STATE_GETREADY)
         {
@@ -1484,49 +1450,67 @@ class Game extends Object
         }
 
         // Handle remaining key events
-        switch (e.getKeyCode()) {
+        switch (GameMode.getGameMode()) {
+            case 2:
+            case 3:
+                switch (e.getKeyCode()) {
 
-            case KeyEvent.VK_LEFT:
-                figure.moveLeft();
-                break;
+                    case KeyEvent.VK_LEFT:
+                        figure.moveRight();
+                        break;
 
-            case KeyEvent.VK_RIGHT:
-                figure.moveRight();
-                break;
-
-            case KeyEvent.VK_DOWN:
-                figure.moveAllWayDown();
-                moveLock = true;
-                break;
-
-            case KeyEvent.VK_UP:
-            case KeyEvent.VK_SPACE:
-                if (e.isControlDown()) {
-                    figure.rotateRandom();
-                } else if (e.isShiftDown()) {
-                    figure.rotateClockwise();
-                } else {
-                    figure.rotateCounterClockwise();
+                    case KeyEvent.VK_RIGHT:
+                        figure.moveLeft();
+                        break;
                 }
                 break;
+            default:
+                switch (e.getKeyCode()) {
 
-            case KeyEvent.VK_S:
-                if (level < 9) {
-                    level++;
-                    handleLevelModification();
-                }
-                break;
+                    case KeyEvent.VK_LEFT:
+                        figure.moveLeft();
+                        break;
 
-            case KeyEvent.VK_N:
-                preview = !preview;
-                if (preview && figure != nextFigure) {
-                    nextFigure.attach(previewBoard, true);
-                    nextFigure.detach();
-                } else {
-                    previewBoard.clear();
+                    case KeyEvent.VK_RIGHT:
+                        figure.moveRight();
+                        break;
                 }
                 break;
         }
+            switch (e.getKeyCode()) {
+                case KeyEvent.VK_DOWN:
+                    figure.moveAllWayDown();
+                    moveLock = true;
+                    break;
+
+                case KeyEvent.VK_UP:
+                case KeyEvent.VK_SPACE:
+                    if (e.isControlDown()) {
+                        figure.rotateRandom();
+                    } else if (e.isShiftDown()) {
+                        figure.rotateClockwise();
+                    } else {
+                        figure.rotateCounterClockwise();
+                    }
+                    break;
+
+                case KeyEvent.VK_S:
+                    if (level < 9) {
+                        level++;
+                        handleLevelModification();
+                    }
+                    break;
+
+                case KeyEvent.VK_N:
+                    preview = !preview;
+                    if (preview && figure != nextFigure) {
+                        nextFigure.attach(previewBoard, true);
+                        nextFigure.detach();
+                    } else {
+                        previewBoard.clear();
+                    }
+            }
+
     }
 
     /**
@@ -1609,14 +1593,9 @@ class Game extends Object
         public void adjustSpeed() {
                 switch(GameMode.getGameMode())
                 {
-                    case 0:
-                        sleepTime = 4500 / (level + 5) - 250;
-                        if (sleepTime < 50) {
-                            sleepTime = 50;
-                        }
-                        break;
                     case 1:
-                        sleepTime = 4500 / (level + 20) - 250;
+                    case 3:
+                        sleepTime = 4500 / (level + 15) - 250;
                         if (sleepTime < 50) {
                             sleepTime = 50;
                         }
@@ -1628,7 +1607,6 @@ class Game extends Object
                         }
                         break;
                 }
-
         }
 
         /**
@@ -1798,10 +1776,7 @@ class Configuration extends Object {
  * square board or not. When attached, all move and rotation
  * operations are checked so that collisions do not occur with other
  * squares on the board. When not attached, any rotation can be made
- * (and will be kept when attached to a new board).
- *
- * @version  1.2
- * @author   Per Cederberg, per@percederberg.net
+ * (and will be kept when attached to a new board)
  */
 class Figure extends Object {
 
