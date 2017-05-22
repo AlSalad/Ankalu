@@ -1622,6 +1622,10 @@ class Game extends Object
                         }
                         break;
                     default:
+                        sleepTime = 4500 / (level + 5) - 250;
+                        if (sleepTime < 50) {
+                            sleepTime = 50;
+                        }
                         break;
                 }
 
@@ -1660,9 +1664,6 @@ class Game extends Object
  * simplifying the reading of configuration parameters. it also
  * provides some methods for transforming string values into more
  * useful objects.
- *
- * @author   per cederberg, per@percederberg.net
- * @version  1.2
  */
 class Configuration extends Object {
 

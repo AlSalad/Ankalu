@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16e19574-ed68-4c8c-ad42-7019c4a99d03" name="Default" comment="" />
+    <list default="true" id="16e19574-ed68-4c8c-ad42-7019c4a99d03" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Configuration.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Configuration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Figure.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Figure.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Game$GameThread.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Game$GameThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Arquillian_TestNG_Release.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Arquillian_TestNG_Release.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tetris.java" afterPath="$PROJECT_DIR$/src/Tetris.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,21 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="TetrisTest.class" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TetrisTest.class" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/out/production/Ankalu/TetrisTest.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="start.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/start.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="68">
+              <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -52,11 +60,9 @@
       <file leaf-file-name="Tetris.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tetris.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="1624" column="30" lean-forward="true" selection-start-line="1624" selection-start-column="30" selection-end-line="1624" selection-end-column="30" />
+            <state relative-caret-position="26724">
+              <caret line="1624" column="30" lean-forward="false" selection-start-line="1624" selection-start-column="30" selection-end-line="1624" selection-end-column="30" />
               <folding>
-                <element signature="e#5058#5059#0" expanded="true" />
-                <element signature="e#5102#5103#0" expanded="true" />
                 <element signature="e#5650#5782#0" expanded="true" />
                 <element signature="e#5781#5782#0" expanded="true" />
                 <element signature="e#11967#11968#0" expanded="true" />
@@ -111,61 +117,6 @@
                 <element signature="e#48041#48042#0" expanded="true" />
                 <element signature="docComment;method#getRelativeY#0;class#Figure#0" expanded="false" />
                 <element signature="docComment;method#paint#0;class#Figure#0" expanded="false" />
-                <marker date="1495466153830" expanded="false" signature="49042:49083" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="49761:50053" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="50096:50363" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="50425:50638" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="50969:51336" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="51494:51671" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="51729:51740" ph=" { " />
-                <marker date="1495466153830" expanded="false" signature="51763:51769" ph=" }" />
-                <marker date="1495466153830" expanded="false" signature="51775:52352" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="52756:53046" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="53966:54600" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="54636:54714" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="54767:54843" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="54894:54970" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="55018:55093" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="55141:55224" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="55282:55364" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="55421:55501" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="55556:55692" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="55736:55883" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="55915:56060" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="56092:56290" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="56329:56680" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="56722:56872" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="56917:57065" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="57110:57146" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="57191:57773" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="57873:58340" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="61664:61831" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="61863:61874" ph=" { " />
-                <marker date="1495466153830" expanded="false" signature="61895:61901" ph=" }" />
-                <marker date="1495466153830" expanded="false" signature="61907:62849" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="63867:64051" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="64076:64087" ph=" { " />
-                <marker date="1495466153830" expanded="false" signature="64100:64106" ph=" }" />
-                <marker date="1495466153830" expanded="false" signature="64112:64354" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="64651:64956" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="64987:64998" ph=" { " />
-                <marker date="1495466153830" expanded="false" signature="65062:65068" ph=" }" />
-                <marker date="1495466153830" expanded="false" signature="65074:65373" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="65593:65893" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="66114:66406" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="66626:67007" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="67432:67551" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="67580:67591" ph=" { " />
-                <marker date="1495466153830" expanded="false" signature="67610:67616" ph=" }" />
-                <marker date="1495466153830" expanded="false" signature="67622:68008" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="68469:68781" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="68812:68823" ph=" { " />
-                <marker date="1495466153830" expanded="false" signature="68881:68887" ph=" }" />
-                <marker date="1495466153830" expanded="false" signature="68893:69206" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="69397:69718" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="69903:70214" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="70521:71019" ph="/**...*/" />
-                <marker date="1495466153830" expanded="false" signature="71426:71769" ph="/**...*/" />
               </folding>
             </state>
           </provider>
@@ -189,8 +140,8 @@
       <file leaf-file-name="PlayMenu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PlayMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="70" column="11" lean-forward="true" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
+            <state relative-caret-position="731">
+              <caret line="70" column="11" lean-forward="false" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -260,10 +211,10 @@
         <option value="$PROJECT_DIR$/src/Tests/MusicGUITest.java" />
         <option value="$PROJECT_DIR$/src/MusicGUI.java" />
         <option value="$PROJECT_DIR$/out/production/Ankalu/TetrisTest.class" />
-        <option value="$PROJECT_DIR$/src/start.java" />
         <option value="$PROJECT_DIR$/src/GameMode.java" />
         <option value="$PROJECT_DIR$/src/Tetris.java" />
         <option value="$PROJECT_DIR$/src/PlayMenu.java" />
+        <option value="$PROJECT_DIR$/src/start.java" />
       </list>
     </option>
   </component>
@@ -295,22 +246,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ankalu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ankalu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -371,6 +307,21 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Tetris.java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ankalu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ankalu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -955,7 +906,8 @@
       <workItem from="1494917964459" duration="36000" />
       <workItem from="1495443856452" duration="1786000" />
       <workItem from="1495463616335" duration="1434000" />
-      <workItem from="1495465163183" duration="1900000" />
+      <workItem from="1495465163183" duration="2056000" />
+      <workItem from="1495469178810" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="first test">
       <created>1492589214181</created>
@@ -1014,10 +966,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30439000" />
+    <option name="totallyTimeSpent" value="30471000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1028,8 +981,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29281184" sideWeight="0.5265625" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29281184" sideWeight="0.4734375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29281184" sideWeight="0.4734375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1040,8 +993,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967638" sideWeight="0.49444443" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1092,9 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="70" lean-forward="false" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1123,9 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="70" lean-forward="false" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1154,9 +1101,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1253,9 +1197,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="67" column="33" lean-forward="false" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1270,9 +1211,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1302,8 +1240,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PlayMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="70" column="11" lean-forward="true" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
+        <state relative-caret-position="731">
+          <caret line="70" column="11" lean-forward="false" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -1323,11 +1261,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tetris.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="1624" column="30" lean-forward="true" selection-start-line="1624" selection-start-column="30" selection-end-line="1624" selection-end-column="30" />
+        <state relative-caret-position="26724">
+          <caret line="1624" column="30" lean-forward="false" selection-start-line="1624" selection-start-column="30" selection-end-line="1624" selection-end-column="30" />
           <folding>
-            <element signature="e#5058#5059#0" expanded="true" />
-            <element signature="e#5102#5103#0" expanded="true" />
             <element signature="e#5650#5782#0" expanded="true" />
             <element signature="e#5781#5782#0" expanded="true" />
             <element signature="e#11967#11968#0" expanded="true" />
@@ -1382,61 +1318,6 @@
             <element signature="e#48041#48042#0" expanded="true" />
             <element signature="docComment;method#getRelativeY#0;class#Figure#0" expanded="false" />
             <element signature="docComment;method#paint#0;class#Figure#0" expanded="false" />
-            <marker date="1495466153830" expanded="false" signature="49042:49083" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="49761:50053" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="50096:50363" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="50425:50638" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="50969:51336" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="51494:51671" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="51729:51740" ph=" { " />
-            <marker date="1495466153830" expanded="false" signature="51763:51769" ph=" }" />
-            <marker date="1495466153830" expanded="false" signature="51775:52352" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="52756:53046" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="53966:54600" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="54636:54714" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="54767:54843" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="54894:54970" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="55018:55093" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="55141:55224" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="55282:55364" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="55421:55501" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="55556:55692" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="55736:55883" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="55915:56060" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="56092:56290" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="56329:56680" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="56722:56872" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="56917:57065" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="57110:57146" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="57191:57773" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="57873:58340" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="61664:61831" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="61863:61874" ph=" { " />
-            <marker date="1495466153830" expanded="false" signature="61895:61901" ph=" }" />
-            <marker date="1495466153830" expanded="false" signature="61907:62849" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="63867:64051" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="64076:64087" ph=" { " />
-            <marker date="1495466153830" expanded="false" signature="64100:64106" ph=" }" />
-            <marker date="1495466153830" expanded="false" signature="64112:64354" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="64651:64956" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="64987:64998" ph=" { " />
-            <marker date="1495466153830" expanded="false" signature="65062:65068" ph=" }" />
-            <marker date="1495466153830" expanded="false" signature="65074:65373" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="65593:65893" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="66114:66406" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="66626:67007" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="67432:67551" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="67580:67591" ph=" { " />
-            <marker date="1495466153830" expanded="false" signature="67610:67616" ph=" }" />
-            <marker date="1495466153830" expanded="false" signature="67622:68008" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="68469:68781" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="68812:68823" ph=" { " />
-            <marker date="1495466153830" expanded="false" signature="68881:68887" ph=" }" />
-            <marker date="1495466153830" expanded="false" signature="68893:69206" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="69397:69718" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="69903:70214" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="70521:71019" ph="/**...*/" />
-            <marker date="1495466153830" expanded="false" signature="71426:71769" ph="/**...*/" />
           </folding>
         </state>
       </provider>
@@ -1449,18 +1330,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
+    <entry file="file://$PROJECT_DIR$/out/production/Ankalu/TetrisTest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="238">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Ankalu/TetrisTest.class">
+    <entry file="file://$PROJECT_DIR$/src/start.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           <folding />
         </state>
       </provider>
