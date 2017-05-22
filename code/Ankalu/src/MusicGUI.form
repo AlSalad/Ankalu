@@ -37,8 +37,8 @@
               <layoutOrientation value="0"/>
               <model>
                 <item value="Tetris"/>
-                <item value="Sandstorm"/>
-                <item value="Breiter als der Gehweg"/>
+                <item value="Tetris-Rap"/>
+                <item value="Ok"/>
               </model>
               <selectionMode value="0"/>
             </properties>

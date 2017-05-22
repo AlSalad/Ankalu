@@ -1,12 +1,7 @@
-import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
-
 
 public class MainMenu extends JFrame{
 
@@ -20,6 +15,7 @@ public class MainMenu extends JFrame{
 
     public MainMenu() {
         JFrame frame = new JFrame("MainMenu");
+        if(MusicPlayed.GetMusic() == null) MusicPlayed.SetMusic("src//Music//tetris-gameboy.wav");
 
         frame.setContentPane(panelMenu);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
@@ -36,8 +32,8 @@ public class MainMenu extends JFrame{
         settingsButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                settingsMenuGUI sm = new settingsMenuGUI();
                 frame.dispose();
+                new settingsMenuGUI();
             }
         });
 
@@ -46,10 +42,9 @@ public class MainMenu extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 try {
                     frame.dispose();
-                    PlayMenu playMenu = new PlayMenu();
+                    new PlayMenu();
                 }
-                catch (Exception ex){
-
+                catch (Exception ignored){
                 }
             }
         });

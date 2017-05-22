@@ -1,5 +1,5 @@
 /**
- * Created by koopa on 22.05.2017.
+ * Created by Luka on 22.05.2017.
  */
 public class GameMode {
 

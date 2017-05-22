@@ -1,18 +1,4 @@
-import java.awt.BorderLayout;
-import java.awt.Button;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.Frame;
-import java.awt.Graphics;
-import java.awt.GridLayout;
-import java.awt.Image;
-import java.awt.Insets;
-import java.awt.Rectangle;
-import java.awt.TextArea;
-import java.awt.TextField;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
@@ -69,23 +55,12 @@ public class Tetris
 
     public Tetris(){
 
-        //Music at start
-        try {
-            FileReader fr = new FileReader("musicfile.txt");
-            BufferedReader br = new BufferedReader(fr);
-            String musicplayed = br.readLine();
-            System.out.printf(musicplayed);
-            playSound(musicplayed);
-        }
-        catch (IOException iox) {
-            iox.printStackTrace();
-        }
-
+        MusicPlayed mp = new MusicPlayed();
+        mp.playSound();
         JFrame  frame = new JFrame("Tetris");
         frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
-        //frame.setUndecorated(true);
         frame.setVisible(true);
-        final Game   game = new Game();
+        final Game game = new Game();
 
         game.addPropertyChangeListener(new PropertyChangeListener()
         {
@@ -149,23 +124,29 @@ public class Tetris
             }
         });
 
+        Button btnBack = new Button("Back");
+        btnBack.setFocusable(false);
+        btnBack.addActionListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent e)
+            {
+                mp.stopSound();
+                frame.dispose();
+                new MainMenu();
+            }
+        });
+
         final Container c = new Container();
+        c.setPreferredSize(new Dimension(600, 800));
         c.setLayout(new BorderLayout());
-        c.add(txt, BorderLayout.NORTH);
+        c.add(btnBack, BorderLayout.NORTH);
         c.add(game.getSquareBoardComponent(), BorderLayout.CENTER);
         c.add(btnStart,BorderLayout.SOUTH);
 
-        final Container c2 = new Container();
-        c2.setLayout(new GridLayout(1,2));
-        c2.add(c);
-        c2.add(taHiScores);
-
-        frame.add(c2);
-
-        System.out.println("packing");
-
+        frame.add(c);
         frame.pack();
-
+        Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
+        frame.setLocation(dim.width/2-frame.getSize().width/2, dim.height/2-frame.getSize().height/2);
 
         // Add frame window listener
         frame.addWindowListener(new WindowAdapter() {

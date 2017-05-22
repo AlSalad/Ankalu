@@ -54,32 +54,13 @@ public class MusicGUI {
                         public void actionPerformed(ActionEvent e) {
                             String selected = source.getSelectedValue().toString();
                             if(selected.equals("Tetris")){
-                                try {
-                                    String str = "Music/tetris-gameboy.wav";
-                                    File newTextFile = new File("musicfile.txt");
-
-                                    FileWriter fw = new FileWriter(newTextFile);
-                                    fw.write(str);
-                                    fw.close();
-
-                                } catch (IOException iox) {
-                                    //do stuff with exception
-                                    iox.printStackTrace();
-                                }
+                                MusicPlayed.SetMusic("src//Music//tetris-gameboy.wav");
                             }
-                            if(selected.equals("Sandstorm")){
-                                try {
-                                    String str = "Music/Hannes.wav";
-                                    File newTextFile = new File("musicfile.txt");
-
-                                    FileWriter fw = new FileWriter(newTextFile);
-                                    fw.write(str);
-                                    fw.close();
-
-                                } catch (IOException iox) {
-                                    //do stuff with exception
-                                    iox.printStackTrace();
-                                }
+                            if(selected.equals("Tetris-Rap")){
+                                MusicPlayed.SetMusic("src//Music//Hannes.wav");
+                            }
+                            if(selected.equals("Ok")){
+                                MusicPlayed.SetMusic("src//Music//WithoutMe.wav");
                             }
                         }
                     });
