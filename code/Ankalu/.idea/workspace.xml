@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16e19574-ed68-4c8c-ad42-7019c4a99d03" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/start.java" afterPath="$PROJECT_DIR$/src/start.java" />
-    </list>
+    <list default="true" id="16e19574-ed68-4c8c-ad42-7019c4a99d03" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/src/start.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -960,7 +957,7 @@
       <workItem from="1494917964459" duration="36000" />
       <workItem from="1495443856452" duration="1786000" />
       <workItem from="1495463616335" duration="1434000" />
-      <workItem from="1495465163183" duration="2056000" />
+      <workItem from="1495465163183" duration="2158000" />
     </task>
     <task id="LOCAL-00001" summary="first test">
       <created>1492589214181</created>
@@ -1019,7 +1016,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30595000" />
+    <option name="totallyTimeSpent" value="30697000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1468,7 +1465,7 @@
     <entry file="file://$PROJECT_DIR$/src/start.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding />
         </state>
       </provider>
