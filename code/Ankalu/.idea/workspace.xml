@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16e19574-ed68-4c8c-ad42-7019c4a99d03" name="Default" comment="" />
+    <list default="true" id="16e19574-ed68-4c8c-ad42-7019c4a99d03" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tetris.java" afterPath="$PROJECT_DIR$/src/Tetris.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/start.java" afterPath="$PROJECT_DIR$/src/start.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,12 +22,170 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="TetrisTest.class" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TetrisTest.class" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/out/production/Ankalu/TetrisTest.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="start.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/start.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tetris.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tetris.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="1022" column="46" lean-forward="true" selection-start-line="1022" selection-start-column="46" selection-end-line="1022" selection-end-column="46" />
+              <folding>
+                <element signature="e#1036#1045#0" expanded="false" />
+                <element signature="docComment;field#game#0;class#Tetris#0" expanded="false" />
+                <element signature="e#5954#5963#0" expanded="false" />
+                <element signature="docComment;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#width#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#height#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#matrix#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#message#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#removedLines#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#component#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#SquareBoard#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#isSquareEmpty#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#isLineEmpty#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#isLineFull#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#hasFullLines#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#getComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#getBoardHeight#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#getBoardWidth#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#getRemovedLines#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#getSquareColor#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#setSquareColor#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#setMessage#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#clear#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#removeFullLines#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#removeLine#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#update#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#size#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#insets#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#squareSize#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#bufferImage#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#bufferRect#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#messageColor#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#lighterColors#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#darkerColors#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#updated#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#updateRect#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#SquareBoardComponent#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#invalidateSquare#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#redraw#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#redrawAll#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#isDoubleBuffered#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#getPreferredSize#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#getMinimumSize#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#getMaximumSize#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#getLighterColor#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#getDarkerColor#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#paint#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#doPaintComponent#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#paintSquare#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#paintMessage#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;class#Game#0" expanded="false" />
+                <element signature="docComment;field#PCS#0;class#Game#0" expanded="false" />
+                <element signature="docComment;field#board#0;class#Game#0" expanded="false" />
+                <element signature="docComment;field#previewBoard#0;class#Game#0" expanded="false" />
+                <element signature="docComment;field#figures#0;class#Game#0" expanded="false" />
+                <element signature="docComment;field#thread#0;class#Game#0" expanded="false" />
+                <element signature="docComment;field#level#0;class#Game#0" expanded="false" />
+                <element signature="docComment;field#score#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#Game#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#Game#1;class#Game#0" expanded="false" />
+                <element signature="docComment;method#addPropertyChangeListener#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#removePropertyChangeListener#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#getState#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#getLevel#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#getScore#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#getRemovedLines#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#getSquareBoardComponent#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#getPreviewBoardComponent#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#init#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#start#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#pause#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#resume#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#terminate#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#handleStart#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#handleGameOver#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#handleGetReady#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#handlePause#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#handleResume#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#handleLevelModification#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#handleScoreModification#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#handleFigureStart#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#handleFigureLanded#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#handleTimer#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#handlePauseOnOff#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#handleKeyEvent#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#randomFigure#0;class#Game#0" expanded="false" />
+                <element signature="docComment;field#paused#0;class#GameThread#0;class#Game#0" expanded="false" />
+                <element signature="docComment;field#sleepTime#0;class#GameThread#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#GameThread#0;class#GameThread#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#isPaused#0;class#GameThread#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#setPaused#0;class#GameThread#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#run#0;class#GameThread#0;class#Game#0" expanded="false" />
+                <element signature="docComment;class#Configuration#0" expanded="false" />
+                <element signature="docComment;field#config#0;class#Configuration#0" expanded="false" />
+                <element signature="docComment;method#getValue#0;class#Configuration#0" expanded="false" />
+                <element signature="docComment;method#getValue#1;class#Configuration#0" expanded="false" />
+                <element signature="docComment;method#setValue#0;class#Configuration#0" expanded="false" />
+                <element signature="docComment;method#getColor#0;class#Configuration#0" expanded="false" />
+                <element signature="docComment;method#parseColor#0;class#Configuration#0" expanded="false" />
+                <element signature="docComment;class#Figure#0" expanded="false" />
+                <element signature="docComment;field#SQUARE_FIGURE#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;field#LINE_FIGURE#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;field#S_FIGURE#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;field#Z_FIGURE#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;field#RIGHT_ANGLE_FIGURE#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;field#LEFT_ANGLE_FIGURE#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;field#TRIANGLE_FIGURE#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;field#board#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;field#xPos#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;field#yPos#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;field#orientation#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;field#maxOrientation#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;field#shapeX#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;field#shapeY#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;field#color#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;method#Figure#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;method#initialize#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;method#isAttached#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;method#attach#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;method#detach#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;method#isAllVisible#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;method#hasLanded#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;method#moveLeft#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;method#moveRight#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;method#moveDown#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;method#moveAllWayDown#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;method#getRotation#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;method#setRotation#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;method#rotateRandom#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;method#rotateClockwise#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;method#rotateCounterClockwise#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;method#isInside#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;method#canMoveTo#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;method#getRelativeX#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;method#getRelativeY#0;class#Figure#0" expanded="false" />
+                <element signature="docComment;method#paint#0;class#Figure#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,6 +217,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="GradleLocalSettings">
@@ -78,7 +240,6 @@
         <option value="$PROJECT_DIR$/src/musicGUI.form" />
         <option value="$PROJECT_DIR$/src/MainMenu.form" />
         <option value="$PROJECT_DIR$/src/JPanelWithBackground.java" />
-        <option value="$PROJECT_DIR$/src/start.java" />
         <option value="$PROJECT_DIR$/src/ImagePanel.java" />
         <option value="$PROJECT_DIR$/src/PlayMenu.form" />
         <option value="$PROJECT_DIR$/src/MainMenuPageSwitchTest.java" />
@@ -87,7 +248,6 @@
         <option value="$PROJECT_DIR$/src/musicGUITest.java" />
         <option value="$PROJECT_DIR$/src/musicGUI.java" />
         <option value="$PROJECT_DIR$/src/settingsMenuGUI.java" />
-        <option value="$PROJECT_DIR$/src/Tetris.java" />
         <option value="$PROJECT_DIR$/src/PlayMenu.java" />
         <option value="$PROJECT_DIR$/src/Tests/TetrisTest.java" />
         <option value="$PROJECT_DIR$/src/MainMenu.java" />
@@ -96,6 +256,8 @@
         <option value="$PROJECT_DIR$/src/Tests/MusicGUITest.java" />
         <option value="$PROJECT_DIR$/src/MusicGUI.java" />
         <option value="$PROJECT_DIR$/out/production/Ankalu/TetrisTest.class" />
+        <option value="$PROJECT_DIR$/src/start.java" />
+        <option value="$PROJECT_DIR$/src/Tetris.java" />
       </list>
     </option>
   </component>
@@ -154,6 +316,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ankalu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ankalu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tetris.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane">
@@ -180,7 +360,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -749,7 +929,7 @@
       <workItem from="1494316202314" duration="759000" />
       <workItem from="1494917686274" duration="12000" />
       <workItem from="1494917964459" duration="36000" />
-      <workItem from="1495443856452" duration="567000" />
+      <workItem from="1495443856452" duration="1786000" />
     </task>
     <task id="LOCAL-00001" summary="first test">
       <created>1492589214181</created>
@@ -808,11 +988,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25886000" />
+    <option name="totallyTimeSpent" value="27105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -821,9 +1000,9 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29281184" sideWeight="0.5265625" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29281184" sideWeight="0.5265625" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29281184" sideWeight="0.4734375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29281184" sideWeight="0.4734375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -869,13 +1048,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/settingsMenuGUI.form">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1113,14 +1285,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/TetrisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/MainMenuTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Ankalu/MusicGUITest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Ankalu/TetrisTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tetris.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="1605" column="10" lean-forward="true" selection-start-line="1605" selection-start-column="10" selection-end-line="1605" selection-end-column="10" />
+        <state relative-caret-position="358">
+          <caret line="1022" column="46" lean-forward="true" selection-start-line="1022" selection-start-column="46" selection-end-line="1022" selection-end-column="46" />
           <folding>
             <element signature="e#1036#1045#0" expanded="false" />
             <element signature="docComment;field#game#0;class#Tetris#0" expanded="false" />
-            <element signature="e#5967#5976#0" expanded="false" />
+            <element signature="e#5954#5963#0" expanded="false" />
             <element signature="docComment;class#SquareBoard#0" expanded="false" />
             <element signature="docComment;field#width#0;class#SquareBoard#0" expanded="false" />
             <element signature="docComment;field#height#0;class#SquareBoard#0" expanded="false" />
@@ -1256,50 +1482,6 @@
             <element signature="docComment;method#getRelativeY#0;class#Figure#0" expanded="false" />
             <element signature="docComment;method#paint#0;class#Figure#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/TetrisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/MainMenuTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Ankalu/TetrisTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>

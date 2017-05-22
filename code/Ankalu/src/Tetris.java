@@ -120,7 +120,7 @@ public class Tetris
             {
                 if (evt.getPropertyName().equals("state"))
                 {
-                    int state = ((Integer) evt.getNewValue()).intValue();
+                    int state = (Integer) evt.getNewValue();
                     if (state == Game.STATE_GAMEOVER)
                     {
                         txt.setEnabled(true);
@@ -1669,12 +1669,12 @@ class Game extends Object
 }
 
 /**
- * A program configuration. This class provides static methods for
- * simplifying the reading of configuration parameters. It also
+ * a program configuration. this class provides static methods for
+ * simplifying the reading of configuration parameters. it also
  * provides some methods for transforming string values into more
  * useful objects.
  *
- * @author   Per Cederberg, per@percederberg.net
+ * @author   per cederberg, per@percederberg.net
  * @version  1.2
  */
 class Configuration extends Object {
