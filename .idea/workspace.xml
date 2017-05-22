@@ -1,98 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54244d34-b811-4d83-b0ba-0825c89b8504" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/.idea/AnKaLu.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/.idea/dictionaries/Luka.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/.idea/kotlinc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/.idea/libraries/Arquillian_JUnit_Release.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/.idea/libraries/Arquillian_TestNG_Release.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/.idea/libraries/KotlinJavaRuntime.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/Ankalu.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/musicfile.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/Configuration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/Figure.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/Game$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/Game$GameThread.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/Game.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/ImagePanel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/MainMenu$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/MainMenu$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/MainMenu$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/MainMenu$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/MainMenu$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/MainMenu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/PlayMenu$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/PlayMenu$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/PlayMenu$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/PlayMenu$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/PlayMenu$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/PlayMenu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/SquareBoard$SquareBoardComponent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/SquareBoard.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/Tetris$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/Tetris$2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/Tetris$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/Tetris$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/Tetris$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/Tetris.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/TextFiles/GameMode.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/com/intellij/uiDesigner/core/AbstractLayout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/com/intellij/uiDesigner/core/DimensionInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/com/intellij/uiDesigner/core/GridConstraints.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/com/intellij/uiDesigner/core/GridLayoutManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/com/intellij/uiDesigner/core/HorizontalInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/com/intellij/uiDesigner/core/LayoutState.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/com/intellij/uiDesigner/core/Spacer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/com/intellij/uiDesigner/core/SupportCode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/com/intellij/uiDesigner/core/Util.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/com/intellij/uiDesigner/core/VerticalInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/musicGUI$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/musicGUI$2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/musicGUI$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/musicGUI.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/settingsMenuGUI$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/settingsMenuGUI$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/settingsMenuGUI.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/production/Ankalu/start.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/test/Ankalu/MainMenuTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/test/Ankalu/TetrisTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/out/test/Ankalu/musicGUITest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/src/ImagePanel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/src/MainMenu.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/src/MainMenu.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/src/Music/Hannes.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/src/Music/tetris-gameboy.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/src/PlayMenu.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/src/PlayMenu.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/src/Tests/MainMenuTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/src/Tests/MusicGUITest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/src/Tests/TetrisTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/src/Tetris.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/src/TextFiles/GameMode.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/src/TextFiles/musicfile.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/src/musicGUI.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/src/musicGUI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/src/settingsMenuGUI.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/src/settingsMenuGUI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/code/Ankalu/src/start.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/documentation/Mockups/UC1_Musik_aendern.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AnKaLu/documentation/Mockups/UC2_play.png" afterPath="" />
-    </list>
+    <list default="true" id="54244d34-b811-4d83-b0ba-0825c89b8504" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,10 +28,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="2182" />
-    <option name="height" value="1402" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -140,9 +49,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -193,12 +99,16 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/code/Ankalu" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -536,9 +446,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -597,19 +504,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
-    </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
       <method />
     </configuration>
@@ -630,14 +524,15 @@
       <workItem from="1494916715414" duration="962000" />
       <workItem from="1494917827456" duration="113000" />
       <workItem from="1494917948341" duration="14000" />
+      <workItem from="1495443772351" duration="68000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1089000" />
+    <option name="totallyTimeSpent" value="1157000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="2182" height="1402" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -647,20 +542,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />

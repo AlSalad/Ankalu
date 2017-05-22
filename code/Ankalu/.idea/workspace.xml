@@ -1,98 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16e19574-ed68-4c8c-ad42-7019c4a99d03" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/.idea/AnKaLu.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/.idea/dictionaries/Luka.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/.idea/kotlinc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/.idea/libraries/Arquillian_JUnit_Release.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/.idea/libraries/Arquillian_TestNG_Release.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/.idea/libraries/KotlinJavaRuntime.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/Ankalu.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/musicfile.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/Configuration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/Figure.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/Game$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/Game$GameThread.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/Game.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/ImagePanel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/MainMenu$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/MainMenu$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/MainMenu$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/MainMenu$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/MainMenu$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/MainMenu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/PlayMenu$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/PlayMenu$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/PlayMenu$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/PlayMenu$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/PlayMenu$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/PlayMenu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/SquareBoard$SquareBoardComponent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/SquareBoard.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/Tetris$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/Tetris$2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/Tetris$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/Tetris$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/Tetris$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/Tetris.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/TextFiles/GameMode.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/com/intellij/uiDesigner/core/AbstractLayout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/com/intellij/uiDesigner/core/DimensionInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/com/intellij/uiDesigner/core/GridConstraints.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/com/intellij/uiDesigner/core/GridLayoutManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/com/intellij/uiDesigner/core/HorizontalInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/com/intellij/uiDesigner/core/LayoutState.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/com/intellij/uiDesigner/core/Spacer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/com/intellij/uiDesigner/core/SupportCode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/com/intellij/uiDesigner/core/Util.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/com/intellij/uiDesigner/core/VerticalInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/musicGUI$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/musicGUI$2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/musicGUI$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/musicGUI.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/settingsMenuGUI$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/settingsMenuGUI$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/settingsMenuGUI.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/production/Ankalu/start.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/test/Ankalu/MainMenuTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/test/Ankalu/TetrisTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/out/test/Ankalu/musicGUITest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/src/ImagePanel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/src/MainMenu.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/src/MainMenu.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/src/Music/Hannes.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/src/Music/tetris-gameboy.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/src/PlayMenu.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/src/PlayMenu.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/src/Tests/MainMenuTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/src/Tests/MusicGUITest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/src/Tests/TetrisTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/src/Tetris.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/src/TextFiles/GameMode.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/src/TextFiles/musicfile.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/src/musicGUI.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/src/musicGUI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/src/settingsMenuGUI.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/src/settingsMenuGUI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/code/Ankalu/src/start.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/documentation/Mockups/UC1_Musik_aendern.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../AnKaLu/documentation/Mockups/UC2_play.png" afterPath="" />
-    </list>
+    <list default="true" id="16e19574-ed68-4c8c-ad42-7019c4a99d03" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -110,252 +19,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="PlayMenu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PlayMenu.java">
+      <file leaf-file-name="TetrisTest.class" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/out/production/Ankalu/TetrisTest.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="66" column="31" lean-forward="false" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1316#1317#0" expanded="false" />
-                <element signature="e#1362#1363#0" expanded="false" />
-                <element signature="e#1510#1511#0" expanded="false" />
-                <element signature="e#1573#1574#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameMode.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TextFiles/GameMode.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MusicGUI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MusicGUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1300">
-              <caret line="67" column="33" lean-forward="false" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MusicGUITest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tests/MusicGUITest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settingsMenuGUI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/settingsMenuGUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tetris.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tetris.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25550">
-              <caret line="1609" column="0" lean-forward="false" selection-start-line="1609" selection-start-column="0" selection-end-line="1609" selection-end-column="0" />
-              <folding>
-                <element signature="e#1036#1045#0" expanded="false" />
-                <element signature="docComment;field#game#0;class#Tetris#0" expanded="false" />
-                <element signature="e#5967#5976#0" expanded="false" />
-                <element signature="docComment;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;field#width#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;field#height#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;field#matrix#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;field#message#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;field#removedLines#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;field#component#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#SquareBoard#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#isSquareEmpty#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#isLineEmpty#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#isLineFull#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#hasFullLines#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#getComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#getBoardHeight#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#getBoardWidth#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#getRemovedLines#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#getSquareColor#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#setSquareColor#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#setMessage#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#clear#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#removeFullLines#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#removeLine#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#update#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;field#size#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;field#insets#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;field#squareSize#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;field#bufferImage#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;field#bufferRect#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;field#messageColor#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;field#lighterColors#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;field#darkerColors#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;field#updated#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;field#updateRect#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#SquareBoardComponent#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#invalidateSquare#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#redraw#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#redrawAll#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#isDoubleBuffered#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#getPreferredSize#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#getMinimumSize#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#getMaximumSize#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#getLighterColor#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#getDarkerColor#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#paint#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#doPaintComponent#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#paintSquare#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;method#paintMessage#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="docComment;class#Game#0" expanded="false" />
-                <element signature="docComment;field#PCS#0;class#Game#0" expanded="false" />
-                <element signature="docComment;field#board#0;class#Game#0" expanded="false" />
-                <element signature="docComment;field#previewBoard#0;class#Game#0" expanded="false" />
-                <element signature="docComment;field#figures#0;class#Game#0" expanded="false" />
-                <element signature="docComment;field#thread#0;class#Game#0" expanded="false" />
-                <element signature="docComment;field#level#0;class#Game#0" expanded="false" />
-                <element signature="docComment;field#score#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#Game#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#Game#1;class#Game#0" expanded="false" />
-                <element signature="docComment;method#addPropertyChangeListener#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#removePropertyChangeListener#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#getState#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#getLevel#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#getScore#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#getRemovedLines#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#getSquareBoardComponent#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#getPreviewBoardComponent#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#init#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#start#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#pause#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#resume#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#terminate#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#handleStart#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#handleGameOver#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#handleGetReady#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#handlePause#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#handleResume#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#handleLevelModification#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#handleScoreModification#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#handleFigureStart#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#handleFigureLanded#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#handleTimer#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#handlePauseOnOff#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#handleKeyEvent#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#randomFigure#0;class#Game#0" expanded="false" />
-                <element signature="docComment;field#paused#0;class#GameThread#0;class#Game#0" expanded="false" />
-                <element signature="docComment;field#sleepTime#0;class#GameThread#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#GameThread#0;class#GameThread#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#isPaused#0;class#GameThread#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#setPaused#0;class#GameThread#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#run#0;class#GameThread#0;class#Game#0" expanded="false" />
-                <element signature="docComment;class#Configuration#0" expanded="false" />
-                <element signature="docComment;field#config#0;class#Configuration#0" expanded="false" />
-                <element signature="docComment;method#getValue#0;class#Configuration#0" expanded="false" />
-                <element signature="docComment;method#getValue#1;class#Configuration#0" expanded="false" />
-                <element signature="docComment;method#setValue#0;class#Configuration#0" expanded="false" />
-                <element signature="docComment;method#getColor#0;class#Configuration#0" expanded="false" />
-                <element signature="docComment;method#parseColor#0;class#Configuration#0" expanded="false" />
-                <element signature="docComment;class#Figure#0" expanded="false" />
-                <element signature="docComment;field#SQUARE_FIGURE#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;field#LINE_FIGURE#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;field#S_FIGURE#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;field#Z_FIGURE#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;field#RIGHT_ANGLE_FIGURE#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;field#LEFT_ANGLE_FIGURE#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;field#TRIANGLE_FIGURE#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;field#board#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;field#xPos#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;field#yPos#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;field#orientation#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;field#maxOrientation#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;field#shapeX#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;field#shapeY#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;field#color#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;method#Figure#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;method#initialize#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;method#isAttached#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;method#attach#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;method#detach#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;method#isAllVisible#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;method#hasLanded#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;method#moveLeft#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;method#moveRight#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;method#moveDown#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;method#moveAllWayDown#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;method#getRotation#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;method#setRotation#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;method#rotateRandom#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;method#rotateClockwise#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;method#rotateCounterClockwise#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;method#isInside#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;method#canMoveTo#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;method#getRelativeX#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;method#getRelativeY#0;class#Figure#0" expanded="false" />
-                <element signature="docComment;method#paint#0;class#Figure#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TetrisTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tests/TetrisTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="start.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/start.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainMenu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MainMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainMenuTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tests/MainMenuTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -426,6 +95,7 @@
         <option value="$PROJECT_DIR$/src/Tests/MainMenuTest.java" />
         <option value="$PROJECT_DIR$/src/Tests/MusicGUITest.java" />
         <option value="$PROJECT_DIR$/src/MusicGUI.java" />
+        <option value="$PROJECT_DIR$/out/production/Ankalu/TetrisTest.class" />
       </list>
     </option>
   </component>
@@ -436,10 +106,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="2182" />
-    <option name="height" value="1402" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -458,7 +128,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -485,78 +154,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ankalu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ankalu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tetris.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ankalu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ankalu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TextFiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ankalu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ankalu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ankalu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ankalu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Music" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane">
@@ -573,6 +170,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -582,8 +180,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
@@ -612,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MusicGUITest.SelectMusicTest">
+  <component name="RunManager" selected="Application.start">
     <configuration default="false" name="MainMenuTest.testOpenMainMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Ankalu" />
@@ -642,27 +240,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainMenuTest" />
       <option name="METHOD_NAME" value="testPlayMenuTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="MainMenuTest.minimizeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Ankalu" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainMenuTest" />
-      <option name="METHOD_NAME" value="minimizeTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -716,6 +293,21 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="start" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Ankalu" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1041,9 +633,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -1102,19 +691,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
-    </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
       <method />
     </configuration>
@@ -1124,17 +700,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.MainMenuTest.testOpenMainMenu" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.MainMenuTest.testPlayMenuTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MainMenuTest.minimizeTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MainMenuTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MusicGUITest.SelectMusicTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MainMenuTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MusicGUITest.SelectMusicTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.start" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MusicGUITest.SelectMusicTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MainMenuTest.testPlayMenuTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MainMenuTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MainMenuTest.testOpenMainMenu" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MainMenuTest.minimizeTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.start" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MusicGUITest.SelectMusicTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MainMenuTest.testPlayMenuTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MainMenuTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MainMenuTest.testOpenMainMenu" />
       </list>
     </recent_temporary>
   </component>
@@ -1173,6 +749,7 @@
       <workItem from="1494316202314" duration="759000" />
       <workItem from="1494917686274" duration="12000" />
       <workItem from="1494917964459" duration="36000" />
+      <workItem from="1495443856452" duration="567000" />
     </task>
     <task id="LOCAL-00001" summary="first test">
       <created>1492589214181</created>
@@ -1231,68 +808,43 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25319000" />
+    <option name="totallyTimeSpent" value="25886000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="2182" height="1402" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40210357" sideWeight="0.50555557" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29288027" sideWeight="0.47777778" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25462964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.48854166" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29281184" sideWeight="0.5265625" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29281184" sideWeight="0.4734375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25416666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967638" sideWeight="0.49444443" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292978" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.49074075" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292978" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.49814814" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292978" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1550926" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292978" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292978" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -1317,14 +869,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/settingsMenuGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/settingsMenuGUI.form">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1353,7 +897,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1385,7 +931,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1417,7 +965,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1457,32 +1007,14 @@
     <entry file="file://$PROJECT_DIR$/src/SettingsMenu.java" />
     <entry file="file://$PROJECT_DIR$/src/settingsGUI.form" />
     <entry file="file://$PROJECT_DIR$/src/settingsGUI.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/awt/event/ActionListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/awt/event/ActionListener.java" />
     <entry file="file://$USER_HOME$/Downloads/Tetris/src/Tetris_in_one_code.java" />
     <entry file="file://$USER_HOME$/Downloads/tetris (2)/tetris.props" />
     <entry file="file://$PROJECT_DIR$/src/playTetris.java" />
     <entry file="file://$USER_HOME$/Downloads/tetris-1.3-src/src/net/percederberg/tetris/Main.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/javax/sound/sampled/AudioSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="1188" column="0" lean-forward="false" selection-start-line="1188" selection-start-column="0" selection-end-line="1188" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/javax/sound/sampled/AudioSystem.java" />
     <entry file="file://$PROJECT_DIR$/src/SelectedMusic.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/io/FileInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/io/FileInputStream.java" />
     <entry file="file://$PROJECT_DIR$/src/JPanelWithBackground.java" />
     <entry file="file://$PROJECT_DIR$/src/MainMenu.form">
       <provider selected="true" editor-type-id="ui-designer">
@@ -1530,17 +1062,61 @@
         <state />
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/awt/Button.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/awt/Button.java" />
+    <entry file="file://$PROJECT_DIR$/src/TextFiles/GameMode.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13025">
-          <caret line="560" column="35" lean-forward="false" selection-start-line="560" selection-start-column="35" selection-end-line="560" selection-end-column="35" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/settingsMenuGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PlayMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="66" column="31" lean-forward="false" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1316#1317#0" expanded="false" />
+            <element signature="e#1362#1363#0" expanded="false" />
+            <element signature="e#1510#1511#0" expanded="false" />
+            <element signature="e#1573#1574#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/MusicGUITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MusicGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="67" column="33" lean-forward="false" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tetris.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25550">
-          <caret line="1609" column="0" lean-forward="false" selection-start-line="1609" selection-start-column="0" selection-end-line="1609" selection-end-column="0" />
+        <state relative-caret-position="343">
+          <caret line="1605" column="10" lean-forward="true" selection-start-line="1605" selection-start-column="10" selection-end-line="1605" selection-end-column="10" />
           <folding>
             <element signature="e#1036#1045#0" expanded="false" />
             <element signature="docComment;field#game#0;class#Tetris#0" expanded="false" />
@@ -1683,51 +1259,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TextFiles/GameMode.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests/TetrisTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="204">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/settingsMenuGUI.java">
+    <entry file="file://$PROJECT_DIR$/src/start.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/MainMenuTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PlayMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="66" column="31" lean-forward="false" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1316#1317#0" expanded="false" />
-            <element signature="e#1362#1363#0" expanded="false" />
-            <element signature="e#1510#1511#0" expanded="false" />
-            <element signature="e#1573#1574#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1741,28 +1285,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/MusicGUITest.java">
+    <entry file="file://$PROJECT_DIR$/src/Tests/MainMenuTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MusicGUI.java">
+    <entry file="file://$PROJECT_DIR$/out/production/Ankalu/TetrisTest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="67" column="33" lean-forward="false" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1837,6 +1373,18 @@
               <list>
                 <option value="0.2" />
                 <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
