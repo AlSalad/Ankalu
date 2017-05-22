@@ -1607,36 +1607,23 @@ class Game extends Object
          * FAST MODE
          */
         public void adjustSpeed() {
-            String gamemode = null;
-            try {
-                FileReader fr = new FileReader("C:\\repos\\AnKaLu\\code\\Ankalu\\src\\TextFiles\\GameMode.txt");
-                BufferedReader br = new BufferedReader(fr);
-                gamemode = br.readLine();
-            }
-            catch (IOException iox) {
-                iox.printStackTrace();
-            }
-
-            switch(gamemode){
-                //Standard
-                case "0":
-                    sleepTime = 4500 / (level + 5) - 250;
-                    if (sleepTime < 50) {
-                        sleepTime = 50;
-                    }
-                    break;
-                //Fast
-                case "1":
-                    sleepTime = 1000 / (level + 5) - 250;
-                    if (sleepTime < 50) {
-                        sleepTime = 50;
-                    }
-                    break;
-                default:
-                    System.out.println("Fehler");
-            }
-
-
+                switch(GameMode.getGameMode())
+                {
+                    case 0:
+                        sleepTime = 4500 / (level + 5) - 250;
+                        if (sleepTime < 50) {
+                            sleepTime = 50;
+                        }
+                        break;
+                    case 1:
+                        sleepTime = 4500 / (level + 20) - 250;
+                        if (sleepTime < 50) {
+                            sleepTime = 50;
+                        }
+                        break;
+                    default:
+                        break;
+                }
 
         }
 

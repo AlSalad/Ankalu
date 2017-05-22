@@ -37,8 +37,7 @@ public class PlayMenu {
             @Override
             public void actionPerformed(ActionEvent e) {
                 frame.dispose();
-                MainMenu mm = new MainMenu();
-
+                new MainMenu();
             }
         });
         xButton.addActionListener(new ActionListener() {
@@ -58,37 +57,16 @@ public class PlayMenu {
             @Override
             public void actionPerformed(ActionEvent e) {
                 frame.dispose();
-                Tetris tetris = new Tetris();
-                //GameMode
-                try {
-                    File newTextFile = new File("C:\\repos\\AnKaLu\\code\\Ankalu\\src\\TextFiles\\GameMode.txt");
-                    FileWriter fw = new FileWriter(newTextFile);
-                    fw.write(0);
-                    fw.close();
-
-                } catch (IOException iox) {
-                    //do stuff with exception
-                    iox.printStackTrace();
-                }
-
+                GameMode.setGameMode(0);
+                new Tetris();
             }
         });
         fastButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 frame.dispose();
-                Tetris tetris = new Tetris();
-                //GameMode
-                try {
-                    File newTextFile = new File("C:\\repos\\AnKaLu\\code\\Ankalu\\src\\TextFiles\\GameMode.txt");
-                    FileWriter fw = new FileWriter(newTextFile);
-                    fw.write("1");
-                    fw.close();
-
-                } catch (IOException iox) {
-                    //do stuff with exception
-                    iox.printStackTrace();
-                }
+                GameMode.setGameMode(1);
+                new Tetris();
             }
         });
     }
