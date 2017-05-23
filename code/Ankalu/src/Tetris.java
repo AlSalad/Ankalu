@@ -588,6 +588,7 @@ class SquareBoard extends Object {
          * Creates a new square board component.
          */
         public SquareBoardComponent() {
+<<<<<<< HEAD
             switch(GameMode.getGameMode()){
                 case 1:
                     setBackground(Configuration.getColor("board.background",
@@ -599,6 +600,34 @@ class SquareBoard extends Object {
                     break;
             }
 
+=======
+            String color;
+            switch (GameMode.getGameMode()) {
+                case 0:
+                    color = "#000000";
+
+                    break;
+                case 1:
+                    color = "#96c1db";
+
+                    break;
+                case 2:
+                    color = "#FF0000";
+
+                    break;
+                case 3:
+                    color = "#00FF00";
+
+                    break;
+                default:
+                    color = "#000000";
+
+                    break;
+            }
+
+            setBackground(Configuration.getColor("board.background",
+                    color));
+>>>>>>> BranchLuka
             messageColor = Configuration.getColor("board.message",
                     "#ffffff");
         }
@@ -1556,6 +1585,7 @@ class Game extends Object
          * FAST MODE
          */
         void adjustSpeed() {
+<<<<<<< HEAD
                 switch(GameMode.getGameMode())
                 {
                     case 1:
@@ -1572,6 +1602,15 @@ class Game extends Object
                         }
                         break;
                 }
+=======
+            //Set speed for Game
+            int multiplier = GameMode.getGameMode() == 1 || GameMode.getGameMode() == 3 ? 15 : 5;
+
+            sleepTime = 4500 / (level + multiplier) - 250;
+            if (sleepTime < 50) {
+                sleepTime = 50;
+            }
+>>>>>>> BranchLuka
         }
 
         /**
