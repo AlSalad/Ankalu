@@ -69,21 +69,5 @@ public class PlayMenu {
                 new Tetris();
             }
         });
-        reverseButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                frame.dispose();
-                GameMode.setGameMode(2);
-                new Tetris();
-            }
-        });
-        epilepsyButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                frame.dispose();
-                GameMode.setGameMode(3);
-                new Tetris();
-            }
-        });
     }
 }

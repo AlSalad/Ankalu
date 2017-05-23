@@ -354,8 +354,6 @@
       <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/shrinkwrap-spi/1.2.6/shrinkwrap-spi-1.2.6.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/" />
-<<<<<<< HEAD
-=======
       <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/junit/arquillian-junit-container/1.1.13.Final/arquillian-junit-container-1.1.13.Final.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/junit/arquillian-junit-core/1.1.13.Final/arquillian-junit-core-1.1.13.Final.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/test/arquillian-test-spi/1.1.13.Final/arquillian-test-spi-1.1.13.Final.jar!/" />
@@ -400,7 +398,6 @@
       <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/shrinkwrap-spi/1.2.6/shrinkwrap-spi-1.2.6.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/" />
->>>>>>> BranchLuka
     </CLASSES>
     <JAVADOC />
     <SOURCES />
