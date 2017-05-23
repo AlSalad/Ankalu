@@ -3,19 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="16e19574-ed68-4c8c-ad42-7019c4a99d03" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tetris.java" afterPath="$PROJECT_DIR$/src/Tetris.java" />
-=======
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/start.java" afterPath="$PROJECT_DIR$/src/start.java" />
->>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
-=======
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/start.java" afterPath="$PROJECT_DIR$/src/start.java" />
->>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
-=======
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/start.java" afterPath="$PROJECT_DIR$/src/start.java" />
->>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,20 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <file leaf-file-name="start.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/start.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-              <folding />
-=======
-=======
->>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
-=======
->>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
       <file leaf-file-name="TetrisTest.class" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/out/production/Ankalu/TetrisTest.class">
           <provider selected="true" editor-type-id="text-editor">
@@ -56,14 +29,10 @@
               <folding>
                 <element signature="e#0#346#0" expanded="true" />
               </folding>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
       <file leaf-file-name="Tetris.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tetris.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,44 +55,17 @@
                 <element signature="docComment;method#getRelativeY#0;class#Figure#0" expanded="false" />
                 <element signature="docComment;method#paint#0;class#Figure#0" expanded="false" />
               </folding>
-=======
->>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
-=======
->>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <file leaf-file-name="MusicPlayed.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MusicPlayed.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#748#749#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-                <element signature="e#822#823#0" expanded="true" />
-                <element signature="e#850#851#0" expanded="true" />
-              </folding>
-=======
-=======
->>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
-=======
->>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
       <file leaf-file-name="start.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/start.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding />
->>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
+
             </state>
           </provider>
         </entry>
@@ -252,35 +194,12 @@
         <option value="$PROJECT_DIR$/src/Tests/MainMenuTest.java" />
         <option value="$PROJECT_DIR$/src/Tests/MusicGUITest.java" />
         <option value="$PROJECT_DIR$/out/production/Ankalu/TetrisTest.class" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/start.java" />
-        <option value="$PROJECT_DIR$/src/PlayMenu.java" />
-        <option value="$PROJECT_DIR$/src/Tests/MusicPlayed.java" />
-=======
->>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
-=======
->>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
-=======
->>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
         <option value="$PROJECT_DIR$/src/GameMode.java" />
         <option value="$PROJECT_DIR$/src/MusicGUI.form" />
         <option value="$PROJECT_DIR$/src/MainMenu.java" />
         <option value="$PROJECT_DIR$/src/MusicGUI.java" />
         <option value="$PROJECT_DIR$/src/MusicPlayed.java" />
         <option value="$PROJECT_DIR$/src/Tetris.java" />
-<<<<<<< HEAD
-=======
-        <option value="$PROJECT_DIR$/src/PlayMenu.java" />
-        <option value="$PROJECT_DIR$/src/start.java" />
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
-=======
->>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
-=======
->>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
       </list>
     </option>
   </component>
@@ -1048,16 +967,6 @@
       <workItem from="1495443856452" duration="1786000" />
       <workItem from="1495463616335" duration="1434000" />
       <workItem from="1495465163183" duration="2056000" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <workItem from="1495469178810" duration="5373000" />
-=======
->>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
-=======
->>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
-=======
->>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
     </task>
     <task id="LOCAL-00001" summary="first test">
       <created>1492589214181</created>
@@ -1116,19 +1025,6 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="35837000" />
-=======
-    <option name="totallyTimeSpent" value="30595000" />
->>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
-=======
-    <option name="totallyTimeSpent" value="30595000" />
->>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
-=======
-    <option name="totallyTimeSpent" value="30595000" />
->>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1145,9 +1041,6 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29281184" sideWeight="0.4734375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29281184" sideWeight="0.4734375" order="2" side_tool="false" content_ui="tabs" />
 >>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
@@ -1505,12 +1398,9 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Tetris.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <provider relative-caret-position="272">
           <caret line="142" column="67" lean-forward="true" selection-start-line="142" selection-start-column="67" selection-end-line="142" selection-end-column="67" />
           <folding>
             <element signature="e#671#680#0" expanded="false" />
@@ -1529,17 +1419,11 @@
             <element signature="docComment;method#getRelativeY#0;class#Figure#0" expanded="false" />
             <element signature="docComment;method#paint#0;class#Figure#0" expanded="false" />
           </folding>
-=======
+          </provider>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/Ankalu/TetrisTest.class">
       <provider selected="true" editor-type-id="text-editor">
-=======
-    <entry file="file://$PROJECT_DIR$/out/production/Ankalu/TetrisTest.class">
-      <provider selected="true" editor-type-id="text-editor">
->>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
-=======
-    <entry file="file://$PROJECT_DIR$/out/production/Ankalu/TetrisTest.class">
-      <provider selected="true" editor-type-id="text-editor">
->>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
         <state relative-caret-position="289">
           <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
@@ -1553,7 +1437,6 @@
         <state relative-caret-position="119">
           <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding />
->>>>>>> 90093d463a896186339ebb0119c28c54eb46fba8
         </state>
       </provider>
     </entry>
