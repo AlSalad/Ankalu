@@ -24,16 +24,9 @@ public class PlayMenu {
 
         frame.setContentPane(panelPlayMenu);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-<<<<<<< HEAD
-
-        frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
-        frame.setUndecorated(true);
-=======
         frame.setSize(new Dimension(600, 800));
         Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
         frame.setLocation(dim.width/2-frame.getSize().width/2, dim.height/2-frame.getSize().height/2);
->>>>>>> BranchLuka
-
         frame.setVisible(true);
 
         backButton.addActionListener(new ActionListener() {

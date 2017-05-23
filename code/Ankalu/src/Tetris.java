@@ -18,8 +18,6 @@ import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 import javax.swing.*;
 
-import static org.testng.reporters.jq.BasePanel.C;
-
 
 public class Tetris
 {
@@ -588,19 +586,6 @@ class SquareBoard extends Object {
          * Creates a new square board component.
          */
         public SquareBoardComponent() {
-<<<<<<< HEAD
-            switch(GameMode.getGameMode()){
-                case 1:
-                    setBackground(Configuration.getColor("board.background",
-                            "#96c1db"));
-                    break;
-                default:
-                    setBackground(Configuration.getColor("board.background",
-                        "#000000"));
-                    break;
-            }
-
-=======
             String color;
             switch (GameMode.getGameMode()) {
                 case 0:
@@ -627,7 +612,6 @@ class SquareBoard extends Object {
 
             setBackground(Configuration.getColor("board.background",
                     color));
->>>>>>> BranchLuka
             messageColor = Configuration.getColor("board.message",
                     "#ffffff");
         }
@@ -1585,24 +1569,7 @@ class Game extends Object
          * FAST MODE
          */
         void adjustSpeed() {
-<<<<<<< HEAD
-                switch(GameMode.getGameMode())
-                {
-                    case 1:
-                    case 3:
-                        sleepTime = 4500 / (level + 15) - 250;
-                        if (sleepTime < 50) {
-                            sleepTime = 50;
-                        }
-                        break;
-                    default:
-                        sleepTime = 4500 / (level + 5) - 250;
-                        if (sleepTime < 50) {
-                            sleepTime = 50;
-                        }
-                        break;
-                }
-=======
+
             //Set speed for Game
             int multiplier = GameMode.getGameMode() == 1 || GameMode.getGameMode() == 3 ? 15 : 5;
 
@@ -1610,7 +1577,6 @@ class Game extends Object
             if (sleepTime < 50) {
                 sleepTime = 50;
             }
->>>>>>> BranchLuka
         }
 
         /**
