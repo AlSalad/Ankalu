@@ -26,82 +26,41 @@ public class Tetris
         MusicPlayed mp = new MusicPlayed();
         mp.playSound();
         JFrame  frame = new JFrame("Tetris");
-        frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
         frame.setVisible(true);
         final Game game = new Game();
 
-        game.addPropertyChangeListener(new PropertyChangeListener()
-        {
-            public void propertyChange(PropertyChangeEvent evt)
-            {
-                System.out.println("PCE "+evt.getPropertyName()+" "+evt.getNewValue());
-            }
-        });
-
-        final TextArea taHiScores = new TextArea("",10,10,TextArea.SCROLLBARS_NONE);
-
-        taHiScores.setBackground(Color.black);
-        taHiScores.setForeground(Color.white);
-        taHiScores.setFont(new Font("monospaced",0,11));
-        /*taHiScores.setText(" High Scores                  \n"+
-                " -----------------------------\n\n"+
-
-                " PLAYER     LEVEL    SCORE    \n\n"+
-
-                " André       12 1  50280     \n"+
-                " Katharina-Maria Heer      kann nichts     \n"
-        ); */
-        taHiScores.setEditable(false);
-
-
+        game.addPropertyChangeListener(evt -> System.out.println("PCE "+evt.getPropertyName()+" "+evt.getNewValue()));
         final TextField txt = new TextField();
         txt.setEnabled(false);
-
-        game.addPropertyChangeListener(new PropertyChangeListener()
-        {
-            public void propertyChange(PropertyChangeEvent evt)
+        game.addPropertyChangeListener(evt -> {
+            if (evt.getPropertyName().equals("state"))
             {
-                if (evt.getPropertyName().equals("state"))
+                int state = (Integer) evt.getNewValue();
+                if (state == Game.STATE_GAMEOVER)
                 {
-                    int state = (Integer) evt.getNewValue();
-                    if (state == Game.STATE_GAMEOVER)
-                    {
-                        txt.setEnabled(true);
-                        txt.requestFocus();
-                        txt.addActionListener(new ActionListener()
-                        {
-                            public void actionPerformed(ActionEvent e)
-                            {
-                                txt.setEnabled(false);
-                                game.init();
-                            }
-                        });
-                        // show score...
-                    }
+                    txt.setEnabled(true);
+                    txt.requestFocus();
+                    txt.addActionListener(e -> {
+                        txt.setEnabled(false);
+                        game.init();
+                    });
+                    // show score...
                 }
             }
         });
 
+
+
         Button btnStart = new Button("Start");
         btnStart.setFocusable(false);
-        btnStart.addActionListener(new ActionListener()
-        {
-            public void actionPerformed(ActionEvent e)
-            {
-                game.start();
-            }
-        });
+        btnStart.addActionListener(e -> game.start());
 
         Button btnBack = new Button("Back");
         btnBack.setFocusable(false);
-        btnBack.addActionListener(new ActionListener()
-        {
-            public void actionPerformed(ActionEvent e)
-            {
-                mp.stopSound();
-                frame.dispose();
-                new MainMenu();
-            }
+        btnBack.addActionListener(e -> {
+            mp.stopSound();
+            frame.dispose();
+            new MainMenu();
         });
 
         final Container c = new Container();
@@ -129,7 +88,7 @@ public class Tetris
     /**
      * The Tetris game being played (in applet mode).
      */
-    private Game game = null;
+    //private Game game = null;
 //    /**
 //     * Returns information about the parameters that are understood by
 //     * this applet.
@@ -177,7 +136,7 @@ public class Tetris
  * constraint to the top of the board, although colors assigned to
  * positions above the board are not saved.
  */
-class SquareBoard extends Object {
+class SquareBoard {
 
     /**
      * The board width (in squares)
@@ -558,25 +517,15 @@ class SquareBoard extends Object {
         public SquareBoardComponent() {
             String color;
             switch (GameMode.getGameMode()) {
-                case 0:
-                    color = "#000000";
-
+                case 0: color = "#000000";
                     break;
-                case 1:
-                    color = "#96c1db";
-
+                case 1: color = "#96c1db";
                     break;
-                case 2:
-                    color = "#FF0000";
-
+                case 2: color = "#FF0000";
                     break;
-                case 3:
-                    color = "#00FF00";
-
+                case 3: color = "#00FF00";
                     break;
-                default:
-                    color = "#000000";
-
+                default: color = "#000000";
                     break;
             }
 
@@ -1696,6 +1645,8 @@ class Configuration extends Object {
         }
     }
 }
+
+
 
 /**
  * A class representing a Tetris square figure. Each figure consists
