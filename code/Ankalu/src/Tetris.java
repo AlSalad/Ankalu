@@ -1199,7 +1199,7 @@ class Game extends Object
      */
     private void handleGameOver() {
 
-        // Stop game thred
+        // Stop game thread
         thread.setPaused(true);
 
         // Reset figures

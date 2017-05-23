@@ -23,7 +23,7 @@ public class MusicGUI {
     public JList musicList;
     public JButton backToSettings;
 
-    public MusicGUI(){
+    MusicGUI(){
         JFrame frame = new JFrame("MusicGUI");
         frame.setContentPane(musicPanel);
         frame.setSize(new Dimension(600, 800));
@@ -32,42 +32,31 @@ public class MusicGUI {
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setVisible(true);
 
+        backToSettings.addActionListener((ActionEvent e) -> {
+            try {
+                frame.dispose();
+                new settingsMenuGUI();
 
-        backToSettings.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                try {
-                    settingsMenuGUI sm = new settingsMenuGUI();
-                    frame.dispose();
-                }
-                catch (Exception ex){
-                }
             }
+            catch (Exception ignored){}
         });
 
-        musicList.addListSelectionListener(new ListSelectionListener() {
-            public void valueChanged(ListSelectionEvent event) {
-                if (!event.getValueIsAdjusting()){
-                    JList source = (JList)event.getSource();
+        musicList.addListSelectionListener(event -> {
+            if (event.getValueIsAdjusting()) {return;}
+            JList source = (JList)event.getSource();
 
-
-                    selectMusic.addActionListener(new ActionListener() {
-                        @Override
-                        public void actionPerformed(ActionEvent e) {
-                            String selected = source.getSelectedValue().toString();
-                            if(selected.equals("Tetris")){
-                                MusicPlayed.SetMusic("src//Music//tetris-gameboy.wav");
-                            }
-                            if(selected.equals("Tetris-Rap")){
-                                MusicPlayed.SetMusic("src//Music//Hannes.wav");
-                            }
-                            if(selected.equals("Ok")){
-                                MusicPlayed.SetMusic("src//Music//WithoutMe.wav");
-                            }
-                        }
-                    });
+            selectMusic.addActionListener(e -> {
+                String selected = source.getSelectedValue().toString();
+                if(selected.equals("Tetris")){
+                    MusicPlayed.SetMusic("src//Music//tetris-gameboy.wav");
                 }
-            }
+                if(selected.equals("Tetris-Rap")){
+                    MusicPlayed.SetMusic("src//Music//Hannes.wav");
+                }
+                if(selected.equals("Ok")){
+                    MusicPlayed.SetMusic("src//Music//WithoutMe.wav");
+                }
+            });
         });
 
     }

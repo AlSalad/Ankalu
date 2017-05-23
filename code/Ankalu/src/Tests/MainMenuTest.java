@@ -25,14 +25,4 @@ public class MainMenuTest {
        // Thread.sleep(1000);
         assertFalse(mm.isVisible());
     }
-
-    @Test
-    public void minimizeTest(){
-        MainMenu mm = new MainMenu();
-        mm._Button.doClick();
-
-        assertFalse(mm.getState() == Frame.ICONIFIED);
-    }
-
-
 }

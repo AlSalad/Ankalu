@@ -1,7 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class MainMenu extends JFrame{
 
@@ -9,10 +7,8 @@ public class MainMenu extends JFrame{
     public JButton playButton;
     public JButton settingsButton;
     public JButton highscoreButton;
-    public JButton _Button;
 
-
-    public MainMenu() {
+    MainMenu() {
         JFrame frame = new JFrame("MainMenu");
         if(MusicPlayed.GetMusic() == null) MusicPlayed.SetMusic("src//Music//tetris-gameboy.wav");
         frame.setSize(new Dimension(600, 800));
@@ -22,31 +18,20 @@ public class MainMenu extends JFrame{
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setVisible(true);
 
-        int height = frame.getHeight();
-        highscoreButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-            }
+        highscoreButton.addActionListener(e -> {
         });
 
-        settingsButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
+        settingsButton.addActionListener(e -> {
+            frame.dispose();
+            new settingsMenuGUI();
+        });
+
+        playButton.addActionListener(e -> {
+            try {
                 frame.dispose();
-                new settingsMenuGUI();
+                new PlayMenu();
             }
-        });
-
-        playButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                try {
-                    frame.dispose();
-                    new PlayMenu();
-                }
-                catch (Exception ignored){
-                }
-            }
+            catch (Exception ignored){}
         });
     }
 
