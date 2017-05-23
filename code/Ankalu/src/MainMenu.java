@@ -29,6 +29,8 @@ public class MainMenu extends JFrame{
         playButton.setBackground(Color.black);
         playButton.setBorder(BorderFactory.createLineBorder(Color.black));
 
+
+
         highscoreButton.addActionListener(new ActionListener() {
             @Override
 
