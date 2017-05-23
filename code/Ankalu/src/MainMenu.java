@@ -23,6 +23,7 @@ public class MainMenu extends JFrame{
         frame.setUndecorated(true);
         frame.setVisible(true);
 
+        int height = frame.getHeight();
         highscoreButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
