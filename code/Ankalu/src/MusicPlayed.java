@@ -28,9 +28,7 @@ class MusicPlayed {
         return musicPlayed;
     }
 
-    void playSound(){
-        clip.start();
-    }
+    void playSound(){clip.start();}
 
     void stopSound(){
         clip.close();

@@ -32,7 +32,7 @@ public class Tetris
 //        { "tetris.color.label", "color",
 //            "The text color of the labels." },
 //        { "tetris.color.button", "color",
-//            "The start and pause button bolor." },
+//            "The Start and pause button bolor." },
 //        { "tetris.color.board.background", "color",
 //            "The background game board color." },
 //        { "tetris.color.board.message", "color",
@@ -155,14 +155,13 @@ public class Tetris
             }
         });
 
-        // Show frame (and start game)
+        // Show frame (and Start game)
         frame.show();
     }
     /**
      * The Tetris game being played (in applet mode).
      */
     private Game game = null;
-
 //    /**
 //     * Returns information about the parameters that are understood by
 //     * this applet.
@@ -201,22 +200,7 @@ public class Tetris
 //    public void stop() {
 //        game.quit();
 //    }
-
-    private void playSound(String music) {
-        try {
-            AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File(music).getAbsoluteFile());
-            Clip clip = AudioSystem.getClip();
-            clip.open(audioInputStream);
-            clip.start();
-        } catch(Exception ex) {
-            System.out.println("Error with playing sound.");
-            ex.printStackTrace();
-        }
-    }
-
-
 }
-
 
 /**
  * A Tetris square board. The board is rectangular and contains a grid
@@ -224,9 +208,6 @@ public class Tetris
  * both sides (left and right), and to the bottom. There is no
  * constraint to the top of the board, although colors assigned to
  * positions above the board are not saved.
- *
- * @version  1.2
- * @author   Per Cederberg, per@percederberg.net
  */
 class SquareBoard extends Object {
 
@@ -936,7 +917,6 @@ class Game extends Object
     public static final int STATE_PAUSED =  3;
     public static final int STATE_GAMEOVER =4;
 
-
     /**
      * The PropertyChangeSupport Object able to register listener and dispatch events to them.
      */
@@ -1194,7 +1174,7 @@ class Game extends Object
     }
 
     /**
-     * Handles a game start event. Both the main and preview square
+     * Handles a game Start event. Both the main and preview square
      * boards will be reset, and all other game parameters will be
      * reset. Finally the game thread will be launched.
      */
@@ -1300,7 +1280,7 @@ class Game extends Object
     }
 
     /**
-     * Handles a figure start event. This will move the next figure
+     * Handles a figure Start event. This will move the next figure
      * to the current figure position, while also creating a new
      * preview figure. If the figure cannot be introduced onto the
      * game board, a game over event will be launched.
@@ -1337,7 +1317,7 @@ class Game extends Object
      * Handles a figure landed event. This will check that the figure
      * is completely visible, or a game over event will be launched.
      * After this control, any full lines will be removed. If no full
-     * lines could be removed, a figure start event is launched
+     * lines could be removed, a figure Start event is launched
      * directly.
      */
     private void handleFigureLanded() {
@@ -1412,7 +1392,7 @@ class Game extends Object
     private synchronized void handleKeyEvent(KeyEvent e)
     {
 
-        // Handle start (any key to start !!!)
+        // Handle Start (any key to Start !!!)
         if (state == STATE_GETREADY)
         {
             handleStart();
@@ -1534,7 +1514,7 @@ class Game extends Object
 
         /**
          * Resets the game thread. This will adjust the speed and
-         * start the game thread if not previously started.
+         * Start the game thread if not previously started.
          */
         public void reset() {
             adjustSpeed();
@@ -1550,7 +1530,7 @@ class Game extends Object
          * @return true if the thread is paused, or
          *         false otherwise
          */
-        public boolean isPaused() {
+        boolean isPaused() {
             return paused;
         }
 
@@ -1559,7 +1539,7 @@ class Game extends Object
          *
          * @param paused     the new paused flag value
          */
-        public void setPaused(boolean paused) {
+        void setPaused(boolean paused) {
             this.paused = paused;
         }
 
@@ -1571,7 +1551,7 @@ class Game extends Object
          *
          * FAST MODE
          */
-        public void adjustSpeed() {
+        void adjustSpeed() {
                 switch(GameMode.getGameMode())
                 {
                     case 1:
@@ -1730,28 +1710,12 @@ class Configuration extends Object {
         }
     }
 }
-  /*
-   * @(#)Figure.java
-   *
-   * This work is free software; you can redistribute it and/or
-   * modify it under the terms of the GNU General Public License as
-   * published by the Free Software Foundation; either version 2 of
-   * the License, or (at your option) any later version.
-   *
-   * This work is distributed in the hope that it will be useful,
-   * but WITHOUT ANY WARRANTY; without even the implied warranty of
-   * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-   * GNU General Public License for more details.
-   *
-   * Copyright (c) 2003 Per Cederberg. All rights reserved.
-   */
-
 
 /**
  * A class representing a Tetris square figure. Each figure consists
  * of four connected squares in one of seven possible constellations.
  * The figures may be rotated in 90 degree steps and have sideways and
- * downwards movability.<p>
+ * downwards movability.
  *
  * Each figure instance can have two states, either attached to a
  * square board or not. When attached, all move and rotation
