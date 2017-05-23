@@ -1394,6 +1394,14 @@ class Game extends Object
             return;
         }
 
+        if (e.getKeyCode() == KeyEvent.VK_ESCAPE){
+            thread.setPaused(true);
+            state = STATE_PAUSED;
+            board.setMessage("Fuck off!");
+            PCS.firePropertyChange("state",-1, STATE_PAUSED );
+            return;
+        }
+
         // Don't proceed if stopped or paused
         if (figure == null || moveLock || thread.isPaused()) {
             return;

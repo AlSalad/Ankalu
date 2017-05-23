@@ -29,45 +29,30 @@ public class PlayMenu {
         frame.setLocation(dim.width/2-frame.getSize().width/2, dim.height/2-frame.getSize().height/2);
         frame.setVisible(true);
 
-        backButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                frame.dispose();
-                new MainMenu();
-            }
+        backButton.addActionListener(e -> {
+            frame.dispose();
+            new MainMenu();
         });
 
-        standardButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                frame.dispose();
-                GameMode.setGameMode(0);
-                new Tetris();
-            }
+        standardButton.addActionListener(e -> {
+            frame.dispose();
+            GameMode.setGameMode(0);
+            new Tetris();
         });
-        fastButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                frame.dispose();
-                GameMode.setGameMode(1);
-                new Tetris();
-            }
+        fastButton.addActionListener(e -> {
+            frame.dispose();
+            GameMode.setGameMode(1);
+            new Tetris();
         });
-        reverseButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                frame.dispose();
-                GameMode.setGameMode(2);
-                new Tetris();
-            }
+        reverseButton.addActionListener(e -> {
+            frame.dispose();
+            GameMode.setGameMode(2);
+            new Tetris();
         });
-        epilepsyButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                frame.dispose();
-                GameMode.setGameMode(3);
-                new Tetris();
-            }
+        epilepsyButton.addActionListener(e -> {
+            frame.dispose();
+            GameMode.setGameMode(3);
+            new Tetris();
         });
     }
 }
