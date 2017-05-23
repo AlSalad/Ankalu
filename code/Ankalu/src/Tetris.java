@@ -588,17 +588,32 @@ class SquareBoard extends Object {
          * Creates a new square board component.
          */
         public SquareBoardComponent() {
-            switch(GameMode.getGameMode()){
+            String color;
+            switch (GameMode.getGameMode()) {
+                case 0:
+                    color = "#000000";
+
+                    break;
                 case 1:
-                    setBackground(Configuration.getColor("board.background",
-                            "#96c1db"));
+                    color = "#96c1db";
+
+                    break;
+                case 2:
+                    color = "#FF0000";
+
+                    break;
+                case 3:
+                    color = "#00FF00";
+
                     break;
                 default:
-                    setBackground(Configuration.getColor("board.background",
-                        "#000000"));
+                    color = "#000000";
+
                     break;
             }
 
+            setBackground(Configuration.getColor("board.background",
+                    color));
             messageColor = Configuration.getColor("board.message",
                     "#ffffff");
         }
@@ -1556,22 +1571,13 @@ class Game extends Object
          * FAST MODE
          */
         void adjustSpeed() {
-                switch(GameMode.getGameMode())
-                {
-                    case 1:
-                    case 3:
-                        sleepTime = 4500 / (level + 15) - 250;
-                        if (sleepTime < 50) {
-                            sleepTime = 50;
-                        }
-                        break;
-                    default:
-                        sleepTime = 4500 / (level + 5) - 250;
-                        if (sleepTime < 50) {
-                            sleepTime = 50;
-                        }
-                        break;
-                }
+            //Set speed for Game
+            int multiplier = GameMode.getGameMode() == 1 || GameMode.getGameMode() == 3 ? 15 : 5;
+
+            sleepTime = 4500 / (level + multiplier) - 250;
+            if (sleepTime < 50) {
+                sleepTime = 50;
+            }
         }
 
         /**

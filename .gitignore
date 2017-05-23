@@ -1,2 +1,4 @@
 
 *.xml
+code/Ankalu/.idea/libraries/Arquillian_TestNG_Release.xml
+code/Ankalu/.idea/libraries/Arquillian_JUnit_Release.xml
