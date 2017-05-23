@@ -28,6 +28,12 @@ public class PlayMenu {
         Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
         frame.setLocation(dim.width/2-frame.getSize().width/2, dim.height/2-frame.getSize().height/2);
         frame.setVisible(true);
+        panelPlayMenu.setBackground(Color.black);
+        ImageIcon icon = new ImageIcon("src//Pictures//epilepsie.jpg");
+        epilepsyButton.setIcon(icon);
+        epilepsyButton.setText("");
+        epilepsyButton.setBackground(Color.black);
+        epilepsyButton.setBorder(BorderFactory.createLineBorder(Color.black));
 
         backButton.addActionListener(e -> {
             frame.dispose();

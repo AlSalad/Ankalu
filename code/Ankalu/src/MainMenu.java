@@ -17,6 +17,15 @@ public class MainMenu extends JFrame{
         frame.setContentPane(panelMenu);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setVisible(true);
+        frame.setBackground(Color.black);
+        panelMenu.setBackground(Color.black);
+        ImageIcon icon = new ImageIcon("src//Pictures//pic1.jpg");
+        playButton.setIcon(icon);
+        playButton.setText("");
+        playButton.setBackground(Color.black);
+        playButton.setBorder(BorderFactory.createLineBorder(Color.black));
+
+
 
         highscoreButton.addActionListener(e -> {
         });
