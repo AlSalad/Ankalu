@@ -254,7 +254,7 @@ class SquareBoard extends Object {
      * @param width     the width of the board (in squares)
      * @param height    the height of the board (in squares)
      */
-    public SquareBoard(int width, int height) {
+    SquareBoard(int width, int height) {
         this.width = width;
         this.height = height;
         this.matrix = new Color[height][width];
@@ -274,7 +274,7 @@ class SquareBoard extends Object {
      * @return true if the square is emtpy, or
      *         false otherwise
      */
-    public boolean isSquareEmpty(int x, int y) {
+    boolean isSquareEmpty(int x, int y) {
         if (x < 0 || x >= width || y < 0 || y >= height) {
             return x >= 0 && x < width && y < 0;
         } else {
@@ -588,8 +588,17 @@ class SquareBoard extends Object {
          * Creates a new square board component.
          */
         public SquareBoardComponent() {
-            setBackground(Configuration.getColor("board.background",
-                    "#000000"));
+            switch(GameMode.getGameMode()){
+                case 1:
+                    setBackground(Configuration.getColor("board.background",
+                            "#96c1db"));
+                    break;
+                default:
+                    setBackground(Configuration.getColor("board.background",
+                        "#000000"));
+                    break;
+            }
+
             messageColor = Configuration.getColor("board.message",
                     "#ffffff");
         }
@@ -1230,8 +1239,7 @@ class Game extends Object
      * Handles a getReady event.
      * This will print a 'get ready' message on the game board.
      */
-    private void handleGetReady()
-    {
+    private void handleGetReady() {
         board.setMessage("Get Ready");
         board.clear();
         previewBoard.clear();

@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16e19574-ed68-4c8c-ad42-7019c4a99d03" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Configuration.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Configuration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Figure.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Figure.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Game$GameThread.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Game$GameThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Game.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Game.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/SquareBoard.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/SquareBoard.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tetris.java" afterPath="$PROJECT_DIR$/src/Tetris.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,13 +30,14 @@
       <file leaf-file-name="Tetris.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tetris.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="717">
-              <caret line="1594" column="1" lean-forward="false" selection-start-line="1594" selection-start-column="1" selection-end-line="1594" selection-end-column="1" />
+            <state relative-caret-position="413">
+              <caret line="602" column="31" lean-forward="true" selection-start-line="602" selection-start-column="31" selection-end-line="602" selection-end-column="31" />
               <folding>
                 <element signature="class#Tetris#0" expanded="false" />
                 <element signature="e#671#680#0" expanded="false" />
                 <element signature="docComment;field#game#0;class#Tetris#0" expanded="false" />
                 <element signature="e#5631#5640#0" expanded="false" />
+                <element signature="docComment;class#SquareBoard#0" expanded="false" />
                 <element signature="docComment;field#width#0;class#SquareBoard#0" expanded="false" />
                 <element signature="docComment;field#height#0;class#SquareBoard#0" expanded="false" />
                 <element signature="docComment;field#matrix#0;class#SquareBoard#0" expanded="false" />
@@ -65,7 +72,17 @@
                 <element signature="method#removeLine#0;class#SquareBoard#0" expanded="false" />
                 <element signature="docComment;method#update#0;class#SquareBoard#0" expanded="false" />
                 <element signature="docComment;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-                <element signature="class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#size#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#insets#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#squareSize#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#bufferImage#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#bufferRect#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#messageColor#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#lighterColors#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#darkerColors#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#updated#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#updateRect#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#SquareBoardComponent#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
                 <element signature="docComment;method#invalidateSquare#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
                 <element signature="method#invalidateSquare#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
                 <element signature="docComment;method#redraw#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
@@ -91,11 +108,11 @@
                 <element signature="docComment;field#moveLock#0;class#Game#0" expanded="false" />
                 <element signature="docComment;field#state#0;class#Game#0" expanded="false" />
                 <element signature="docComment;method#Game#0;class#Game#0" expanded="false" />
-                <element signature="e#32287#32288#0" expanded="true" />
-                <element signature="e#32315#32316#0" expanded="true" />
+                <element signature="e#32565#32566#0" expanded="true" />
+                <element signature="e#32593#32594#0" expanded="true" />
                 <element signature="docComment;method#Game#1;class#Game#0" expanded="false" />
-                <element signature="e#32816#32942#0" expanded="true" />
-                <element signature="e#32941#32942#0" expanded="true" />
+                <element signature="e#33094#33220#0" expanded="true" />
+                <element signature="e#33219#33220#0" expanded="true" />
                 <element signature="docComment;method#addPropertyChangeListener#0;class#Game#0" expanded="false" />
                 <element signature="docComment;method#removePropertyChangeListener#0;class#Game#0" expanded="false" />
                 <element signature="docComment;method#getState#0;class#Game#0" expanded="false" />
@@ -125,8 +142,6 @@
                 <element signature="docComment;method#handleLevelModification#0;class#Game#0" expanded="false" />
                 <element signature="method#handleLevelModification#0;class#Game#0" expanded="false" />
                 <element signature="docComment;method#handleScoreModification#0;class#Game#0" expanded="false" />
-                <element signature="e#39057#39058#0" expanded="true" />
-                <element signature="e#39113#39114#0" expanded="true" />
                 <element signature="docComment;method#handleFigureStart#0;class#Game#0" expanded="false" />
                 <element signature="method#handleFigureStart#0;class#Game#0" expanded="false" />
                 <element signature="docComment;method#handleFigureLanded#0;class#Game#0" expanded="false" />
@@ -178,18 +193,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Configuration.class" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/production/Ankalu/Configuration.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#1507#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Object.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -224,90 +227,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-              <folding>
-                <marker date="1495523335311" expanded="true" signature="101899:101916" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="101899:101934" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="101899:101947" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="101899:101962" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="101997:104936" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="102010:104921" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="102064:102404" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="102083:102389" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="102191:102369" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="102231:102335" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="102252:102313" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="102458:102753" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="102477:102738" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="102540:102718" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="102580:102684" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="102601:102662" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="102803:103130" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="102822:103115" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="102917:103095" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="102957:103061" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="102978:103039" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="103181:103446" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="103200:103431" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="103233:103411" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="103273:103377" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="103294:103355" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="103489:103795" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="103508:103780" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="103582:103760" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="103622:103726" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="103643:103704" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="103846:104194" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="103865:104179" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="103942:104159" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="103982:104125" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="104003:104103" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="104229:104535" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="104248:104520" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="104322:104500" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="104362:104466" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="104383:104444" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="104587:104907" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="104606:104892" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="104694:104872" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="104734:104838" ph="..." />
-                <marker date="1495523335311" expanded="true" signature="104755:104816" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TetrisTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tests/TetrisTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainMenu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MainMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="49" column="11" lean-forward="false" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MusicGUI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MusicGUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1113,7 +1037,7 @@
       <workItem from="1495443856452" duration="1786000" />
       <workItem from="1495463616335" duration="1434000" />
       <workItem from="1495465163183" duration="2056000" />
-      <workItem from="1495521915387" duration="1727000" />
+      <workItem from="1495521915387" duration="2720000" />
     </task>
     <task id="LOCAL-00001" summary="first test">
       <created>1492589214181</created>
@@ -1172,7 +1096,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1727000" />
+    <option name="totallyTimeSpent" value="2720000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1265,45 +1189,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MainMenu.form">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/settingsMenuGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/settingsMenuGUI.form">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainMenu.form">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Ankalu/MainMenu.class" />
     <entry file="file://$PROJECT_DIR$/src/SettingsMenu.form" />
     <entry file="file://$PROJECT_DIR$/src/SettingsMenu.java" />
     <entry file="file://$PROJECT_DIR$/src/settingsGUI.form" />
@@ -1459,52 +1344,52 @@
         <state relative-caret-position="255">
           <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
           <folding>
-            <marker date="1495523335311" expanded="true" signature="101899:101916" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="101899:101934" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="101899:101947" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="101899:101962" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="101997:104936" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="102010:104921" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="102064:102404" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="102083:102389" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="102191:102369" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="102231:102335" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="102252:102313" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="102458:102753" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="102477:102738" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="102540:102718" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="102580:102684" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="102601:102662" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="102803:103130" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="102822:103115" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="102917:103095" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="102957:103061" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="102978:103039" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="103181:103446" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="103200:103431" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="103233:103411" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="103273:103377" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="103294:103355" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="103489:103795" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="103508:103780" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="103582:103760" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="103622:103726" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="103643:103704" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="103846:104194" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="103865:104179" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="103942:104159" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="103982:104125" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="104003:104103" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="104229:104535" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="104248:104520" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="104322:104500" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="104362:104466" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="104383:104444" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="104587:104907" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="104606:104892" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="104694:104872" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="104734:104838" ph="..." />
-            <marker date="1495523335311" expanded="true" signature="104755:104816" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="113169:113186" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="113169:113204" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="113169:113217" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="113169:113232" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="113267:116206" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="113280:116191" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="113334:113674" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="113353:113659" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="113461:113639" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="113501:113605" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="113522:113583" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="113728:114023" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="113747:114008" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="113810:113988" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="113850:113954" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="113871:113932" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="114073:114400" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="114092:114385" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="114187:114365" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="114227:114331" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="114248:114309" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="114451:114716" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="114470:114701" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="114503:114681" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="114543:114647" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="114564:114625" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="114759:115065" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="114778:115050" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="114852:115030" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="114892:114996" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="114913:114974" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="115116:115464" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="115135:115449" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="115212:115429" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="115252:115395" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="115273:115373" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="115499:115805" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="115518:115790" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="115592:115770" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="115632:115736" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="115653:115714" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="115857:116177" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="115876:116162" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="115964:116142" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="116004:116108" ph="..." />
+            <marker date="1495524648122" expanded="true" signature="116025:116086" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1545,6 +1430,143 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Ankalu/TetrisTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/D:/Workspace/Ankalu/code/Ankalu/src">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="795.5" y="287.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="305.0" y="300.0">com</node>
+            <node x="0.0" y="375.0">PlayMenu</node>
+            <node x="0.0" y="75.0">netscape</node>
+            <node x="342.0" y="75.0">MusicGUITest</node>
+            <node x="173.0" y="75.0">Configuration</node>
+            <node x="378.0" y="525.0">Start</node>
+            <node x="0.0" y="450.0">sun</node>
+            <node x="0.0" y="300.0">MainMenu</node>
+            <node x="295.0" y="375.0">MusicGUI</node>
+            <node x="148.0" y="375.0">java</node>
+            <node x="153.0" y="300.0">javax</node>
+            <node x="0.0" y="150.0">MusicPlayed</node>
+            <node x="315.0" y="225.0">javafx</node>
+            <node x="0.0" y="0.0">settingsMenuGUI</node>
+            <node x="455.0" y="300.0">junit</node>
+            <node x="324.0" y="150.0">oracle</node>
+            <node x="290.0" y="450.0">org</node>
+            <node x="254.0" y="525.0">Tetris</node>
+            <node x="471.0" y="225.0">kotlin</node>
+            <node x="0.0" y="525.0">Figure</node>
+            <node x="186.0" y="0.0">META-INF</node>
+            <node x="434.0" y="450.0">jdk</node>
+            <node x="367.0" y="0.0">MainMenuTest</node>
+            <node x="158.0" y="225.0">GameMode</node>
+            <node x="128.0" y="525.0">Game</node>
+            <node x="0.0" y="225.0">Music</node>
+            <node x="145.0" y="450.0">bsh</node>
+            <node x="162.0" y="150.0">SquareBoard</node>
+            <node x="441.0" y="375.0">TetrisTest</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-264.0" y="231.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Tetris">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Tetris</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">Tetris</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-516.0" y="-52.0" />
+          <SelectedNodes>
+            <node>Tetris</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Configuration">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Configuration</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">Configuration</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-493.5" y="-52.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Game">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Game</OriginalElement>
+          <nodes>
+            <node x="" y="">Game</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="40.5" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Ankalu/Figure.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#9511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/Ankalu/Configuration.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1555,23 +1577,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Ankalu/TetrisTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tetris.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="1594" column="1" lean-forward="false" selection-start-line="1594" selection-start-column="1" selection-end-line="1594" selection-end-column="1" />
+        <state relative-caret-position="413">
+          <caret line="602" column="31" lean-forward="true" selection-start-line="602" selection-start-column="31" selection-end-line="602" selection-end-column="31" />
           <folding>
             <element signature="class#Tetris#0" expanded="false" />
             <element signature="e#671#680#0" expanded="false" />
             <element signature="docComment;field#game#0;class#Tetris#0" expanded="false" />
             <element signature="e#5631#5640#0" expanded="false" />
+            <element signature="docComment;class#SquareBoard#0" expanded="false" />
             <element signature="docComment;field#width#0;class#SquareBoard#0" expanded="false" />
             <element signature="docComment;field#height#0;class#SquareBoard#0" expanded="false" />
             <element signature="docComment;field#matrix#0;class#SquareBoard#0" expanded="false" />
@@ -1606,7 +1621,17 @@
             <element signature="method#removeLine#0;class#SquareBoard#0" expanded="false" />
             <element signature="docComment;method#update#0;class#SquareBoard#0" expanded="false" />
             <element signature="docComment;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
-            <element signature="class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;field#size#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;field#insets#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;field#squareSize#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;field#bufferImage#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;field#bufferRect#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;field#messageColor#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;field#lighterColors#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;field#darkerColors#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;field#updated#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;field#updateRect#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;method#SquareBoardComponent#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
             <element signature="docComment;method#invalidateSquare#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
             <element signature="method#invalidateSquare#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
             <element signature="docComment;method#redraw#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
@@ -1632,11 +1657,11 @@
             <element signature="docComment;field#moveLock#0;class#Game#0" expanded="false" />
             <element signature="docComment;field#state#0;class#Game#0" expanded="false" />
             <element signature="docComment;method#Game#0;class#Game#0" expanded="false" />
-            <element signature="e#32287#32288#0" expanded="true" />
-            <element signature="e#32315#32316#0" expanded="true" />
+            <element signature="e#32565#32566#0" expanded="true" />
+            <element signature="e#32593#32594#0" expanded="true" />
             <element signature="docComment;method#Game#1;class#Game#0" expanded="false" />
-            <element signature="e#32816#32942#0" expanded="true" />
-            <element signature="e#32941#32942#0" expanded="true" />
+            <element signature="e#33094#33220#0" expanded="true" />
+            <element signature="e#33219#33220#0" expanded="true" />
             <element signature="docComment;method#addPropertyChangeListener#0;class#Game#0" expanded="false" />
             <element signature="docComment;method#removePropertyChangeListener#0;class#Game#0" expanded="false" />
             <element signature="docComment;method#getState#0;class#Game#0" expanded="false" />
@@ -1666,8 +1691,6 @@
             <element signature="docComment;method#handleLevelModification#0;class#Game#0" expanded="false" />
             <element signature="method#handleLevelModification#0;class#Game#0" expanded="false" />
             <element signature="docComment;method#handleScoreModification#0;class#Game#0" expanded="false" />
-            <element signature="e#39057#39058#0" expanded="true" />
-            <element signature="e#39113#39114#0" expanded="true" />
             <element signature="docComment;method#handleFigureStart#0;class#Game#0" expanded="false" />
             <element signature="method#handleFigureStart#0;class#Game#0" expanded="false" />
             <element signature="docComment;method#handleFigureLanded#0;class#Game#0" expanded="false" />
