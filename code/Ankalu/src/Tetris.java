@@ -508,7 +508,6 @@ class SquareBoard extends Object {
         component.redraw();
     }
 
-
     /**
      * The graphical component that paints the square board. This is
      * implemented as an inner class in order to better abstract the
@@ -1004,8 +1003,8 @@ class Game extends Object
      * Creates a new Tetris game. The square board will be given
      * the default size of 10x20.
      */
-    public Game() {
-        this(10, 20);
+    Game() {
+        this(16, 30);
     }
 
     /**
@@ -1015,7 +1014,7 @@ class Game extends Object
      * @param width     the width of the square board (in positions)
      * @param height    the height of the square board (in positions)
      */
-    public Game(int width, int height) {
+    private Game(int width, int height) {
         board = new SquareBoard(width, height);
         thread = new GameThread();
         handleGetReady();
@@ -1050,7 +1049,7 @@ class Game extends Object
      *
      * @param l the property change listener which is going to be notified.
      */
-    public void addPropertyChangeListener(PropertyChangeListener l)
+    void addPropertyChangeListener(PropertyChangeListener l)
     {
         PCS.addPropertyChangeListener(l);
     }
@@ -1106,7 +1105,7 @@ class Game extends Object
      * Gets the java.awt.Component for the board.
      * @return the gui component for the board.
      */
-    public Component getSquareBoardComponent()
+    Component getSquareBoardComponent()
     {
         return board.getComponent();
     }
@@ -1125,7 +1124,7 @@ class Game extends Object
      * Initializes the game ready if the state is on STATE_GAMEOVER
      * otherwise it does nothing.
      **/
-    public void init()
+    void init()
     {
         if (state == STATE_GAMEOVER)
         {
@@ -1136,7 +1135,7 @@ class Game extends Object
     /**
      * Starts the game. (No matter what the current state is)
      **/
-    public void start()
+    void start()
     {
         handleStart();
     }
@@ -1391,7 +1390,6 @@ class Game extends Object
      */
     private synchronized void handleKeyEvent(KeyEvent e)
     {
-
         // Handle Start (any key to Start !!!)
         if (state == STATE_GETREADY)
         {
@@ -1484,7 +1482,6 @@ class Game extends Object
         return figures[(int) (Math.random() * figures.length)];
     }
 
-
     /**
      * The game time thread. This thread makes sure that the timer
      * events are launched appropriately, making the current figure
@@ -1503,7 +1500,6 @@ class Game extends Object
          * The number of milliseconds to sleep before each automatic
          * move. This number will be lowered as the game progresses.
          */
-        //SPEED
         private int sleepTime = 500;
 
         /**
@@ -1597,7 +1593,6 @@ class Game extends Object
         }
     }
 }
-
 /**
  * a program configuration. this class provides static methods for
  * simplifying the reading of configuration parameters. it also

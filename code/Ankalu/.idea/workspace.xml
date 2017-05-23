@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16e19574-ed68-4c8c-ad42-7019c4a99d03" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Configuration.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Configuration.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Figure.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Figure.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Game$1.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Game$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Game$GameThread.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Game$GameThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Game.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Game.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/MusicPlayed.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/MusicPlayed.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/SquareBoard$SquareBoardComponent.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/SquareBoard$SquareBoardComponent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/SquareBoard.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/SquareBoard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Tetris.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Tetris.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/start.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/start.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Arquillian_TestNG_Release.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Arquillian_TestNG_Release.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MusicPlayed.java" afterPath="$PROJECT_DIR$/src/MusicPlayed.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tetris.java" afterPath="$PROJECT_DIR$/src/Tetris.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/start.java" afterPath="$PROJECT_DIR$/src/Start.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,15 +24,48 @@
       <file leaf-file-name="Tetris.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tetris.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="211" column="0" lean-forward="false" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
+            <state relative-caret-position="717">
+              <caret line="1594" column="1" lean-forward="false" selection-start-line="1594" selection-start-column="1" selection-end-line="1594" selection-end-column="1" />
               <folding>
                 <element signature="class#Tetris#0" expanded="false" />
                 <element signature="e#671#680#0" expanded="false" />
                 <element signature="docComment;field#game#0;class#Tetris#0" expanded="false" />
                 <element signature="e#5631#5640#0" expanded="false" />
-                <element signature="docComment;class#SquareBoard#0" expanded="false" />
-                <element signature="class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#width#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#height#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#matrix#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#message#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#removedLines#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;field#component#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#SquareBoard#0;class#SquareBoard#0" expanded="false" />
+                <element signature="method#SquareBoard#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#isSquareEmpty#0;class#SquareBoard#0" expanded="false" />
+                <element signature="method#isSquareEmpty#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#isLineEmpty#0;class#SquareBoard#0" expanded="false" />
+                <element signature="method#isLineEmpty#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#isLineFull#0;class#SquareBoard#0" expanded="false" />
+                <element signature="method#isLineFull#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#hasFullLines#0;class#SquareBoard#0" expanded="false" />
+                <element signature="method#hasFullLines#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#getComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#getBoardHeight#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#getBoardWidth#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#getRemovedLines#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#getSquareColor#0;class#SquareBoard#0" expanded="false" />
+                <element signature="method#getSquareColor#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#setSquareColor#0;class#SquareBoard#0" expanded="false" />
+                <element signature="method#setSquareColor#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#setMessage#0;class#SquareBoard#0" expanded="false" />
+                <element signature="method#setMessage#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#clear#0;class#SquareBoard#0" expanded="false" />
+                <element signature="method#clear#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#removeFullLines#0;class#SquareBoard#0" expanded="false" />
+                <element signature="method#removeFullLines#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#removeLine#0;class#SquareBoard#0" expanded="false" />
+                <element signature="method#removeLine#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;method#update#0;class#SquareBoard#0" expanded="false" />
+                <element signature="docComment;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+                <element signature="class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
                 <element signature="docComment;method#invalidateSquare#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
                 <element signature="method#invalidateSquare#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
                 <element signature="docComment;method#redraw#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
@@ -59,11 +77,80 @@
                 <element signature="docComment;method#getMinimumSize#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
                 <element signature="method#paintSquare#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
                 <element signature="docComment;class#Game#0" expanded="false" />
-                <element signature="class#Game#0" expanded="false" />
                 <element signature="docComment;field#PCS#0;class#Game#0" expanded="false" />
                 <element signature="docComment;field#board#0;class#Game#0" expanded="false" />
                 <element signature="docComment;field#previewBoard#0;class#Game#0" expanded="false" />
                 <element signature="docComment;field#figures#0;class#Game#0" expanded="false" />
+                <element signature="docComment;field#thread#0;class#Game#0" expanded="false" />
+                <element signature="docComment;field#level#0;class#Game#0" expanded="false" />
+                <element signature="docComment;field#score#0;class#Game#0" expanded="false" />
+                <element signature="docComment;field#figure#0;class#Game#0" expanded="false" />
+                <element signature="docComment;field#nextFigure#0;class#Game#0" expanded="false" />
+                <element signature="docComment;field#nextRotation#0;class#Game#0" expanded="false" />
+                <element signature="docComment;field#preview#0;class#Game#0" expanded="false" />
+                <element signature="docComment;field#moveLock#0;class#Game#0" expanded="false" />
+                <element signature="docComment;field#state#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#Game#0;class#Game#0" expanded="false" />
+                <element signature="e#32287#32288#0" expanded="true" />
+                <element signature="e#32315#32316#0" expanded="true" />
+                <element signature="docComment;method#Game#1;class#Game#0" expanded="false" />
+                <element signature="e#32816#32942#0" expanded="true" />
+                <element signature="e#32941#32942#0" expanded="true" />
+                <element signature="docComment;method#addPropertyChangeListener#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#removePropertyChangeListener#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#getState#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#getLevel#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#getScore#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#getRemovedLines#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#getSquareBoardComponent#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#getPreviewBoardComponent#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#init#0;class#Game#0" expanded="false" />
+                <element signature="method#init#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#start#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#pause#0;class#Game#0" expanded="false" />
+                <element signature="method#pause#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#resume#0;class#Game#0" expanded="false" />
+                <element signature="method#resume#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#terminate#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#handleStart#0;class#Game#0" expanded="false" />
+                <element signature="method#handleStart#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#handleGameOver#0;class#Game#0" expanded="false" />
+                <element signature="method#handleGameOver#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#handleGetReady#0;class#Game#0" expanded="false" />
+                <element signature="method#handleGetReady#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#handlePause#0;class#Game#0" expanded="false" />
+                <element signature="method#handlePause#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#handleResume#0;class#Game#0" expanded="false" />
+                <element signature="method#handleResume#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#handleLevelModification#0;class#Game#0" expanded="false" />
+                <element signature="method#handleLevelModification#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#handleScoreModification#0;class#Game#0" expanded="false" />
+                <element signature="e#39057#39058#0" expanded="true" />
+                <element signature="e#39113#39114#0" expanded="true" />
+                <element signature="docComment;method#handleFigureStart#0;class#Game#0" expanded="false" />
+                <element signature="method#handleFigureStart#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#handleFigureLanded#0;class#Game#0" expanded="false" />
+                <element signature="method#handleFigureLanded#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#handleTimer#0;class#Game#0" expanded="false" />
+                <element signature="method#handleTimer#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#handlePauseOnOff#0;class#Game#0" expanded="false" />
+                <element signature="method#handlePauseOnOff#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#handleKeyEvent#0;class#Game#0" expanded="false" />
+                <element signature="method#handleKeyEvent#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#randomFigure#0;class#Game#0" expanded="false" />
+                <element signature="docComment;class#GameThread#0;class#Game#0" expanded="false" />
+                <element signature="docComment;field#paused#0;class#GameThread#0;class#Game#0" expanded="false" />
+                <element signature="docComment;field#sleepTime#0;class#GameThread#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#GameThread#0;class#GameThread#0;class#Game#0" expanded="false" />
+                <element signature="method#GameThread#0;class#GameThread#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#reset#0;class#GameThread#0;class#Game#0" expanded="false" />
+                <element signature="method#reset#0;class#GameThread#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#isPaused#0;class#GameThread#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#setPaused#0;class#GameThread#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#adjustSpeed#0;class#GameThread#0;class#Game#0" expanded="false" />
+                <element signature="method#adjustSpeed#0;class#GameThread#0;class#Game#0" expanded="false" />
+                <element signature="docComment;method#run#0;class#GameThread#0;class#Game#0" expanded="false" />
+                <element signature="method#run#0;class#GameThread#0;class#Game#0" expanded="false" />
                 <element signature="docComment;class#Configuration#0" expanded="false" />
                 <element signature="class#Configuration#0" expanded="false" />
                 <element signature="docComment;field#config#0;class#Configuration#0" expanded="false" />
@@ -140,55 +227,55 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+            <state relative-caret-position="255">
+              <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
               <folding>
-                <marker date="1495522844028" expanded="true" signature="95372:95389" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="95372:95407" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="95372:95420" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="95372:95435" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="95470:98409" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="95483:98394" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="95537:95877" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="95556:95862" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="95664:95842" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="95704:95808" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="95725:95786" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="95931:96226" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="95950:96211" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="96013:96191" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="96053:96157" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="96074:96135" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="96276:96603" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="96295:96588" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="96390:96568" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="96430:96534" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="96451:96512" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="96654:96919" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="96673:96904" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="96706:96884" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="96746:96850" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="96767:96828" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="96962:97268" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="96981:97253" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="97055:97233" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="97095:97199" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="97116:97177" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="97319:97667" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="97338:97652" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="97415:97632" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="97455:97598" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="97476:97576" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="97702:98008" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="97721:97993" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="97795:97973" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="97835:97939" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="97856:97917" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="98060:98380" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="98079:98365" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="98167:98345" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="98207:98311" ph="..." />
-                <marker date="1495522844028" expanded="true" signature="98228:98289" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="101899:101916" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="101899:101934" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="101899:101947" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="101899:101962" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="101997:104936" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="102010:104921" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="102064:102404" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="102083:102389" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="102191:102369" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="102231:102335" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="102252:102313" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="102458:102753" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="102477:102738" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="102540:102718" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="102580:102684" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="102601:102662" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="102803:103130" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="102822:103115" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="102917:103095" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="102957:103061" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="102978:103039" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="103181:103446" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="103200:103431" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="103233:103411" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="103273:103377" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="103294:103355" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="103489:103795" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="103508:103780" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="103582:103760" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="103622:103726" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="103643:103704" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="103846:104194" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="103865:104179" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="103942:104159" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="103982:104125" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="104003:104103" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="104229:104535" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="104248:104520" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="104322:104500" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="104362:104466" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="104383:104444" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="104587:104907" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="104606:104892" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="104694:104872" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="104734:104838" ph="..." />
+                <marker date="1495523335311" expanded="true" signature="104755:104816" ph="..." />
               </folding>
             </state>
           </provider>
@@ -1026,7 +1113,7 @@
       <workItem from="1495443856452" duration="1786000" />
       <workItem from="1495463616335" duration="1434000" />
       <workItem from="1495465163183" duration="2056000" />
-      <workItem from="1495521915387" duration="921000" />
+      <workItem from="1495521915387" duration="1727000" />
     </task>
     <task id="LOCAL-00001" summary="first test">
       <created>1492589214181</created>
@@ -1085,7 +1172,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="921000" />
+    <option name="totallyTimeSpent" value="1727000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1169,7 +1256,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="20" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1369,55 +1456,55 @@
     <entry file="file://$PROJECT_DIR$/src/ImagePanel.java" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        <state relative-caret-position="255">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
           <folding>
-            <marker date="1495522844028" expanded="true" signature="95372:95389" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="95372:95407" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="95372:95420" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="95372:95435" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="95470:98409" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="95483:98394" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="95537:95877" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="95556:95862" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="95664:95842" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="95704:95808" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="95725:95786" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="95931:96226" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="95950:96211" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="96013:96191" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="96053:96157" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="96074:96135" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="96276:96603" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="96295:96588" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="96390:96568" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="96430:96534" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="96451:96512" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="96654:96919" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="96673:96904" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="96706:96884" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="96746:96850" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="96767:96828" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="96962:97268" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="96981:97253" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="97055:97233" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="97095:97199" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="97116:97177" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="97319:97667" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="97338:97652" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="97415:97632" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="97455:97598" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="97476:97576" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="97702:98008" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="97721:97993" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="97795:97973" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="97835:97939" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="97856:97917" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="98060:98380" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="98079:98365" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="98167:98345" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="98207:98311" ph="..." />
-            <marker date="1495522844028" expanded="true" signature="98228:98289" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="101899:101916" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="101899:101934" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="101899:101947" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="101899:101962" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="101997:104936" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="102010:104921" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="102064:102404" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="102083:102389" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="102191:102369" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="102231:102335" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="102252:102313" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="102458:102753" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="102477:102738" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="102540:102718" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="102580:102684" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="102601:102662" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="102803:103130" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="102822:103115" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="102917:103095" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="102957:103061" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="102978:103039" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="103181:103446" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="103200:103431" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="103233:103411" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="103273:103377" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="103294:103355" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="103489:103795" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="103508:103780" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="103582:103760" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="103622:103726" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="103643:103704" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="103846:104194" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="103865:104179" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="103942:104159" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="103982:104125" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="104003:104103" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="104229:104535" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="104248:104520" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="104322:104500" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="104362:104466" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="104383:104444" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="104587:104907" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="104606:104892" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="104694:104872" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="104734:104838" ph="..." />
+            <marker date="1495523335311" expanded="true" signature="104755:104816" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1478,15 +1565,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tetris.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="211" column="0" lean-forward="false" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
+        <state relative-caret-position="717">
+          <caret line="1594" column="1" lean-forward="false" selection-start-line="1594" selection-start-column="1" selection-end-line="1594" selection-end-column="1" />
           <folding>
             <element signature="class#Tetris#0" expanded="false" />
             <element signature="e#671#680#0" expanded="false" />
             <element signature="docComment;field#game#0;class#Tetris#0" expanded="false" />
             <element signature="e#5631#5640#0" expanded="false" />
-            <element signature="docComment;class#SquareBoard#0" expanded="false" />
-            <element signature="class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;field#width#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;field#height#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;field#matrix#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;field#message#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;field#removedLines#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;field#component#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;method#SquareBoard#0;class#SquareBoard#0" expanded="false" />
+            <element signature="method#SquareBoard#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;method#isSquareEmpty#0;class#SquareBoard#0" expanded="false" />
+            <element signature="method#isSquareEmpty#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;method#isLineEmpty#0;class#SquareBoard#0" expanded="false" />
+            <element signature="method#isLineEmpty#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;method#isLineFull#0;class#SquareBoard#0" expanded="false" />
+            <element signature="method#isLineFull#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;method#hasFullLines#0;class#SquareBoard#0" expanded="false" />
+            <element signature="method#hasFullLines#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;method#getComponent#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;method#getBoardHeight#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;method#getBoardWidth#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;method#getRemovedLines#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;method#getSquareColor#0;class#SquareBoard#0" expanded="false" />
+            <element signature="method#getSquareColor#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;method#setSquareColor#0;class#SquareBoard#0" expanded="false" />
+            <element signature="method#setSquareColor#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;method#setMessage#0;class#SquareBoard#0" expanded="false" />
+            <element signature="method#setMessage#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;method#clear#0;class#SquareBoard#0" expanded="false" />
+            <element signature="method#clear#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;method#removeFullLines#0;class#SquareBoard#0" expanded="false" />
+            <element signature="method#removeFullLines#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;method#removeLine#0;class#SquareBoard#0" expanded="false" />
+            <element signature="method#removeLine#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;method#update#0;class#SquareBoard#0" expanded="false" />
+            <element signature="docComment;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
+            <element signature="class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
             <element signature="docComment;method#invalidateSquare#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
             <element signature="method#invalidateSquare#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
             <element signature="docComment;method#redraw#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
@@ -1498,11 +1618,80 @@
             <element signature="docComment;method#getMinimumSize#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
             <element signature="method#paintSquare#0;class#SquareBoardComponent#0;class#SquareBoard#0" expanded="false" />
             <element signature="docComment;class#Game#0" expanded="false" />
-            <element signature="class#Game#0" expanded="false" />
             <element signature="docComment;field#PCS#0;class#Game#0" expanded="false" />
             <element signature="docComment;field#board#0;class#Game#0" expanded="false" />
             <element signature="docComment;field#previewBoard#0;class#Game#0" expanded="false" />
             <element signature="docComment;field#figures#0;class#Game#0" expanded="false" />
+            <element signature="docComment;field#thread#0;class#Game#0" expanded="false" />
+            <element signature="docComment;field#level#0;class#Game#0" expanded="false" />
+            <element signature="docComment;field#score#0;class#Game#0" expanded="false" />
+            <element signature="docComment;field#figure#0;class#Game#0" expanded="false" />
+            <element signature="docComment;field#nextFigure#0;class#Game#0" expanded="false" />
+            <element signature="docComment;field#nextRotation#0;class#Game#0" expanded="false" />
+            <element signature="docComment;field#preview#0;class#Game#0" expanded="false" />
+            <element signature="docComment;field#moveLock#0;class#Game#0" expanded="false" />
+            <element signature="docComment;field#state#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#Game#0;class#Game#0" expanded="false" />
+            <element signature="e#32287#32288#0" expanded="true" />
+            <element signature="e#32315#32316#0" expanded="true" />
+            <element signature="docComment;method#Game#1;class#Game#0" expanded="false" />
+            <element signature="e#32816#32942#0" expanded="true" />
+            <element signature="e#32941#32942#0" expanded="true" />
+            <element signature="docComment;method#addPropertyChangeListener#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#removePropertyChangeListener#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#getState#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#getLevel#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#getScore#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#getRemovedLines#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#getSquareBoardComponent#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#getPreviewBoardComponent#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#init#0;class#Game#0" expanded="false" />
+            <element signature="method#init#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#start#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#pause#0;class#Game#0" expanded="false" />
+            <element signature="method#pause#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#resume#0;class#Game#0" expanded="false" />
+            <element signature="method#resume#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#terminate#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#handleStart#0;class#Game#0" expanded="false" />
+            <element signature="method#handleStart#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#handleGameOver#0;class#Game#0" expanded="false" />
+            <element signature="method#handleGameOver#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#handleGetReady#0;class#Game#0" expanded="false" />
+            <element signature="method#handleGetReady#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#handlePause#0;class#Game#0" expanded="false" />
+            <element signature="method#handlePause#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#handleResume#0;class#Game#0" expanded="false" />
+            <element signature="method#handleResume#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#handleLevelModification#0;class#Game#0" expanded="false" />
+            <element signature="method#handleLevelModification#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#handleScoreModification#0;class#Game#0" expanded="false" />
+            <element signature="e#39057#39058#0" expanded="true" />
+            <element signature="e#39113#39114#0" expanded="true" />
+            <element signature="docComment;method#handleFigureStart#0;class#Game#0" expanded="false" />
+            <element signature="method#handleFigureStart#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#handleFigureLanded#0;class#Game#0" expanded="false" />
+            <element signature="method#handleFigureLanded#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#handleTimer#0;class#Game#0" expanded="false" />
+            <element signature="method#handleTimer#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#handlePauseOnOff#0;class#Game#0" expanded="false" />
+            <element signature="method#handlePauseOnOff#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#handleKeyEvent#0;class#Game#0" expanded="false" />
+            <element signature="method#handleKeyEvent#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#randomFigure#0;class#Game#0" expanded="false" />
+            <element signature="docComment;class#GameThread#0;class#Game#0" expanded="false" />
+            <element signature="docComment;field#paused#0;class#GameThread#0;class#Game#0" expanded="false" />
+            <element signature="docComment;field#sleepTime#0;class#GameThread#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#GameThread#0;class#GameThread#0;class#Game#0" expanded="false" />
+            <element signature="method#GameThread#0;class#GameThread#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#reset#0;class#GameThread#0;class#Game#0" expanded="false" />
+            <element signature="method#reset#0;class#GameThread#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#isPaused#0;class#GameThread#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#setPaused#0;class#GameThread#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#adjustSpeed#0;class#GameThread#0;class#Game#0" expanded="false" />
+            <element signature="method#adjustSpeed#0;class#GameThread#0;class#Game#0" expanded="false" />
+            <element signature="docComment;method#run#0;class#GameThread#0;class#Game#0" expanded="false" />
+            <element signature="method#run#0;class#GameThread#0;class#Game#0" expanded="false" />
             <element signature="docComment;class#Configuration#0" expanded="false" />
             <element signature="class#Configuration#0" expanded="false" />
             <element signature="docComment;field#config#0;class#Configuration#0" expanded="false" />
