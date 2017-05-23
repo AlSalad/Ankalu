@@ -18,17 +18,15 @@ public class PlayMenu {
     private JButton reverseButton;
     private JButton epilepsyButton;
     private JButton backButton;
-    private JButton xButton;
-    private JButton _Button;
 
     public PlayMenu(){
         JFrame frame = new JFrame("MainMenu");
 
         frame.setContentPane(panelPlayMenu);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-
-        frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
-        frame.setUndecorated(true);
+        frame.setSize(new Dimension(600, 800));
+        Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
+        frame.setLocation(dim.width/2-frame.getSize().width/2, dim.height/2-frame.getSize().height/2);
 
         frame.setVisible(true);
 
@@ -37,18 +35,6 @@ public class PlayMenu {
             public void actionPerformed(ActionEvent e) {
                 frame.dispose();
                 new MainMenu();
-            }
-        });
-        xButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                System.exit(0);
-            }
-        });
-        _Button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                frame.setState(Frame.ICONIFIED);
             }
         });
 
