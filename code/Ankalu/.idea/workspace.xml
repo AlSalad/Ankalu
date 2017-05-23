@@ -4,40 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/Tetris.java" line="102" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16e19574-ed68-4c8c-ad42-7019c4a99d03" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Configuration.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Configuration.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Figure.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Figure.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Game$1.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Game$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Game$GameThread.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Game$GameThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Game.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Game.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/MainMenu.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/MainMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/MusicGUI$2$1.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/MusicGUI$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/MusicGUI$2.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/MusicGUI$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/MusicGUI.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/MusicGUI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu$1.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu$2.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu$3.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu$4.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu$5.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu$6.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu$7.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/PlayMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/SquareBoard$SquareBoardComponent.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/SquareBoard$SquareBoardComponent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/SquareBoard.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/SquareBoard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Tetris$1.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Tetris$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Tetris$2$1.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Tetris$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Tetris$2.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Tetris$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Tetris$3.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Tetris$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Tetris$4.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Tetris$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Tetris$5.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Tetris$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/Tetris.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/Tetris.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Ankalu/start.class" afterPath="$PROJECT_DIR$/out/production/Ankalu/start.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Arquillian_TestNG_Release.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Arquillian_TestNG_Release.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PlayMenu.java" afterPath="$PROJECT_DIR$/src/PlayMenu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tetris.java" afterPath="$PROJECT_DIR$/src/Tetris.java" />
-    </list>
+    <list default="true" id="16e19574-ed68-4c8c-ad42-7019c4a99d03" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,7 +22,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="PlayMenu.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PlayMenu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PlayMenu.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="462">
@@ -65,10 +32,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settingsMenuGUI.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/settingsMenuGUI.form">
-          <provider selected="true" editor-type-id="ui-designer">
-            <state />
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -381,6 +351,7 @@
         <option value="$PROJECT_DIR$/.idea/libraries/Arquillian_TestNG_Release.xml" />
         <option value="$PROJECT_DIR$/src/Tetris.java" />
         <option value="$PROJECT_DIR$/src/PlayMenu.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -1134,7 +1105,7 @@
       <workItem from="1495465163183" duration="2056000" />
       <workItem from="1495521915387" duration="2720000" />
       <workItem from="1495528159408" duration="1641000" />
-      <workItem from="1495530328799" duration="746000" />
+      <workItem from="1495530328799" duration="864000" />
     </task>
     <task id="LOCAL-00001" summary="first test">
       <created>1492589214181</created>
@@ -1193,11 +1164,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5107000" />
+    <option name="totallyTimeSpent" value="5225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1214,7 +1184,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17083333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17083333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1369,14 +1339,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ImagePanel.java" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests/TetrisTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1690,6 +1652,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="70" column="11" lean-forward="false" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
           <folding />
         </state>
       </provider>

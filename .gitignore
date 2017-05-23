@@ -1,8 +1,5 @@
 
 *.xml
+code/Ankalu/.idea/workspace.xml
 <<<<<<< HEAD
-*.xml
-=======
-code/Ankalu/.idea/libraries/Arquillian_TestNG_Release.xml
-code/Ankalu/.idea/libraries/Arquillian_JUnit_Release.xml
->>>>>>> BranchLuka
+
