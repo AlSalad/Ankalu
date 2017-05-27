@@ -33,14 +33,6 @@ public class GameTest {
     }
 
     @Test
-    public void getSquareBoardComponent() throws Exception {
-    }
-
-    @Test
-    public void getPreviewBoardComponent() throws Exception {
-    }
-
-    @Test
     public void init() throws Exception {
         Game game = new Game();
         game.state = Game.STATE_GAMEOVER;

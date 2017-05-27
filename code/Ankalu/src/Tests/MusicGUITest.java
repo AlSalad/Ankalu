@@ -18,9 +18,5 @@ public class MusicGUITest {
         MusicGUI mg = new MusicGUI();
         mg.musicList.setSelectedIndex(0);
         mg.selectMusic.doClick();
-
-
-
-
     }
 }
