@@ -938,7 +938,7 @@ class Game extends Object
     /**
      *
      */
-    private int state;
+    public int state;
 
     /**
      * Creates a new Tetris game. The square board will be given
