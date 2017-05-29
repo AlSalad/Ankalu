@@ -35,15 +35,26 @@ public class PlayMenu {
         frame.setLocation(dim.width/2-frame.getSize().width/2, dim.height/2-frame.getSize().height/2);
         frame.setVisible(true);
         panelPlayMenu.setBackground(Color.black);
-        ImageIcon icon = new ImageIcon("src//main//resources//Pictures//epilepsie.jpg");
-        epilepsyButton.setIcon(icon);
+        standardButton.setIcon(new ImageIcon("src//main//resources//Pictures//standardbtn.jpg"));
+        standardButton.setText("");
+        standardButton.setBackground(Color.black);
+        standardButton.setBorder(BorderFactory.createLineBorder(Color.black));
+        fastButton.setIcon(new ImageIcon("src//main//resources//Pictures//fastbtn.jpg"));
+        fastButton.setText("");
+        fastButton.setBackground(Color.black);
+        fastButton.setBorder(BorderFactory.createLineBorder(Color.black));
+        reverseButton.setIcon(new ImageIcon("src//main//resources//Pictures//reversebtn.jpg"));
+        reverseButton.setText("");
+        reverseButton.setBackground(Color.black);
+        reverseButton.setBorder(BorderFactory.createLineBorder(Color.black));
+        epilepsyButton.setIcon(new ImageIcon("src//main//resources//Pictures//epilepsiebtn.jpg"));
         epilepsyButton.setText("");
         epilepsyButton.setBackground(Color.black);
         epilepsyButton.setBorder(BorderFactory.createLineBorder(Color.black));
         backButton.setIcon(new ImageIcon("src//main//resources//Pictures//backbtn.jpg"));
         backButton.setText("");
         backButton.setBackground(Color.black);
-        backButton.setBorder(BorderFactory.createLineBorder(Color.white));
+        backButton.setBorder(BorderFactory.createLineBorder(Color.black));
 
         backButton.addActionListener(e -> {
             frame.dispose();
