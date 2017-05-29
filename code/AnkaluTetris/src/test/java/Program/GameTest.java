@@ -73,10 +73,10 @@ public class GameTest {
 
     @Test
     public void pause() throws Exception {
-        Game game = new Game();
+      Game game = new Game();
         game.state = Game.STATE_PLAYING;
         game.pause();
-        assertTrue(game.getState() == Game.STATE_PAUSED);
+        assertEquals("Fields didn't match", game.state, Game.STATE_PAUSED);
     }
 
     @Test
@@ -84,7 +84,8 @@ public class GameTest {
         Game game = new Game();
         game.state = Game.STATE_PAUSED;
         game.resume();
-        assertTrue(game.getState() == Game.STATE_PLAYING);
+        assertEquals("Fields didn't match", game.state, Game.STATE_PLAYING);
+
     }
 
     @Test

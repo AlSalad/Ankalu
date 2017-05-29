@@ -27,7 +27,6 @@ public class Tetris
 {
     public Tetris(){
         MusicPlayed mp = new MusicPlayed();
-        String s = mp.GetMusic();
         mp.playSound();
         JFrame  frame = new JFrame("Tetris");
         frame.setVisible(true);
@@ -141,8 +140,6 @@ public class Tetris
  * positions above the board are not saved.
  */
 class SquareBoard {
-
-    final GameMode gm = new GameMode();
     /**
      * The board width (in squares)
      */
