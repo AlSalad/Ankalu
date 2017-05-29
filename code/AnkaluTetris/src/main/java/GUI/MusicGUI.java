@@ -36,6 +36,23 @@ public class MusicGUI {
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setVisible(true);
 
+        musicPanel.setBackground(Color.black);
+        backToSettings.setIcon(new ImageIcon("src//main//resources//Pictures//backbtn.jpg"));
+        backToSettings.setText("");
+        backToSettings.setBackground(Color.black);
+        backToSettings.setBorder(BorderFactory.createLineBorder(Color.black));
+        selectMusic.setIcon(new ImageIcon("src//main//resources//Pictures//selectbtn.jpg"));
+        selectMusic.setText("");
+        selectMusic.setBackground(Color.black);
+        selectMusic.setBorder(BorderFactory.createLineBorder(Color.black));
+        musicList.setBackground(Color.black);
+        musicList.setForeground(Color.white);
+        musicList.setSelectionForeground(Color.black);
+        musicList.setSelectionBackground(Color.decode("#119933"));
+        musicList.setBorder(BorderFactory.createLineBorder(Color.black));
+
+
+
         backToSettings.addActionListener((ActionEvent e) -> {
             try {
                 frame.dispose();

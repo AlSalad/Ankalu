@@ -4,6 +4,7 @@ import Program.MusicPlayed;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.MouseEvent;
 
 public class MainMenu extends JFrame{
 
@@ -54,6 +55,8 @@ public class MainMenu extends JFrame{
             catch (Exception ignored){}
         });
     }
+
+
 
 }
 
