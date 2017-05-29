@@ -23,6 +23,7 @@ import javax.sound.sampled.Clip;
 import javax.swing.*;
 
 
+
 public class Tetris
 {
     public Tetris(){
@@ -142,6 +143,7 @@ public class Tetris
  */
 class SquareBoard {
 
+    final GameMode gm = new GameMode();
     /**
      * The board width (in squares)
      */
@@ -520,7 +522,8 @@ class SquareBoard {
          */
         public SquareBoardComponent() {
             String color;
-            switch (GameMode.getGameMode()) {
+            final GameMode gm = new GameMode();
+            switch (gm.getGameMode()) {
                 case 0: color = "#000000";
                     break;
                 case 1: color = "#96c1db";
@@ -860,6 +863,8 @@ class Game extends Object
     public static final int STATE_PLAYING = 2;
     public static final int STATE_PAUSED =  3;
     public static final int STATE_GAMEOVER =4;
+
+    final GameMode gm = new GameMode();
 
     /**
      * The PropertyChangeSupport Object able to register listener and dispatch events to them.
@@ -1361,7 +1366,7 @@ class Game extends Object
         }
 
         // Handle remaining key events
-        switch (GameMode.getGameMode()) {
+        switch (gm.getGameMode()) {
             case 2:
             case 3:
                 switch (e.getKeyCode()) {
@@ -1502,7 +1507,8 @@ class Game extends Object
         void adjustSpeed() {
 
             //Set speed for Game
-            int multiplier = GameMode.getGameMode() == 1 || GameMode.getGameMode() == 3 ? 15 : 5;
+
+            int multiplier = gm.getGameMode() == 1 || gm.getGameMode() == 3 ? 15 : 5;
 
             sleepTime = 4500 / (level + multiplier) - 250;
             if (sleepTime < 50) {

@@ -23,6 +23,7 @@ public class PlayMenu {
     private JButton reverseButton;
     private JButton epilepsyButton;
     private JButton backButton;
+    final GameMode gm = new GameMode();
 
     public PlayMenu(){
         JFrame frame = new JFrame("MainMenu");
@@ -47,22 +48,23 @@ public class PlayMenu {
 
         standardButton.addActionListener(e -> {
             frame.dispose();
-            GameMode.setGameMode(0);
+
+            gm.setGameMode(0);
             new Tetris();
         });
-        fastButton.addActionListener(e -> {
+        fastButton.addActionListener((ActionEvent e) -> {
             frame.dispose();
-            GameMode.setGameMode(1);
+            gm.setGameMode(1);
             new Tetris();
         });
         reverseButton.addActionListener(e -> {
             frame.dispose();
-            GameMode.setGameMode(2);
+            gm.setGameMode(2);
             new Tetris();
         });
         epilepsyButton.addActionListener(e -> {
             frame.dispose();
-            GameMode.setGameMode(3);
+            gm.setGameMode(3);
             new Tetris();
         });
     }

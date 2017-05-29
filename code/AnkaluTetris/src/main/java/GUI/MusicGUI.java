@@ -48,17 +48,18 @@ public class MusicGUI {
         musicList.addListSelectionListener(event -> {
             if (event.getValueIsAdjusting()) {return;}
             JList source = (JList)event.getSource();
+            MusicPlayed mp = new MusicPlayed();
 
             selectMusic.addActionListener(e -> {
                 String selected = source.getSelectedValue().toString();
                 if(selected.equals("Tetris")){
-                    MusicPlayed.SetMusic("src//main//resources//Music//tetris-gameboy.wav");
+                    mp.SetMusic("src//main//resources//Music//tetris-gameboy.wav");
                 }
                 if(selected.equals("Tetris-Rap")){
-                    MusicPlayed.SetMusic("src//main//resources//Music//Hannes.wav");
+                    mp.SetMusic("src//main//resources//Music//Hannes.wav");
                 }
                 if(selected.equals("Ok")){
-                    MusicPlayed.SetMusic("src//main//resources//Music//WithoutMe.wav");
+                    mp.SetMusic("src//main//resources//Music//WithoutMe.wav");
                 }
             });
         });

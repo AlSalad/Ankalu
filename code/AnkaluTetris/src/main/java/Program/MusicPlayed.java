@@ -6,12 +6,12 @@ import java.io.IOException;
 
 public class MusicPlayed {
 
-    private static String musicPlayed;
-    private static Clip clip;
+    private String musicPath;
+    private Clip clip;
 
-    MusicPlayed(){
+    public MusicPlayed(){
         try {
-            File musicFile = new File(musicPlayed);
+            File musicFile = new File(musicPath);
             AudioInputStream stream = AudioSystem.getAudioInputStream(musicFile);
             AudioFormat format = stream.getFormat();
             DataLine.Info info = new DataLine.Info(Clip.class, format);
@@ -22,12 +22,12 @@ public class MusicPlayed {
         }
     }
 
-    public static void SetMusic(String music){
-        musicPlayed = music;
+    public void SetMusic(String musicPath){
+        this.musicPath = musicPath;
     }
 
-    public static String GetMusic(){
-        return musicPlayed;
+    public String GetMusic(){
+        return musicPath;
     }
 
     void playSound(){clip.start();}
