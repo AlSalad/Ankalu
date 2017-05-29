@@ -70,13 +70,13 @@ public class MusicGUI {
             selectMusic.addActionListener(e -> {
                 String selected = source.getSelectedValue().toString();
                 if(selected.equals("Tetris")){
-                    mp.SetMusic("src//main//resources//Music//tetris-gameboy.wav");
+                    MusicPlayed.SetMusic("src//main//resources//Music//tetris-gameboy.wav");
                 }
                 if(selected.equals("Tetris-Rap")){
-                    mp.SetMusic("src//main//resources//Music//Hannes.wav");
+                    MusicPlayed.SetMusic("src//main//resources//Music//Hannes.wav");
                 }
                 if(selected.equals("Ok")){
-                    mp.SetMusic("src//main//resources//Music//WithoutMe.wav");
+                    MusicPlayed.SetMusic("src//main//resources//Music//WithoutMe.wav");
                 }
             });
         });

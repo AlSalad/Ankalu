@@ -519,7 +519,7 @@ class SquareBoard {
         public SquareBoardComponent() {
             String color;
             final GameMode gm = new GameMode();
-            switch (gm.getGameMode()) {
+            switch (GameMode.getGameMode()) {
                 case 0: color = "#000000";
                     break;
                 case 1: color = "#96c1db";
@@ -1562,7 +1562,7 @@ class Configuration extends Object {
      * @return the configuration parameter value, or
      *         null if not set
      */
-    public static String getValue(String key) {
+    private static String getValue(String key) {
         if (config.containsKey(key)) {
             return config.get(key).toString();
         } else {
