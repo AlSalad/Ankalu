@@ -2,13 +2,13 @@ package Program;
 
 public class GameMode {
 
-    private int value;
+    private static int value;
 
-    public void setGameMode(int value){
-        this.value = value;
+    public static void setGameMode(int newValue){
+        value = newValue;
     }
 
-    int getGameMode(){
+    static int getGameMode(){
         return value;
     }
 }

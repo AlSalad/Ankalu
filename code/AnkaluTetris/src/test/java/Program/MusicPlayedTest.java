@@ -13,7 +13,7 @@ public class MusicPlayedTest {
     @Test
     public void setMusic() throws Exception {
         final MusicPlayed mp = new MusicPlayed();
-        mp.SetMusic("music");
+        MusicPlayed.SetMusic("music");
 
         final Field field = mp.getClass().getDeclaredField("musicPath");
         field.setAccessible(true);
@@ -27,7 +27,7 @@ public class MusicPlayedTest {
         field.setAccessible(true);
         field.set(mp, "music");
         //when
-        final String result = mp.GetMusic();
+        final String result = MusicPlayed.GetMusic();
         //then
         assertEquals("field wasn't retrieved properly", result, "music");
     }

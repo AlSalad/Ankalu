@@ -38,7 +38,7 @@ public class GameTest {
         final Field field = game.getClass().getDeclaredField("score");
         field.setAccessible(true);
         field.set(game, 0);
-        final int result = game.getState();
+        final int result = game.getScore();
         //then
         assertEquals("field wasn't retrieved properly", result, 0);
     }

@@ -23,12 +23,11 @@ import javax.sound.sampled.Clip;
 import javax.swing.*;
 
 
-
 public class Tetris
 {
     public Tetris(){
-
         MusicPlayed mp = new MusicPlayed();
+        String s = mp.GetMusic();
         mp.playSound();
         JFrame  frame = new JFrame("Tetris");
         frame.setVisible(true);
@@ -864,7 +863,6 @@ class Game extends Object
     public static final int STATE_PAUSED =  3;
     public static final int STATE_GAMEOVER =4;
 
-    final GameMode gm = new GameMode();
 
     /**
      * The PropertyChangeSupport Object able to register listener and dispatch events to them.
@@ -1366,7 +1364,7 @@ class Game extends Object
         }
 
         // Handle remaining key events
-        switch (gm.getGameMode()) {
+        switch (GameMode.getGameMode()) {
             case 2:
             case 3:
                 switch (e.getKeyCode()) {
@@ -1508,7 +1506,7 @@ class Game extends Object
 
             //Set speed for Game
 
-            int multiplier = gm.getGameMode() == 1 || gm.getGameMode() == 3 ? 15 : 5;
+            int multiplier = GameMode.getGameMode() == 1 || GameMode.getGameMode() == 3 ? 15 : 5;
 
             sleepTime = 4500 / (level + multiplier) - 250;
             if (sleepTime < 50) {

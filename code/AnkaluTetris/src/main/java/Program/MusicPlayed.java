@@ -2,11 +2,10 @@ package Program;
 
 import javax.sound.sampled.*;
 import java.io.File;
-import java.io.IOException;
 
 public class MusicPlayed {
 
-    private String musicPath;
+    private static String musicPath;
     private Clip clip;
 
     public MusicPlayed(){
@@ -22,17 +21,17 @@ public class MusicPlayed {
         }
     }
 
-    public void SetMusic(String musicPath){
-        this.musicPath = musicPath;
+    public static void SetMusic(String newMusicPath){
+            musicPath = newMusicPath;
     }
 
-    public String GetMusic(){
+    public static String GetMusic(){
         return musicPath;
     }
 
-    void playSound(){clip.start();}
+    public void playSound(){clip.start();}
 
-    void stopSound(){
+    public void stopSound(){
         clip.close();
     }
 }

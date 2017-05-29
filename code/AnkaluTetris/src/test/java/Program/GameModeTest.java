@@ -10,7 +10,7 @@ public class GameModeTest {
     @org.junit.Test
     public void setGameMode() throws Exception {
         GameMode gm = new GameMode();
-        gm.setGameMode(0);
+        GameMode.setGameMode(0);
 
         final Field field = gm.getClass().getDeclaredField("value");
         field.setAccessible(true);
@@ -24,7 +24,7 @@ public class GameModeTest {
         field.setAccessible(true);
         field.set(gm, 0);
         //when
-        final int result = gm.getGameMode();
+        final int result = GameMode.getGameMode();
         //then
         assertEquals("field wasn't retrieved properly", result, 0);
     }
