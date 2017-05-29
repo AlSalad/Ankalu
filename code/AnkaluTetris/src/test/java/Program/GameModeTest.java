@@ -1,7 +1,5 @@
 package Program;
 
-import org.junit.Assert;
-
 import java.lang.reflect.Field;
 
 import static org.junit.Assert.*;
