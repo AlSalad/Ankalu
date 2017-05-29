@@ -40,6 +40,10 @@ public class PlayMenu {
         epilepsyButton.setText("");
         epilepsyButton.setBackground(Color.black);
         epilepsyButton.setBorder(BorderFactory.createLineBorder(Color.black));
+        backButton.setIcon(new ImageIcon("src//main//resources//Pictures//backbtn.jpg"));
+        backButton.setText("");
+        backButton.setBackground(Color.black);
+        backButton.setBorder(BorderFactory.createLineBorder(Color.white));
 
         backButton.addActionListener(e -> {
             frame.dispose();
