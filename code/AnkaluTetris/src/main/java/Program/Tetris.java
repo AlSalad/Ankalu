@@ -985,7 +985,7 @@ class Game extends Object
      *
      * @param l the property change listener which is going to be notified.
      */
-    void addPropertyChangeListener(PropertyChangeListener l)
+    public void addPropertyChangeListener(PropertyChangeListener l)
     {
         PCS.addPropertyChangeListener(l);
     }
@@ -1060,7 +1060,7 @@ class Game extends Object
      * Initializes the game ready if the state is on STATE_GAMEOVER
      * otherwise it does nothing.
      **/
-    void init()
+    public void init()
     {
         if (state == STATE_GAMEOVER)
         {
@@ -1405,7 +1405,7 @@ class Game extends Object
 
                 case KeyEvent.VK_N:
                     preview = !preview;
-                    if (preview && figure != nextFigure) {
+                    if (preview && !figure.equals(nextFigure)) {
                         nextFigure.attach(previewBoard, true);
                         nextFigure.detach();
                     } else {
@@ -1449,8 +1449,7 @@ class Game extends Object
         /**
          * Creates a new game thread with default values.
          */
-        public GameThread() {
-        }
+
 
         /**
          * Resets the game thread. This will adjust the speed and
@@ -1470,7 +1469,7 @@ class Game extends Object
          * @return true if the thread is paused, or
          *         false otherwise
          */
-        boolean isPaused() {
+        public boolean isPaused() {
             return paused;
         }
 
@@ -1479,7 +1478,7 @@ class Game extends Object
          *
          * @param paused     the new paused flag value
          */
-        void setPaused(boolean paused) {
+        public void setPaused(boolean paused) {
             this.paused = paused;
         }
 
@@ -1491,7 +1490,7 @@ class Game extends Object
          *
          * FAST MODE
          */
-        void adjustSpeed() {
+        public void adjustSpeed() {
 
             //Set speed for Game
 
