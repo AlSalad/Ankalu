@@ -4,7 +4,6 @@ import program.MusicPlayed;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.MouseEvent;
 
 public class MainMenu extends JFrame{
 
