@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 
-public class settingsMenuGUI extends JFrame{
+public class SettingsMenuGUI extends JFrame{
     private JPanel panelSettings;
     private JButton musicBtn;
     private JButton aboutBtn;
@@ -12,7 +12,7 @@ public class settingsMenuGUI extends JFrame{
     private JButton backToMain;
 
 
-    public settingsMenuGUI(){
+    public SettingsMenuGUI(){
 
         panelSettings.setBackground(Color.black);
         musicBtn.setIcon(new ImageIcon("src//main//resources//Pictures//musicbtn.jpg"));

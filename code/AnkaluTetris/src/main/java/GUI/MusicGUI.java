@@ -42,7 +42,7 @@ public class MusicGUI {
         backToSettings.addActionListener((ActionEvent e) -> {
             try {
                 frame.dispose();
-                new settingsMenuGUI();
+                new SettingsMenuGUI();
             }
             catch (Exception ignored){}
         });

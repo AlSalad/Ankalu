@@ -43,7 +43,7 @@ public class MainMenu extends JFrame{
 
         settingsButton.addActionListener(e -> {
             frame.dispose();
-            new settingsMenuGUI();
+            new SettingsMenuGUI();
         });
 
         playButton.addActionListener(e -> {
