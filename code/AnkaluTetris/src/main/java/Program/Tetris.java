@@ -43,8 +43,6 @@ public class Tetris
             }
         });
 
-
-
         Button btnStart = new Button("Start");
         btnStart.setFocusable(false);
         btnStart.addActionListener(e -> game.start());
@@ -79,9 +77,6 @@ public class Tetris
         // Show frame (and Start game)
         frame.show();
     }
-    /**
-     * The Tetris game being played (in applet mode).
-     */
     //private Game game = null;
 //    /**
 //     * Returns information about the parameters that are understood by
