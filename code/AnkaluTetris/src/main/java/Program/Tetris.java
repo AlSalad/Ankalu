@@ -70,7 +70,7 @@ public class Tetris
         // Add frame window listener
         frame.addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent e) {
-                System.exit(0);
+                frame.dispose();
             }
         });
 
@@ -838,7 +838,7 @@ class SquareBoard {
  * class.
  * @author   Luka Kröger
  */
-class Game extends Object
+class Game
 {
     public static final int STATE_GETREADY =1;
     public static final int STATE_PLAYING = 2;
@@ -1358,8 +1358,8 @@ class Game extends Object
                     case KeyEvent.VK_RIGHT:
                         figure.moveLeft();
                         break;
-                        default:
-                            break;
+                    default:
+                        break;
                 }
                 break;
             default:
@@ -1375,42 +1375,42 @@ class Game extends Object
                 }
                 break;
         }
-            switch (e.getKeyCode()) {
-                case KeyEvent.VK_DOWN:
-                    figure.moveAllWayDown();
-                    moveLock = true;
-                    break;
+        switch (e.getKeyCode()) {
+            case KeyEvent.VK_DOWN:
+                figure.moveAllWayDown();
+                moveLock = true;
+                break;
 
-                case KeyEvent.VK_UP:
-                case KeyEvent.VK_SPACE:
-                    if (e.isControlDown()) {
-                        figure.rotateRandom();
-                    } else if (e.isShiftDown()) {
-                        figure.rotateClockwise();
-                    } else {
-                        figure.rotateCounterClockwise();
-                    }
-                    break;
+            case KeyEvent.VK_UP:
+            case KeyEvent.VK_SPACE:
+                if (e.isControlDown()) {
+                    figure.rotateRandom();
+                } else if (e.isShiftDown()) {
+                    figure.rotateClockwise();
+                } else {
+                    figure.rotateCounterClockwise();
+                }
+                break;
 
-                case KeyEvent.VK_S:
-                    if (level < 9) {
-                        level++;
-                        handleLevelModification();
-                    }
-                    break;
+            case KeyEvent.VK_S:
+                if (level < 9) {
+                    level++;
+                    handleLevelModification();
+                }
+                break;
 
-                case KeyEvent.VK_N:
-                    preview = !preview;
-                    if (preview && !figure.equals(nextFigure)) {
-                        nextFigure.attach(previewBoard, true);
-                        nextFigure.detach();
-                    } else {
-                        previewBoard.clear();
-                    }
-                    break;
-                    default:
-                        break;
-            }
+            case KeyEvent.VK_N:
+                preview = !preview;
+                if (preview && !figure.equals(nextFigure)) {
+                    nextFigure.attach(previewBoard, true);
+                    nextFigure.detach();
+                } else {
+                    previewBoard.clear();
+                }
+                break;
+            default:
+                break;
+        }
 
     }
 
@@ -1533,7 +1533,7 @@ class Game extends Object
  * provides some methods for transforming string values into more
  * useful objects.
  */
-class Configuration extends Object {
+class Configuration {
 
     /**
      * The internal configuration property values. This lookup table
@@ -1654,7 +1654,7 @@ class Configuration extends Object {
  * squares on the board. When not attached, any rotation can be made
  * (and will be kept when attached to a new board)
  */
-class Figure extends Object {
+class Figure {
 
     /**
      * A figure constant used to create a figure forming a square.
