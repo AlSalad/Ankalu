@@ -504,7 +504,6 @@ class SquareBoard {
          */
         public SquareBoardComponent() {
             String color;
-            final GameMode gm = new GameMode();
             switch (GameMode.getGameMode()) {
                 case 0: color = "#330000";
                     break;
@@ -1036,7 +1035,7 @@ class Game extends Object
      * Gets the java.awt.Component for the board.
      * @return the gui component for the board.
      */
-    Component getSquareBoardComponent()
+    public Component getSquareBoardComponent()
     {
         return board.getComponent();
     }
@@ -1359,6 +1358,8 @@ class Game extends Object
                     case KeyEvent.VK_RIGHT:
                         figure.moveLeft();
                         break;
+                        default:
+                            break;
                 }
                 break;
             default:
@@ -1407,6 +1408,8 @@ class Game extends Object
                         previewBoard.clear();
                     }
                     break;
+                    default:
+                        break;
             }
 
     }
