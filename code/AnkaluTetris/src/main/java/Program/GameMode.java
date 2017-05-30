@@ -8,7 +8,7 @@ public class GameMode {
         value = newValue;
     }
 
-    static int getGameMode(){
+    public static int getGameMode(){
         return value;
     }
 }
