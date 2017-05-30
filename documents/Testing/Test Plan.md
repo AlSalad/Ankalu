@@ -305,56 +305,56 @@ n/a
 
 ###  10. Responsibilities, Staffing and Training Needs  ###
 
-<b>Test Manager</b>		
+<b>Test Manager (André)</b>		
 
 Provides management oversight.
 
 Responsibilities include:
 
-     planning and logistics
+     -planning and logistics
 
-     agree mission
+     -agree mission
 
-     identify motivators
+     -identify motivators
 
-     acquire appropriate resources
+     -acquire appropriate resources
 
-     present management reporting
+     -present management reporting
 
-     advocate the interests of test
+     -advocate the interests of test
 
-     evaluate effectiveness of test effort
+     -evaluate effectiveness of test effort
      
-<b>Test Analyst	</b>	
+<b>Test Analyst (Katharina)	</b>	
 
 Identifies and defines the specific tests to be
 conducted. Responsibilities include:
-     identify test ideas
+     -identify test ideas
 
-     define test details
+     -define test details
 
-     determine test results
+     -determine test results
 
-     document change requests
+     -document change requests
 
-     evaluate product quality
+     -evaluate product quality
      
-<b>Test Designer</b>		
+<b>Test Designer (Luka)</b>		
 
 Defines the technical approach to the
 implementation of the test effort.
 
 Responsibilities include:
 
-     define test approach
+     -define test approach
 
-     define test automation architecture
+     -define test automation architecture
 
-     verify test techniques
+     -verify test techniques
 
-     define testability elements
+     -define testability elements
 
-     structure test implementation
+     -structure test implementation
 
 
 ####  10.1 Staffing and Training Needs  #### 
