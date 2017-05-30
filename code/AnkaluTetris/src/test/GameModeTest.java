@@ -1,4 +1,4 @@
-package program;
+import program.GameMode;
 
 import java.lang.reflect.Field;
 

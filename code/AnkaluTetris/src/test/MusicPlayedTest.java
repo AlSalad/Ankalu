@@ -1,10 +1,8 @@
-package program;
-
 import org.junit.Test;
+import program.MusicPlayed;
 
 import java.lang.reflect.Field;
 
-import static javax.swing.text.html.HTML.Tag.HEAD;
 import static org.junit.Assert.*;
 
 /**

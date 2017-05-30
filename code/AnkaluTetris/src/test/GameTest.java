@@ -1,6 +1,6 @@
-package program;
-
 import org.junit.Test;
+import program.Game;
+import program.SquareBoard;
 
 import java.lang.reflect.Field;
 
