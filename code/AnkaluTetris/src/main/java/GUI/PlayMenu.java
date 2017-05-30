@@ -1,17 +1,11 @@
-package GUI;
+package gui;
 
-import Program.GameMode;
-import Program.Tetris;
+import program.GameMode;
+import program.Tetris;
 
-import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
 
 /**
  * Created by Luka on 25.04.2017.

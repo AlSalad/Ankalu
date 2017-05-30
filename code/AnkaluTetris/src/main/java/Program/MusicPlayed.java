@@ -1,8 +1,7 @@
-package Program;
+package program;
 
 import javax.sound.sampled.*;
 import java.io.File;
-import java.io.IOException;
 
 public class MusicPlayed {
 
@@ -22,11 +21,11 @@ public class MusicPlayed {
         }
     }
 
-    public void SetMusic(String musicPath){
+    public void setMusic(String musicPath){
         this.musicPath = musicPath;
     }
 
-    public String GetMusic(){
+    public String getMusic(){
         return musicPath;
     }
 

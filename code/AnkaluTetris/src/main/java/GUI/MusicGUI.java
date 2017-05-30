@@ -1,21 +1,9 @@
-package GUI;
+package gui;
 
-import Program.MusicPlayed;
-
-import javax.sound.sampled.AudioInputStream;
-import javax.sound.sampled.AudioSystem;
-import javax.sound.sampled.Clip;
-import javax.swing.*;
-import javax.swing.event.ListSelectionListener;
-import java.awt.event.ComponentAdapter;
-import java.awt.event.ComponentEvent;
+import program.MusicPlayed;
 
 import javax.swing.*;
-import javax.swing.event.*;
-import javax.swing.table.*;
 
-import java.io.*;
-import java.util.*;
 import java.awt.*;
 import java.awt.event.*;
 
@@ -69,14 +57,14 @@ public class MusicGUI {
 
             selectMusic.addActionListener(e -> {
                 String selected = source.getSelectedValue().toString();
-                if(selected.equals("Tetris")){
-                    mp.SetMusic("src//main//resources//Music//tetris-gameboy.wav");
+                if("Tetris".equals(selected)){
+                    mp.setMusic("src//main//resources//Music//tetris-gameboy.wav");
                 }
-                if(selected.equals("Tetris-Rap")){
-                    mp.SetMusic("src//main//resources//Music//Hannes.wav");
+                if("Tetris-Rap".equals(selected)){
+                    mp.setMusic("src//main//resources//Music//Hannes.wav");
                 }
-                if(selected.equals("Ok")){
-                    mp.SetMusic("src//main//resources//Music//WithoutMe.wav");
+                if("Ok".equals(selected)){
+                    mp.setMusic("src//main//resources//Music//WithoutMe.wav");
                 }
             });
         });
