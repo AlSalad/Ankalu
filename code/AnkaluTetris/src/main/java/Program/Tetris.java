@@ -511,13 +511,13 @@ class SquareBoard {
             String color;
             final GameMode gm = new GameMode();
             switch (GameMode.getGameMode()) {
-                case 0: color = "#000000";
+                case 0: color = "#330000";
                     break;
-                case 1: color = "#96c1db";
+                case 1: color = "#001133";
                     break;
-                case 2: color = "#FF0000";
+                case 2: color = "#330011";
                     break;
-                case 3: color = "#00FF00";
+                case 3: color = "#003311";
                     break;
                 default: color = "#000000";
                     break;
