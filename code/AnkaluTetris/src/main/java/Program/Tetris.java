@@ -939,7 +939,7 @@ class Game extends Object
      * Creates a new Tetris game. The square board will be given
      * the default size of 10x20.
      */
-    Game() {
+    public Game() {
         this(16, 30);
     }
 

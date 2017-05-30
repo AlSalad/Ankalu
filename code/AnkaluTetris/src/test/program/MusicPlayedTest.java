@@ -1,3 +1,5 @@
+package program;
+
 import org.junit.Test;
 import program.MusicPlayed;
 
