@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>program</OriginalElement>
+  <nodes>
+    <node x="535.9316894935112" y="306.71104627507594">program.Game</node>
+    <node x="217.91519294544173" y="223.24875507650688">program.MusicPlayed</node>
+    <node x="83.06839867310985" y="683.9365885519117">program.Start</node>
+    <node x="417.7777777777779" y="464.4921441074672">program.GameModeTest</node>
+    <node x="310.7842066321034" y="332.0264486113866">program.Tetris</node>
+    <node x="119.66594062816522" y="483.9078388148399">gui.MainMenu</node>
+    <node x="622.4099381971283" y="178.2147024669458">program.GameTest</node>
+    <node x="950.8169499080078" y="298.01607410911146">program.SquareBoardTest</node>
+    <node x="0.0" y="367.1093262766709">gui.settingsMenuGUI</node>
+    <node x="751.195268552943" y="295.2381354550764">program.SquareBoard</node>
+    <node x="643.8328941041106" y="410.4626141003146">program.Figure</node>
+    <node x="84.24474807948333" y="228.57529064763216">gui.MusicGUI</node>
+    <node x="256.3261487183249" y="449.40896033614604">gui.PlayMenu</node>
+    <node x="325.75736330928953" y="0.0">program.MusicPlayedTest</node>
+    <node x="363.6522222222223" y="260.0476996630228">program.Configuration</node>
+    <node x="407.7633333333334" y="391.1588107741339">program.GameMode</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="program.MusicPlayedTest" target="program.MusicPlayed">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="gui.settingsMenuGUI" target="gui.MusicGUI">
+      <point x="-5.511490976130602" y="0.0" />
+      <point x="-5.511490976130645" y="0.0" />
+    </edge>
+    <edge source="program.Tetris" target="gui.MainMenu">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="gui.MusicGUI" target="program.MusicPlayed">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="gui.MainMenu" target="gui.PlayMenu">
+      <point x="-1.1207011104550801" y="-4.358213971459492" />
+      <point x="-1.1207011104550872" y="-4.358213971459492" />
+    </edge>
+    <edge source="gui.PlayMenu" target="gui.MainMenu">
+      <point x="0.0" y="4.6463987616511275" />
+      <point x="0.0" y="4.646398761651113" />
+    </edge>
+    <edge source="gui.MainMenu" target="gui.settingsMenuGUI">
+      <point x="-3.747462830114401" y="3.3100637965016517" />
+      <point x="-3.747462830114415" y="3.310063796501659" />
+    </edge>
+    <edge source="gui.PlayMenu" target="program.Tetris">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="program.SquareBoardTest" target="program.SquareBoard">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="gui.MainMenu" target="program.MusicPlayed">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="program.Tetris" target="program.MusicPlayed">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="program.Figure" target="program.SquareBoard">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="program.Tetris" target="program.Game">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="program.Start" target="gui.MainMenu">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="program.GameTest" target="program.Game">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="gui.settingsMenuGUI" target="gui.MainMenu">
+      <point x="6.671180244698206" y="0.0" />
+      <point x="6.671180244698206" y="0.0" />
+    </edge>
+    <edge source="gui.MusicGUI" target="gui.settingsMenuGUI">
+      <point x="4.535977670701257" y="2.1035461893905847" />
+      <point x="4.535977670701243" y="2.103546189390581" />
+    </edge>
+    <edge source="program.Game" target="program.Figure">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="program.GameTest" target="program.SquareBoard">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="program.Game" target="program.SquareBoard">
+      <point x="-0.22106222183185764" y="-4.494566886150295" />
+      <point x="-0.22106222183185764" y="-4.494566886150295" />
+    </edge>
+    <edge source="program.GameModeTest" target="program.GameMode">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="486.0" y="463.1111111111111" />
+  <SelectedNodes>
+    <node>program.Configuration</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

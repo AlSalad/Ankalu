@@ -3,10 +3,10 @@ package gui;
 import program.MusicPlayed;
 
 import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
 
 import java.awt.*;
 import java.awt.event.*;
-
 
 public class MusicGUI {
 
@@ -39,18 +39,15 @@ public class MusicGUI {
         musicList.setSelectionBackground(Color.decode("#119933"));
         musicList.setBorder(BorderFactory.createLineBorder(Color.black));
 
-
-
         backToSettings.addActionListener((ActionEvent e) -> {
             try {
                 frame.dispose();
                 new settingsMenuGUI();
-
             }
             catch (Exception ignored){}
         });
 
-        musicList.addListSelectionListener(event -> {
+        musicList.addListSelectionListener((ListSelectionEvent event) -> {
             if (event.getValueIsAdjusting()) {return;}
             JList source = (JList)event.getSource();
             MusicPlayed mp = new MusicPlayed();
@@ -64,7 +61,7 @@ public class MusicGUI {
                     mp.setMusic("src//main//resources//Music//Hannes.wav");
                 }
                 if("Ok".equals(selected)){
-                    mp.setMusic("src//main//resources//Music//WithoutMe.wav");
+                    mp.setMusic("src//main//resources//Music//sonic.wav");
                 }
             });
         });
