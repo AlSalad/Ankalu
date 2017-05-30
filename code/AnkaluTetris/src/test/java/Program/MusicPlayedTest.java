@@ -1,9 +1,10 @@
-package Program;
+package program;
 
 import org.junit.Test;
 
 import java.lang.reflect.Field;
 
+import static javax.swing.text.html.HTML.Tag.HEAD;
 import static org.junit.Assert.*;
 
 /**
@@ -13,7 +14,7 @@ public class MusicPlayedTest {
     @Test
     public void setMusic() throws Exception {
         final MusicPlayed mp = new MusicPlayed();
-        MusicPlayed.SetMusic("music");
+        mp.setMusic("music");
 
         final Field field = mp.getClass().getDeclaredField("musicPath");
         field.setAccessible(true);
@@ -27,18 +28,11 @@ public class MusicPlayedTest {
         field.setAccessible(true);
         field.set(mp, "music");
         //when
-        final String result = MusicPlayed.GetMusic();
+        final String result = mp.getMusic();
         //then
         assertEquals("field wasn't retrieved properly", result, "music");
     }
 
-    @Test
-    public void playSound() throws Exception {
 
-    }
-
-    @Test
-    public void stopSound() throws Exception {
-    }
 
 }

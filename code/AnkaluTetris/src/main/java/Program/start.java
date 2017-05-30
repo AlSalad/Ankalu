@@ -1,11 +1,12 @@
-package Program;
+package program;
 
-import GUI.MainMenu;
+import gui.MainMenu;
 
 import java.io.IOException;
 
-public class start {
-    public static void main(String args[]) throws IOException {
+
+public class Start {
+    public static void main(String[] args) throws IOException {
         new MainMenu();
     }
 }

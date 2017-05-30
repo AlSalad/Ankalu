@@ -1,4 +1,4 @@
-package Program;
+package program;
 
 import javax.sound.sampled.*;
 import java.io.File;
@@ -21,11 +21,11 @@ public class MusicPlayed {
         }
     }
 
-    public static void SetMusic(String newMusicPath){
-            musicPath = newMusicPath;
+    public void setMusic(String musicPath){
+        this.musicPath = musicPath;
     }
 
-    public static String GetMusic(){
+    public String getMusic(){
         return musicPath;
     }
 

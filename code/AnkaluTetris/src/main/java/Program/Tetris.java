@@ -1,25 +1,16 @@
-package Program;
+package program;
 
-import GUI.MainMenu;
+import gui.MainMenu;
 
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
-import java.io.*;
 import java.util.Hashtable;
-import java.util.Timer;
-import java.util.TimerTask;
 
-import javax.sound.sampled.AudioInputStream;
-import javax.sound.sampled.AudioSystem;
-import javax.sound.sampled.Clip;
 import javax.swing.*;
 
 
@@ -203,7 +194,7 @@ class SquareBoard {
      * @return true if the square is emtpy, or
      *         false otherwise
      */
-    boolean isSquareEmpty(int x, int y) {
+   public boolean isSquareEmpty(int x, int y) {
         if (x < 0 || x >= width || y < 0 || y >= height) {
             return x >= 0 && x < width && y < 0;
         } else {
@@ -221,7 +212,7 @@ class SquareBoard {
      * @return true if the whole line is empty, or
      *         false otherwise
      */
-    public boolean isLineEmpty(int y) {
+    /*public boolean isLineEmpty(int y) {
         if (y < 0 || y >= height) {
             return false;
         }
@@ -231,7 +222,7 @@ class SquareBoard {
             }
         }
         return true;
-    }
+    }*/
 
     /**
      * Checks if a specified line is full, i.e. only contains no empty
@@ -1080,7 +1071,7 @@ class Game extends Object
     /**
      * Starts the game. (No matter what the current state is)
      **/
-    void start()
+    public void start()
     {
         handleStart();
     }
@@ -1420,6 +1411,7 @@ class Game extends Object
                     } else {
                         previewBoard.clear();
                     }
+                    break;
             }
 
     }
@@ -2266,7 +2258,8 @@ class Figure extends Object {
      * @param color     the color to paint with, or null for clearing
      */
     private void paint(Color color) {
-        int x, y;
+        int x;
+        int y;
 
         for (int i = 0; i < shapeX.length; i++) {
             x = xPos + getRelativeX(i, orientation);
