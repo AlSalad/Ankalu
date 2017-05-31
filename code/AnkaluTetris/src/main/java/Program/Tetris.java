@@ -1372,6 +1372,8 @@ class Game
                     case KeyEvent.VK_RIGHT:
                         figure.moveRight();
                         break;
+                        default:
+                            break;
                 }
                 break;
         }
