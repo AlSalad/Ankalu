@@ -1,5 +1,10 @@
 language: java
 
+
+
+mvn test -B
+mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+
 jdk: oraclejdk8
 
 service_name: travis-pro
