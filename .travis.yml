@@ -2,5 +2,6 @@ language: java
 
 jdk: oraclejdk8
 
-
+service_name: travis-pro
+repo_token: pjZcjeYxITlJgnT10BuZjGSgDLdF4GP4q
 
