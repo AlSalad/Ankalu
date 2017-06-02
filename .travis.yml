@@ -4,8 +4,7 @@ jdk:
   - oraclejdk8
   - openjdk7
 
-before_install:
-  - cd java
+
 
 service_name: travis-pro
 repo_token: pjZcjeYxITlJgnT10BuZjGSgDLdF4GP4q
