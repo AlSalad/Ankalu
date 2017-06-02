@@ -1,9 +1,9 @@
 language: java
+install: ant deps
 
 
+ant test
 
-mvn test -B
-mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 
 jdk: oraclejdk8
 
