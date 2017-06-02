@@ -5,7 +5,8 @@ jdk:
   - openjdk7
 
 
+before_script: cd code/AnkaluTetris/
 
-service_name: travis-pro
-repo_token: pjZcjeYxITlJgnT10BuZjGSgDLdF4GP4q
+#service_name: travis-pro
+#repo_token: pjZcjeYxITlJgnT10BuZjGSgDLdF4GP4q
 
