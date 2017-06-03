@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <project>
-<target name="test">
-    </target>
+   <target name="test">
+      <java fork="true" failonerror="yes" classname="GameModeTest">
+      </java>
+   </target>
 </project>
+
