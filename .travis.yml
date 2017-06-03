@@ -3,7 +3,7 @@ language: java
 jdk:
   - oraclejdk8
   
-  before_installation: cd Ankalu/code
+before_installation: cd code/AnkaluTetris/
 
 
 
