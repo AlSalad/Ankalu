@@ -1,4 +1,4 @@
-package gui;
+package GUI;
 
 import javax.swing.*;
 import java.awt.*;
@@ -31,7 +31,7 @@ public class SettingsMenuGUI extends JFrame{
         backToMain.setText("");
         backToMain.setBackground(Color.black);
         backToMain.setBorder(BorderFactory.createLineBorder(Color.black));
-        JFrame frame = new JFrame("settingsMenuGUI");
+        JFrame frame = new JFrame("SettingsMenuGUI");
         frame.setContentPane(panelSettings);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setSize(new Dimension(600, 800));

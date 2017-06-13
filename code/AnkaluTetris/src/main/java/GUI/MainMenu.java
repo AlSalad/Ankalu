@@ -1,6 +1,6 @@
-package gui;
+package GUI;
 
-import program.MusicPlayed;
+import Program.MusicPlayed;
 
 import javax.swing.*;
 import java.awt.*;

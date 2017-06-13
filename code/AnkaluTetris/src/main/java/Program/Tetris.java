@@ -1,6 +1,6 @@
-package program;
+package Program;
 
-import gui.MainMenu;
+import GUI.MainMenu;
 
 import java.awt.*;
 import java.awt.event.KeyAdapter;

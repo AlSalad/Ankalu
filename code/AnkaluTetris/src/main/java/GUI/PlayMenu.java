@@ -1,7 +1,7 @@
-package gui;
+package GUI;
 
-import program.GameMode;
-import program.Tetris;
+import Program.GameMode;
+import Program.Tetris;
 
 import javax.swing.*;
 import java.awt.*;
