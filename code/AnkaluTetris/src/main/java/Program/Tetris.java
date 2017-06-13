@@ -1530,7 +1530,7 @@ class Game
     }
 }
 /**
- * a program configuration. this class provides static methods for
+ * a Program configuration. this class provides static methods for
  * simplifying the reading of configuration parameters. it also
  * provides some methods for transforming string values into more
  * useful objects.

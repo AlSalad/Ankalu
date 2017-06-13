@@ -1,7 +1,6 @@
-package program;
+package Program;
 
 import org.junit.Test;
-import program.MusicPlayed;
 
 import java.lang.reflect.Field;
 
