@@ -15,7 +15,7 @@ public class Highscore {
     private JTextField NameField;
     private JLabel ScoreLabel;
     private JPanel panel;
-    ArrayList<Score> highscoreList = new ArrayList<>();
+    private ArrayList<Score> highscoreList = new ArrayList<>();
 
     public Highscore(int nScore) {
         score = nScore;
@@ -24,7 +24,7 @@ public class Highscore {
         Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
         ScoreDialog.setLocation(dim.width/2-ScoreDialog.getSize().width/2, dim.height/2-ScoreDialog.getSize().height/2);
         ScoreDialog.setContentPane(panel);
-        ScoreLabel.setText("Your achieved a score of " + score);
+        ScoreLabel.setText("You achieved a score of " + score);
         ScoreDialog.setVisible(true);
 
         okBtn.addActionListener(e -> {
@@ -40,6 +40,8 @@ public class Highscore {
             catch (Exception ignored){}
         });
     }
+
+    public Highscore(){}
 
     private void WriteInHighscore() throws IOException {
         PrintWriter writer = new PrintWriter("src//main//resources//Highscore.txt");
@@ -86,6 +88,11 @@ public class Highscore {
             }
             line++;
         }
+    }
+
+    public ArrayList<Score> getHighscoreList(){
+        ReadHighscore();
+        return highscoreList;
     }
 }
 
