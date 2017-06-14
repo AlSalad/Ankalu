@@ -2,8 +2,6 @@ package Program;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.io.*;
 import java.util.ArrayList;
 
@@ -31,8 +29,12 @@ public class Highscore {
 
         okBtn.addActionListener(e -> {
             try {
-                ReadLastHighscore();
+                ReadHighscore();
+                WriteScore();
+                sortList();
+                deleteLastLine();
                 WriteInHighscore();
+
                 ScoreDialog.dispose();
             }
             catch (Exception ignored){}
@@ -40,20 +42,30 @@ public class Highscore {
     }
 
     private void WriteInHighscore() throws IOException {
-        name = NameField.getText();
-        if(name.isEmpty()) return;
+        PrintWriter writer = new PrintWriter("src//main//resources//Highscore.txt");
+        writer.print("");
+        writer.close();
 
         Writer output = new BufferedWriter(new FileWriter("src//main//resources//Highscore.txt", true));
-        output.append("\n").append(name).append(":").append(String.valueOf(score));
+        for (Score item : highscoreList){
+            output.append(item.getName()).append(":").append(Integer.toString(item.getPoints())).append("\n");
+        }
         output.close();
     }
 
-    private void ReadLastHighscore(){
+    private void WriteScore(){
+        name = NameField.getText();
+        if(name.isEmpty()) return;
+
+        highscoreList.add(new Score(name, score));
+    }
+
+    private void ReadHighscore(){
         try (BufferedReader in = new BufferedReader(new FileReader("src//main//resources//Highscore.txt"))) {
             String line;
             while ((line = in.readLine()) != null) {
                 String[] value = line.split(":");
-                highscoreList.add(new Score(value[0], value[1]));
+                highscoreList.add(new Score(value[0], Integer.parseInt(value[1])));
             }
             in.close();
         } catch (IOException e) {
@@ -61,9 +73,21 @@ public class Highscore {
         }
     }
 
-    void sortList(){
+    private void sortList(){
         highscoreList.sort((h1, h2) -> h2.getPoints() - h1.getPoints());
     }
+
+    private void deleteLastLine(){
+        int line = 0;
+        for (Score item : highscoreList){
+            if (line > 10){
+                highscoreList.remove(item);
+            }
+            line++;
+        }
+    }
+
+
 }
 
 /*public class Highscore extends JFrame {

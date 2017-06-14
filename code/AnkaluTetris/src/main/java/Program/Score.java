@@ -8,9 +8,9 @@ public class Score {
     private String name;
     private int points;
 
-    public Score(String nName, String nPoints ){
+    public Score(String nName, int nPoints ){
         name = nName;
-        points = Integer.parseInt(nPoints);
+        points = nPoints;
     }
 
     int getPoints(){
