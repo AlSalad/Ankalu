@@ -92,16 +92,17 @@ tbd = to be determined
 
 [https://github.com/AlSalad/Ankalu/blob/master/documents/Software%20Architecture%20Dokument/MVP.png](https://github.com/AlSalad/Ankalu/blob/master/documents/Software%20Architecture%20Dokument/MVP.png)
 ![https://github.com/AlSalad/Ankalu/blob/master/documents/Software%20Architecture%20Dokument/MVP.png](https://github.com/AlSalad/Ankalu/blob/master/documents/Software%20Architecture%20Dokument/MVP.png)
+Es werden Jawa Spring Elemente benutzt.
 
 ###  3. Achitectural Goals and Constraints  ###
 
-Wir wenden die klassischen MVC (bzw. MVP) Prinzipien an. Wir benutzen kein spezielles Tool dafür, da wir mit Android Studio arbeiten und das dort schon vorhanden ist.  
-Wie in der Grafik in Punkt 2 zu sehen ist wird unsere View vom Model isoliert und weiß sozusagen nichts. Jegliche Änderungen werden über den Presenter vorgenommen und an die View weitergeleitet.
+Die herausstechenste Eigenschaft des MVP Models ist, dass die View gänzlich isoliert vom Model arbeitet. Somit werden alle Informationen und Aktionen über einen Presenter zwischen den beiden Elementen weitergeleitet.
 
 ###  4. Use-Case View  ###
 
 Overall-Use-Case-Diagram:<br>
 [https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Use%20Case%20Diagrams/Overall%20Use%20Case%20Diagram.png](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Use%20Case%20Diagrams/Overall%20Use%20Case%20Diagram.png)
+![https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Use%20Case%20Diagrams/Overall%20Use%20Case%20Diagram.png](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Use%20Case%20Diagrams/Overall%20Use%20Case%20Diagram.png)
 
 ####  4.1 Use-Case Realizations  ####
 
