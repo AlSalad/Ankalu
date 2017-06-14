@@ -5,7 +5,7 @@ jdk:
   
 before_installation: cd code/AnkaluTetris/
 
-after_success: .coveralls.yml
+after_success: coveralls
 
 #service_name: travis-pro
 #repo_token: pjZcjeYxITlJgnT10BuZjGSgDLdF4GP4q
