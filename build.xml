@@ -9,7 +9,7 @@
       <pathelement path="${java.class.path}"/>
     </classpath>
 
-    <test name="com.jenkov.test.MyUnitTest"
+    <test name="GameModeTest.java"
              haltonfailure="no" outfile="result">
 
       <formatter type="plain"/>
