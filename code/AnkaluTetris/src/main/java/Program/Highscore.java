@@ -80,76 +80,12 @@ public class Highscore {
     private void deleteLastLine(){
         int line = 0;
         for (Score item : highscoreList){
-            if (line > 10){
+            if (line > 9){
                 highscoreList.remove(item);
+                return;
             }
             line++;
         }
     }
-
-
 }
 
-/*public class Highscore extends JFrame {
-
-    private JTextField NameField;
-    ArrayList<Score> highscoreList = new ArrayList<>();
-
-    public Highscore(int newScore){
-        score = newScore;
-
-        JFrame ScoreDialog = new JFrame("Score");
-        ScoreDialog.setSize(new Dimension(200, 300));
-        Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
-        ScoreDialog.setLocation(dim.width/2-ScoreDialog.getSize().width/2, dim.height/2-ScoreDialog.getSize().height/2);
-
-        JPanel p1 = new JPanel();
-
-        JLabel Message = new JLabel("Your score is " + score);
-
-        Message.setSize(new Dimension(200, 200));
-        NameField = new JTextField("");
-
-        JButton okBtn = new JButton("OK");
-
-        ScoreDialog.add(p1);
-
-        p1.add(Message);
-        ScoreDialog.add(Message);
-        ScoreDialog.add(okBtn);
-        ScoreDialog.setVisible(true);
-
-        okBtn.addActionListener((ActionEvent e) -> {
-
-        });
-    }
-
-    public Highscore(){}
-
-    private void WriteInHighscore() throws IOException {
-        name = NameField.getText();
-        if(name.isEmpty()) return;
-
-        Writer output = new BufferedWriter(new FileWriter("src//main//resources//Highscore.txt", true));
-        output.append(name + ":" + score);
-        output.close();
-    }
-
-    void ReadLastHighscore(){
-        try (BufferedReader in = new BufferedReader(new FileReader("src//main//resources//Highscore.txt"))) {
-            String line;
-            while ((line = in.readLine()) != null) {
-                String[] value = line.split(":");
-                highscoreList.add(new Score(value[0], value[1]));
-            }
-            in.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-
-}
-
-
- */
