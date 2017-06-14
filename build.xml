@@ -5,8 +5,8 @@
 
     <classpath>
       <pathelement location="${project.class.path}"/>
-      <pathelement location="${build.tests}"/>
-      <pathelement path="${java.class.path}"/>
+      <pathelement location="code/AnkaluTetris/src/test/Program/"/>
+      <pathelement path="code/AnkaluTetris/src/test/Program/"/>
     </classpath>
 
     <test name="GameModeTest.java"
