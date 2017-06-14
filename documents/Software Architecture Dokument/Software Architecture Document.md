@@ -28,8 +28,10 @@
 <li> Introduction
 <ol type = i>
 <li>Purpose</li>
+<li>Scope</li>
 <li>Definitions, Acronyms and Abbreviations</li>
 <li>References</li>
+<li>overview</li>
 </ol>
 <li>Architectural Represenation</li>
 <li>Architectural Goals and Constraints</li>
@@ -41,6 +43,22 @@
 <li>Process View</li>
 <li>Deployment View</li>
 <li>Implementation View</li>
+<li>Use-Case View
+<ol type = i>
+<li>Use-Case Realizations</li>
+</ol>
+<li>Logical View
+<ol type = i>
+<li>Overview</li>
+<li>Architecturally Significant Design Packages</li>
+</ol>
+<li>Process View</li>
+<li>Deployment View</li>
+<li>Implementation View</li>
+<ol type = i>
+<li>Overview</li>
+<li>Layers</li>
+</ol>
 <li>Data View</li>
 <li>Size and Performance</li>
 <li>Quality</li>
@@ -53,19 +71,22 @@
 
 Dieses Dokument soll eine Übersicht über die Java Awendung "Ankalu Tetris" aus diversen architektonischen Sichtweisen geben.
 
-####  1.2 Definitions, Acronyms, and Abbreviations  ####  
+####  1.2 Scope  #### 
+
+####  1.3 Definitions, Acronyms, and Abbreviations  ####  
 
 AnKaLi = Andre, Katharina, Luka
 n/a = not applicable  
 tbd = to be determined
 
-####  1.3 References  ####  
+####  1.4 References  ####  
 
 <table>
 <tr><td>File</td><td>Link</td></tr>
 <tr><td>SRS</td><td><a href = "https://github.com/AlSalad/Ankalu/blob/master/documents/SRS/Software%20Requirement%20Specification.md">https://github.com/AlSalad/Ankalu/blob/master/documents/SRS/Software%20Requirement%20Specification.md</a></td></tr>
 </table>
 
+####  1.5 Overview  #### 
 
 ###  2. Architectural Representation  ###
 
@@ -81,9 +102,13 @@ Wie in der Grafik in Punkt 2 zu sehen ist wird unsere View vom Model isoliert un
 Overall-Use-Case-Diagram:<br>
 [https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Use%20Case%20Diagrams/Overall%20Use%20Case%20Diagram.png](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Use%20Case%20Diagrams/Overall%20Use%20Case%20Diagram.png)
 
+####  4.1 Use-Case Realizations  ####
+
 ###  5. Logical View  ###
 
-####  5.1 Architecturally Significant Design Packages  ####
+####  5.1 Overview ####
+
+####  5.2 Architecturally Significant Design Packages  ####
 
 
 
@@ -97,10 +122,11 @@ tbd
 
 ###  8. Implementation View  ###
 
-tbd
+####  8.1 Overview  ####
+
+####  8.2 Layers #### 
 
 ###  9. Data View  ###
-
 
 
 ###  10. Size and Performance  ##
