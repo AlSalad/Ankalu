@@ -51,20 +51,20 @@
 
 ####  1.1 Purpose  ####
 
-Dieses Dokument soll eine Übersicht über die Smartphone-App “MuM’s Fit” aus diversen architektonischen Sichtweisen geben.
+Dieses Dokument soll eine Übersicht über die Java Awendung "Ankalu Tetris" aus diversen architektonischen Sichtweisen geben.
 
 ####  1.2 Definitions, Acronyms, and Abbreviations  ####  
 
-MuM = Max und Moritz  
+AnKaLi = Andre, Katharina, Luka
 n/a = not applicable  
 tbd = to be determined
 
 ####  1.3 References  ####  
 
-| File       | Link                                                                                                 |
-|------------|------------------------------------------------------------------------------------------------------|
-| SRS        | https://github.com/MH0896/MuM-s-Fit/blob/master/Documents/Software%20Requirements%20Specification.md |
-| Grafik MVP | http://www.techyourchance.com/mvp-mvc-android-1/                                                     |
+<table>
+<tr><td>File</td><td>Link</td></tr>
+<tr><td>SRS</td><td>[https://github.com/AlSalad/Ankalu/blob/master/documents/SRS/Software%20Requirement%20Specification.md](https://github.com/AlSalad/Ankalu/blob/master/documents/SRS/Software%20Requirement%20Specification.md)</td></tr>
+
 
 ###  2. Architectural Representation  ###
 
