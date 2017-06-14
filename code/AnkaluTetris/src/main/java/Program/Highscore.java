@@ -15,7 +15,7 @@ public class Highscore {
     private JTextField NameField;
     private JLabel ScoreLabel;
     private JPanel panel;
-    ArrayList<Score> highscoreList = new ArrayList<>();
+    private ArrayList<Score> highscoreList = new ArrayList<>();
 
     public Highscore(int nScore) {
         score = nScore;
@@ -24,7 +24,7 @@ public class Highscore {
         Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
         ScoreDialog.setLocation(dim.width/2-ScoreDialog.getSize().width/2, dim.height/2-ScoreDialog.getSize().height/2);
         ScoreDialog.setContentPane(panel);
-        ScoreLabel.setText("Your achieved a score of " + score);
+        ScoreLabel.setText("You achieved a score of " + score);
         ScoreDialog.setVisible(true);
 
         okBtn.addActionListener(e -> {
@@ -41,16 +41,22 @@ public class Highscore {
         });
     }
 
+    public Highscore(){}
+
     private void WriteInHighscore() throws IOException {
-        PrintWriter writer = new PrintWriter("src//main//resources//Highscore.txt");
-        writer.print("");
-        writer.close();
+        ResetHighscore();
 
         Writer output = new BufferedWriter(new FileWriter("src//main//resources//Highscore.txt", true));
         for (Score item : highscoreList){
             output.append(item.getName()).append(":").append(Integer.toString(item.getPoints())).append("\n");
         }
         output.close();
+    }
+
+    public void ResetHighscore() throws FileNotFoundException {
+        PrintWriter writer = new PrintWriter("src//main//resources//Highscore.txt");
+        writer.print("");
+        writer.close();
     }
 
     private void WriteScore(){
@@ -86,6 +92,11 @@ public class Highscore {
             }
             line++;
         }
+    }
+
+    public ArrayList<Score> getHighscoreList(){
+        ReadHighscore();
+        return highscoreList;
     }
 }
 

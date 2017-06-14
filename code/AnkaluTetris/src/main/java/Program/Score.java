@@ -13,11 +13,11 @@ public class Score {
         points = nPoints;
     }
 
-    int getPoints(){
+    public int getPoints(){
         return points;
     }
 
-    String getName(){
+    public String getName(){
         return name;
     }
 }
