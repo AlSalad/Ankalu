@@ -91,7 +91,7 @@ tbd = to be determined
 ###  2. Architectural Representation  ###
 
 [https://github.com/AlSalad/Ankalu/blob/master/documents/Software%20Architecture%20Dokument/MVP.png](https://github.com/AlSalad/Ankalu/blob/master/documents/Software%20Architecture%20Dokument/MVP.png)
-![https://github.com/AlSalad/Ankalu/blob/master/documents/Software%20Architecture%20Dokument/MVP.png](https://github.com/AlSalad/Ankalu/blob/master/documents/Software%20Architecture%20Dokument/MVP.png)
+![https://github.com/AlSalad/Ankalu/blob/master/documents/Software%20Architecture%20Dokument/MVP.png](https://github.com/AlSalad/Ankalu/blob/master/documents/Software%20Architecture%20Dokument/MVP.png) <br>
 Es werden Jawa Spring Elemente benutzt.
 
 ###  3. Achitectural Goals and Constraints  ###
@@ -102,6 +102,7 @@ Die herausstechenste Eigenschaft des MVP Models ist, dass die View gänzlich iso
 
 Overall-Use-Case-Diagram:<br>
 [https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Use%20Case%20Diagrams/Overall%20Use%20Case%20Diagram.png](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Use%20Case%20Diagrams/Overall%20Use%20Case%20Diagram.png)
+
 ![https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Use%20Case%20Diagrams/Overall%20Use%20Case%20Diagram.png](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Use%20Case%20Diagrams/Overall%20Use%20Case%20Diagram.png)
 
 ####  4.1 Use-Case Realizations  ####
