@@ -14,7 +14,21 @@
    
 
   <target name="test">
-   
+   <junit printsummary="yes" haltonfailure="no">
+
+	<!-- Project classpath, must include junit.jar -->
+	<classpath refid="code/AnkaluTetris/src/test/Program" />
+
+	<!-- test class -->
+	<classpath location="${test.src.dir}" />
+
+	<test name="com.mkyong.test.TestMessage"
+		haltonfailure="no" todir="${test.src.dir}">
+		<formatter type="plain" />
+		<formatter type="xml" />
+	</test>
+
+  </junit>
   </target>
 </project>
 
