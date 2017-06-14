@@ -63,7 +63,8 @@ tbd = to be determined
 
 <table>
 <tr><td>File</td><td>Link</td></tr>
-<tr><td>SRS</td><td>[https://github.com/AlSalad/Ankalu/blob/master/documents/SRS/Software%20Requirement%20Specification.md](https://github.com/AlSalad/Ankalu/blob/master/documents/SRS/Software%20Requirement%20Specification.md)</td></tr>
+<tr><td>SRS</td><td><a href = "https://github.com/AlSalad/Ankalu/blob/master/documents/SRS/Software%20Requirement%20Specification.md">https://github.com/AlSalad/Ankalu/blob/master/documents/SRS/Software%20Requirement%20Specification.md</a></td></tr>
+</table>
 
 
 ###  2. Architectural Representation  ###
