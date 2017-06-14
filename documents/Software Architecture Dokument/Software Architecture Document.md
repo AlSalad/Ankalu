@@ -71,7 +71,6 @@
 
 Dieses Dokument soll eine Übersicht über die Java Awendung "Ankalu Tetris" aus diversen architektonischen Sichtweisen geben.
 
-####  1.2 Scope  #### 
 
 ####  1.3 Definitions, Acronyms, and Abbreviations  ####  
 
@@ -87,6 +86,8 @@ tbd = to be determined
 </table>
 
 ####  1.5 Overview  #### 
+
+Dieses Dokument beschreibt die architektonische Zusammensetzung der Anwendung und dient zum Verständnis dieser. 
 
 ###  2. Architectural Representation  ###
 
