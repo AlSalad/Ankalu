@@ -69,8 +69,7 @@ tbd = to be determined
 
 ###  2. Architectural Representation  ###
 
-<a href="http://www.techyourchance.com/mvp-mvc-android-1/">http://www.techyourchance.com/mvp-mvc-android-1/</a><br>
-![MVP Architecture](https://github.com/MH0896/MuM-s-Fit/blob/master/Architecture/MVP_WebGrafik.png "MVP Architecture")
+
 
 ###  3. Achitectural Goals and Constraints  ###
 
@@ -80,14 +79,13 @@ Wie in der Grafik in Punkt 2 zu sehen ist wird unsere View vom Model isoliert un
 ###  4. Use-Case View  ###
 
 Overall-Use-Case-Diagram:<br>
-<a href="https://github.com/MH0896/MuM-s-Fit/blob/master/Usecases/UCDs/Overall_UCD.png">https://github.com/MH0896/MuM-s-Fit/blob/master/Usecases/UCDs/Overall_UCD.png</a>
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Use%20Case%20Diagrams/Overall%20Use%20Case%20Diagram.png](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Use%20Case%20Diagrams/Overall%20Use%20Case%20Diagram.png)
 
 ###  5. Logical View  ###
 
 ####  5.1 Architecturally Significant Design Packages  ####
 
-<a href="https://github.com/MH0896/MuM-s-Fit/blob/master/Architecture/MVP-Architecture.png">https://github.com/MH0896/MuM-s-Fit/blob/master/Architecture/MVP-Architecture.png</a><br>
-![MVP Architecture](https://github.com/MH0896/MuM-s-Fit/blob/master/Architecture/MVP-Architecture.png "MVP Architecture")
+
 
 ###  6. Process View  ###
 
@@ -95,8 +93,7 @@ tbd
 
 ###  7. Deployment View  ###
 
-<a href="https://github.com/MH0896/MuM-s-Fit/blob/master/Architecture/DeploymentView.png">https://github.com/MH0896/MuM-s-Fit/blob/master/Architecture/DeploymentView.png</a><br>
-![Deployment View](https://github.com/MH0896/MuM-s-Fit/blob/master/Architecture/DeploymentView.png "Deployment View")
+
 
 ###  8. Implementation View  ###
 
@@ -104,8 +101,7 @@ tbd
 
 ###  9. Data View  ###
 
-<a href="https://github.com/MH0896/MuM-s-Fit/blob/master/Architecture/db-schema.PNG">https://github.com/MH0896/MuM-s-Fit/blob/master/Architecture/db-schema.PNG</a><br>
-![Data View](https://github.com/MH0896/MuM-s-Fit/blob/master/Architecture/db-schema.PNG "Data View")
+
 
 ###  10. Size and Performance  ##
 
