@@ -5,6 +5,9 @@ import Program.Score;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
 /**
@@ -15,9 +18,7 @@ public class HighscoreView {
     private JPanel panel;
     private JButton backToMenu;
     private JButton button_Reset;
-    private DefaultListModel listModel;
-    private JList list;
-    private ArrayList<Score> highscoreListClass = new ArrayList<>();
+    private JList<String> list;
 
     HighscoreView(){
         JFrame frame = new JFrame("HighscoreView");
@@ -30,12 +31,14 @@ public class HighscoreView {
         frame.setBackground(Color.black);
         panel.setBackground(Color.black);
 
-        listModel = new DefaultListModel();
-        list = new JList(listModel);
-
+        DefaultListModel<String> listModel = new DefaultListModel<String>();
         Highscore hs = new Highscore();
-        highscoreListClass = hs.getHighscoreList();
-        LoadList();
+        ArrayList<Score> highscoreListClass = hs.getHighscoreList();
+        for (Score item : highscoreListClass) {
+            String entry = item.getName() + ": " + Integer.toString(item.getPoints());
+            listModel.addElement(entry);
+        }
+        list.setModel(listModel);
 
         backToMenu.setIcon(new ImageIcon("src//main//resources//Pictures//backbtn.jpg"));
         backToMenu.setText("");
@@ -45,12 +48,17 @@ public class HighscoreView {
             new MainMenu();
             frame.dispose();
         });
+        button_Reset.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                listModel.removeAllElements();
+                try {
+                    hs.ResetHighscore();
+                } catch (FileNotFoundException e1) {
+                    e1.printStackTrace();
+                }
+            }
+        });
     }
 
-    private void LoadList(){
-        for (Score item : highscoreListClass) {
-            String entry = item.getName() + ": " + Integer.toString(item.getPoints());
-            listModel.addElement(entry);
-        }
-    }
 }

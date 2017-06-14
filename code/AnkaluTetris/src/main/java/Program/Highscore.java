@@ -44,15 +44,19 @@ public class Highscore {
     public Highscore(){}
 
     private void WriteInHighscore() throws IOException {
-        PrintWriter writer = new PrintWriter("src//main//resources//Highscore.txt");
-        writer.print("");
-        writer.close();
+        ResetHighscore();
 
         Writer output = new BufferedWriter(new FileWriter("src//main//resources//Highscore.txt", true));
         for (Score item : highscoreList){
             output.append(item.getName()).append(":").append(Integer.toString(item.getPoints())).append("\n");
         }
         output.close();
+    }
+
+    public void ResetHighscore() throws FileNotFoundException {
+        PrintWriter writer = new PrintWriter("src//main//resources//Highscore.txt");
+        writer.print("");
+        writer.close();
     }
 
     private void WriteScore(){
