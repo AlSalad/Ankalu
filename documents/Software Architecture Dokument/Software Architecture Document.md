@@ -100,41 +100,49 @@ Die herausstechenste Eigenschaft des MVP Models ist, dass die View gänzlich iso
 
 ###  4. Use-Case View  ###
 
+####  4.1 Use-Case Realizations  ####
+
 Overall-Use-Case-Diagram:<br>
 [https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Use%20Case%20Diagrams/Overall%20Use%20Case%20Diagram.png](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Use%20Case%20Diagrams/Overall%20Use%20Case%20Diagram.png)
 
 ![https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Use%20Case%20Diagrams/Overall%20Use%20Case%20Diagram.png](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Use%20Case%20Diagrams/Overall%20Use%20Case%20Diagram.png)
 
-####  4.1 Use-Case Realizations  ####
-
 ###  5. Logical View  ###
 
 ####  5.1 Overview ####
 
+n/a
+
 ####  5.2 Architecturally Significant Design Packages  ####
 
-
+n/a
 
 ###  6. Process View  ###
 
-tbd
+n/a
 
 ###  7. Deployment View  ###
 
-
+Es wird für unsere Anwendung kein Server verwendet, es handelt sich um eine lokale Browseranwendung.
 
 ###  8. Implementation View  ###
 
 ####  8.1 Overview  ####
 
+n/a
+
 ####  8.2 Layers #### 
+
+n/a
 
 ###  9. Data View  ###
 
+n/a
 
 ###  10. Size and Performance  ##
 
-tbd
+n/a
 
 ### 11. Quality ###
-tbd
+
+Pattern:
