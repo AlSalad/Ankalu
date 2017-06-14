@@ -8,15 +8,15 @@ import javax.swing.event.ListSelectionEvent;
 import java.awt.*;
 import java.awt.event.*;
 
-public class MusicGUI {
+public class MusicView {
 
     public JPanel musicPanel;
     public JButton selectMusic;
     public JList musicList;
     public JButton backToSettings;
 
-    MusicGUI(){
-        JFrame frame = new JFrame("MusicGUI");
+    MusicView(){
+        JFrame frame = new JFrame("MusicView");
         frame.setContentPane(musicPanel);
         frame.setSize(new Dimension(600, 800));
         Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();

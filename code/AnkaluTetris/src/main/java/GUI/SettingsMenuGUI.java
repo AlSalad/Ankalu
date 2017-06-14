@@ -41,7 +41,7 @@ public class SettingsMenuGUI extends JFrame{
 
         musicBtn.addActionListener(e -> {
             frame.dispose();
-            new MusicGUI();
+            new MusicView();
         });
         backToMain.addActionListener(e -> {
             new MainMenu();
