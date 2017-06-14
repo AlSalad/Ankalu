@@ -11,8 +11,6 @@
     <pathelement location="${main.build.dir}"/>
   </path>
    
-   
-
   <target name="test">
    <junit printsummary="yes" haltonfailure="no">
 
