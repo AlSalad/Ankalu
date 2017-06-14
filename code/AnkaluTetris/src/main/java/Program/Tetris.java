@@ -1,12 +1,11 @@
 package Program;
 
 import GUI.MainMenu;
+import GUI.SettingsMenuGUI;
+import javafx.embed.swing.JFXPanel;
 
 import java.awt.*;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
+import java.awt.event.*;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 import java.util.Hashtable;
@@ -1131,6 +1130,11 @@ class Game
         thread.reset();
     }
 
+    private void setHighscore(){
+        score = getScore();
+        new Highscore(score);
+    }
+
     /**
      * Handles a game over event. This will stop the game thread,
      * reset all figures and print a game over message.
@@ -1153,6 +1157,8 @@ class Game
         // Handle components
         state = STATE_GAMEOVER;
         board.setMessage("Game Over");
+
+        setHighscore();
         PCS.firePropertyChange("state",-1, STATE_GAMEOVER );
     }
 

@@ -1,0 +1,5 @@
+Peter:100
+Si:900
+Arsch:300
+Andre:120
+Fick:110
