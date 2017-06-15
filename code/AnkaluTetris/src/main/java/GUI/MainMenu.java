@@ -4,6 +4,7 @@ import Program.MusicPlayed;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
 
 public class MainMenu extends JFrame{
 
@@ -58,6 +59,11 @@ public class MainMenu extends JFrame{
                 new PlayMenu();
             }
             catch (Exception ignored){}
+        });
+
+        highscoreButton.addActionListener((ActionEvent e) -> {
+            frame.dispose();
+            new HighscoreView();
         });
     }
 
