@@ -19,10 +19,11 @@ public class HighscoreView {
 
     private JPanel panel;
     private JButton backToMenu;
-    private JButton button_Reset;
+    public JButton button_Reset;
     private JList<String> list;
+    public boolean delete = false;
 
-    HighscoreView(){
+    public HighscoreView(){
         JFrame frame = new JFrame("HighscoreView");
         frame.setSize(new Dimension(600, 800));
         Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
@@ -55,6 +56,7 @@ public class HighscoreView {
             public void actionPerformed(ActionEvent e) {
                 listModel.removeAllElements();
                 try {
+                    delete = true;
                     hs.ResetHighscore();
                 } catch (FileNotFoundException e1) {
                     e1.printStackTrace();

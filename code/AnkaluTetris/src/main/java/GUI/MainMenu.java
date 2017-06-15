@@ -62,6 +62,7 @@ public class MainMenu extends JFrame{
         });
 
         highscoreButton.addActionListener((ActionEvent e) -> {
+            rett = "highscore";
             frame.dispose();
             new HighscoreView();
         });
