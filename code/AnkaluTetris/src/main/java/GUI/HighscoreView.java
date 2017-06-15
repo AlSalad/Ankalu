@@ -10,8 +10,8 @@ import java.awt.*;
  */
 public class HighscoreView {
 
-    private JPanel panel;
-    private JList HighscoreList;
+    public JPanel panel;
+    public JList HighscoreList;
 
     HighscoreView(){
         JFrame frame = new JFrame("HighscoreView");

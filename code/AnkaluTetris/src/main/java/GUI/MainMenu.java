@@ -11,6 +11,7 @@ public class MainMenu extends JFrame{
     public JButton playButton;
     public JButton settingsButton;
     public JButton highscoreButton;
+    public String rett;
 
     public MainMenu() {
         JFrame frame = new JFrame("MainMenu");
@@ -44,12 +45,15 @@ public class MainMenu extends JFrame{
         });
 
         settingsButton.addActionListener(e -> {
+           rett = "settings";
             frame.dispose();
             new SettingsMenuGUI();
+
         });
 
         playButton.addActionListener(e -> {
             try {
+                rett = "play";
                 frame.dispose();
                 new PlayMenu();
             }
