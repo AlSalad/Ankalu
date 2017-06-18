@@ -79,17 +79,17 @@ n/a
 
 ####  2.4 Screenshots  ####
 
-[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%201.JPG "Epilepsie-Modus](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%201.JPG "Epilepsie-Modus")
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%201.JPG](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%201.JPG)
 
-![https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%201.JPG "Epilepsie-Moduss](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%201.JPG "Epilepsie-Modus")
+![https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%201.JPG](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%201.JPG)
 
-[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%202.JPG "Epilepsie-Modus1](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%202.JPG "Epilepsie-Modus1")
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%202.JPG](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%202.JPG)
 
-![https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%202.JPG "Epilepsie-Modus1](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%202.JPG "Epilepsie-Modus1")
+![https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%202.JPG](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%202.JPG)
 
-[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%203.JPG "Epilepsie-Modus2](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%203.JPG "Epilepsie-Modus2")
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%203.JPG](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%203.JPG)
 
-![https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%203.JPG "Epilepsie-Modus2](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%203.JPG "Epilepsie-Modus2")
+![https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%203.JPG](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%203.JPG)
 
 ####  2.5 Features  ####
 
