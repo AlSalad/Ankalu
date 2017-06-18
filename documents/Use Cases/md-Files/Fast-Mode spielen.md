@@ -78,6 +78,12 @@ n/a
 
 ####  2.4 Screenshots  ####
 
+![Fast-Mode](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Fast%20Mode%201.JPG "Fast-Mode")
+
+![Fast-Mode1](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Fast%20Mode%202.JPG "Fast-Mode1")
+
+![Fast-Mode2](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Fast%20Mode%203.JPG "Fast-Mode2")
+
 ####  2.5 Features  ####
 
 ###  3. Special Requirements  ###
