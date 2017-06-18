@@ -56,7 +56,7 @@
 
 ####  1.1 Brief Description  ####
 
-Dieser Use-Case ermöglicht es dem User den Epilepsie-Mode im Spiel zu spielen. Dies kann er solange, bis das Spiel "Game over" anzeigt, sobald ein Objekt den oberen Spielfeldrand berührt. Die Steuerung der Blöcke wird mithilfe der Pfeiltasten der Tastatur verwirklicht. Mit der rechten Pfeiltaste bewegt man das Objekt nach links und mit der linken Pfeiltaste nach rechts. Mit der Pfeiltaste nach unten bewegt sich das Objekt schneller zum unteren Spielfeldrand und mit der Pfeiltaste nach oben wird das Objekt gedreht. Zudem bewegen sich die Objekte schneller zum unteren Spielfeldrand und die Hintergrundfarbe ändert sich während des Spiels. </br>
+Dieser Use-Case ermöglicht es dem User den Epilepsie-Mode im Spiel zu spielen. Dies kann er solange, bis das Spiel "Game over" anzeigt, sobald ein Objekt den oberen Spielfeldrand berührt. Die Steuerung der Blöcke wird mithilfe der Pfeiltasten der Tastatur verwirklicht. Mit der rechten Pfeiltaste bewegt man das Objekt nach links und mit der linken Pfeiltaste nach rechts. Mit der Pfeiltaste nach unten bewegt sich das Objekt schneller zum unteren Spielfeldrand und mit der Pfeiltaste nach oben wird das Objekt gedreht. Zudem bewegen sich die Objekte schneller zum unteren Spielfeldrand.</br>
 Link zum SRS: [https://github.com/AlSalad/Ankalu/blob/master/documents/SRS/Software%20Requirement%20Specification.md](https://github.com/AlSalad/Ankalu/blob/master/documents/SRS/Software%20Requirement%20Specification.md)
 
 ###  2. Overall Description  ###
@@ -79,10 +79,13 @@ n/a
 
 ####  2.4 Screenshots  ####
 
+[Epilepsie-Modus](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%201.JPG "Epilepsie-Modus")
 ![Epilepsie-Modus](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%201.JPG "Epilepsie-Modus")
 
+[Epilepsie-Modus1](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%202.JPG "Epilepsie-Modus1")
 ![Epilepsie-Modus1](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%202.JPG "Epilepsie-Modus1")
 
+[Epilepsie-Modus2](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%203.JPG "Epilepsie-Modus2")
 ![Epilepsie-Modus2](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Epilepsie%20Mode%203.JPG "Epilepsie-Modus2")
 
 ####  2.5 Features  ####
