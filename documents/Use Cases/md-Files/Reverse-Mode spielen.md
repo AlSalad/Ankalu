@@ -79,9 +79,15 @@ n/a
 
 ####  2.4 Screenshots  ####
 
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Reverse%20mode%201.JPG](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Reverse%20mode%201.JPG)
+
 ![Reverse-Mode](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Reverse%20mode%201.JPG "Reverse-Mode")
 
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Reverse%20mode%202.JPG](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Reverse%20mode%202.JPG)
+
 ![Reverse-Mode1](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Reverse%20mode%202.JPG "Reverse-Mode1")
+
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Reverse%20mode%203.JPG](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Reverse%20mode%203.JPG)
 
 ![Reverse-Mode2](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Reverse%20mode%203.JPG "Reverse-Mode2")
 
