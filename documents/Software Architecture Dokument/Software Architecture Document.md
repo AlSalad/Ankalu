@@ -93,7 +93,7 @@ Dieses Dokument beschreibt die architektonische Zusammensetzung der Anwendung un
 
 [https://github.com/AlSalad/Ankalu/blob/master/documents/Software%20Architecture%20Dokument/MVP.png](https://github.com/AlSalad/Ankalu/blob/master/documents/Software%20Architecture%20Dokument/MVP.png)
 ![https://github.com/AlSalad/Ankalu/blob/master/documents/Software%20Architecture%20Dokument/MVP.png](https://github.com/AlSalad/Ankalu/blob/master/documents/Software%20Architecture%20Dokument/MVP.png) <br>
-Es werden Jawa Spring Elemente benutzt.
+Es werden Java Spring Elemente benutzt.
 
 ###  3. Achitectural Goals and Constraints  ###
 
@@ -142,8 +142,10 @@ n/a
 
 ###  10. Size and Performance  ##
 
-n/a
+Die Anwendung wird in der Größe nicht verändert, da es keine Datenbank oder sonstigen Informationsspeicher gibt. Jediglich der Highscore speichert maximal zehn Einträge ab, was allerdings zu vernachlässigen ist, da es sich nur um wenige Zeichen handelt. Somit ist die Performance gleichbleibend gut und wird durch häufige Anwendung nicht verschlechtert.
 
 ### 11. Quality ###
 
-Pattern:
+Die Funktionsweise der verschiendenen Spielmodi, sowie des Highscores und der Musik sind bereitgestellt. 
+
+
