@@ -58,9 +58,9 @@ public class MusicView {
                     mp.setMusic("src//main//resources//Music//tetris-gameboy.wav");
                 }
                 if("Tetris-Rap".equals(selected)){
-                    mp.setMusic("src//main//resources//Music//Hannes.wav");
+                    mp.setMusic("src//main//resources//Music//Tetris Rap.wav");
                 }
-                if("Ok".equals(selected)){
+                if("Sonic".equals(selected)){
                     mp.setMusic("src//main//resources//Music//sonic.wav");
                 }
             });

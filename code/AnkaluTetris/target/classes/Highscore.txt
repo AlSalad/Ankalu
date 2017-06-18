@@ -1,3 +1,4 @@
+Peter Maffay:470
 Katha:360
 Katha:320
 Maffay:170
@@ -7,4 +8,3 @@ Katha:150
 asdf:150
 ulf:140
 lololo:140
-sfaf:130

@@ -32,7 +32,7 @@ public class HowToPlay {
                         "   \uF04C\uF04C\uF04C\uF04C\uF04C\uF04C\uF04C\uF04C\uF04C\uF04C\uF04C\uF04C\uF04C\uF04C\uF04C\uF04C\uF04C\uF04C\uF04C\uF04C\uF04C\uF04C\uF04C\uF04C\uF04C");
 
         backToMain.addActionListener(e -> {
-                new MainMenu();
+                new SettingsMenuGUI();
                 frame.dispose();
         });
     }

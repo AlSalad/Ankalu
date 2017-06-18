@@ -43,7 +43,8 @@ public class About {
 
 
         backToMain.addActionListener(e -> {
-
+            new SettingsMenuGUI();
+            frame.dispose();
         });
     }
 }
