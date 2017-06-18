@@ -32,7 +32,7 @@ public class HighscoreView {
         frame.setBackground(Color.black);
         panel.setBackground(Color.black);
 
-        DefaultListModel<String> listModel = new DefaultListModel<String>();
+        DefaultListModel<String> listModel = new DefaultListModel<>();
         Highscore hs = new Highscore();
         ArrayList<Score> highscoreListClass = hs.getHighscoreList();
         for (Score item : highscoreListClass) {
@@ -49,16 +49,13 @@ public class HighscoreView {
             new MainMenu();
             frame.dispose();
         });
-        button_Reset.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                listModel.removeAllElements();
-                try {
-                    delete = true;
-                    hs.ResetHighscore();
-                } catch (FileNotFoundException e1) {
-                    e1.printStackTrace();
-                }
+        button_Reset.addActionListener(e -> {
+            listModel.removeAllElements();
+            try {
+                delete = true;
+                hs.ResetHighscore();
+            } catch (FileNotFoundException e1) {
+                e1.printStackTrace();
             }
         });
     }
