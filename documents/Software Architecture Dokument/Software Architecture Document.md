@@ -112,7 +112,10 @@ Overall-Use-Case-Diagram:<br>
 
 ####  5.1 Overview ####
 
-n/a
+Class Diagram:<br>
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Pattern/Classdiagram.PNG](https://github.com/AlSalad/Ankalu/blob/master/documents/Pattern/Classdiagram.PNG)
+
+![https://github.com/AlSalad/Ankalu/blob/master/documents/Pattern/Classdiagram.PNG](https://github.com/AlSalad/Ankalu/blob/master/documents/Pattern/Classdiagram.PNG)
 
 ####  5.2 Architecturally Significant Design Packages  ####
 
