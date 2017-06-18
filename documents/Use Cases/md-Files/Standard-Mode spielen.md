@@ -79,9 +79,15 @@ n/a
 
 ####  2.4 Screenshots  ####
 
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Standard%20Mode%201.JPG](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Standard%20Mode%201.JPG)
+
 ![Standard-Mode](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Standard%20Mode%201.JPG "Sandard-Mode")
 
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Standard%20Mode%202.JPG](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Standard%20Mode%202.JPG)
+
 ![Standard-Mode1](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Standard%20Mode%202.JPG "Sandard-Mode1")
+
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Standard%20Mode%203.JPG](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Standard%20Mode%203.JPG)
 
 ![Standard-Mode2](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Standard%20Mode%203.JPG "Sandard-Mode2")
 
