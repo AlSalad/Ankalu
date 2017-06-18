@@ -79,6 +79,12 @@ n/a
 
 ####  2.4 Screenshots  ####
 
+![Standard-Mode](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Standard%20Mode%201.JPG "Sandard-Mode")
+
+![Standard-Mode1](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Standard%20Mode%202.JPG "Sandard-Mode1")
+
+![Standard-Mode2](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Standard%20Mode%203.JPG "Sandard-Mode2")
+
 ####  2.5 Features  ####
 
 ###  3. Special Requirements  ###
