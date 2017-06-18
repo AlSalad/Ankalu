@@ -78,6 +78,12 @@ n/a
 
 ####  2.4 Screenshots ####
 
+![Highscore](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Highcore%200.JPG "Highscore")
+
+![Highscore1](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Highscore%201.JPG "Highscore1")
+
+![Highscore2](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Highscore%202.JPG "Highscore2")
+
 ####  2.5 Features  ####
 
 ###  3. Special Requirements  ###
