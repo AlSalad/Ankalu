@@ -77,11 +77,19 @@ n/a
 
 ####  2.4 Screenshots  ####
 
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Musik%20%C3%A4ndern%201.JPG](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Musik%20%C3%A4ndern%201.JPG)
+
 ![Musik_aendern](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Musik%20%C3%A4ndern%201.JPG "Musik_aendern")
+
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Musik%20%C3%A4ndern%202.JPG](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Musik%20%C3%A4ndern%202.JPG)
 
 ![Musik_aendern1](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Musik%20%C3%A4ndern%202.JPG "Musik_aendern1")
 
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Musik%20%C3%A4ndern%203.JPG](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Musik%20%C3%A4ndern%203.JPG)
+
 ![Musik_aendern2](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Musik%20%C3%A4ndern%203.JPG "Musik_aendern2")
+
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Musik%20%C3%A4ndern%204.JPG](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Musik%20%C3%A4ndern%204.JPG)
 
 ![Musik_aendern3](https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/Screenshots/Musik%20%C3%A4ndern%204.JPG "Musik_aendern3")
 
