@@ -15,8 +15,6 @@ import java.util.ArrayList;
  */
 public class HighscoreView {
 
-
-
     private JPanel panel;
     private JButton backToMenu;
     public JButton button_Reset;
