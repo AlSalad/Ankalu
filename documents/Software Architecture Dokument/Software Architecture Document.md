@@ -17,7 +17,7 @@
 <tr><td><b>Date</b></td><td><b>Version</b></td><td><b>Description</b></td><td><b>Author</b></td></tr>
 <tr><td>04.04.2017</td><td>1.0</td><td>Version 1.0</td><td>André, Katharina, Luka</td></tr>
 <tr><td>14.06.2017</td><td>2.0</td><td>Version 2.0 als Markdown</td><td>Katharina</td></tr>
-<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td>19.06.2017</td><td>2.1</td><td>Added pattern</td><td>Katharina, Luka</td></tr>
 <tr><td></td><td></td><td></td><td></td></tr>
 </table>
 </br>
@@ -123,7 +123,7 @@ Pattern:
 
 [https://github.com/AlSalad/Ankalu/blob/master/documents/Pattern/State%20Pattern.PNG](https://github.com/AlSalad/Ankalu/blob/master/documents/Pattern/State%20Pattern.PNG)
 
-![https://github.com/AlSalad/Ankalu/blob/master/documents/Pattern/State%20Pattern.PNG]'(https://github.com/AlSalad/Ankalu/blob/master/documents/Pattern/State%20Pattern.PNG)
+![https://github.com/AlSalad/Ankalu/blob/master/documents/Pattern/State%20Pattern.PNG](https://github.com/AlSalad/Ankalu/blob/master/documents/Pattern/State%20Pattern.PNG)
 
 ###  6. Process View  ###
 
