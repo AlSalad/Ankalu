@@ -119,7 +119,11 @@ Class Diagram:<br>
 
 ####  5.2 Architecturally Significant Design Packages  ####
 
-n/a
+Pattern:
+
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Pattern/State%20Pattern.PNG](https://github.com/AlSalad/Ankalu/blob/master/documents/Pattern/State%20Pattern.PNG)
+
+![https://github.com/AlSalad/Ankalu/blob/master/documents/Pattern/State%20Pattern.PNG]'(https://github.com/AlSalad/Ankalu/blob/master/documents/Pattern/State%20Pattern.PNG)
 
 ###  6. Process View  ###
 
