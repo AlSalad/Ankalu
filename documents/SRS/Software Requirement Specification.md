@@ -111,7 +111,7 @@ n/a - not appliciable<br>
 <tr><td>Use-Case: Fast-Mode spielen</td><td><a href url="https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Fast-Mode%20spielen.md">https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Fast-Mode%20spielen.md</a></td></tr>
 <tr><td>Use-Case: Reverse-Mode spielen</td><td><a href url="https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Reverse-Mode%20spielen.md">https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Reverse-Mode%20spielen.md</a></td></tr>
 <tr><td>Use-Case: Epilepsie-Mode spielen</td><td><a href url="https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Epilepsie-Mode%20spielen.md">https://github.com/AlSalad/Ankalu/blob/master/documents/Use%20Cases/md-Files/Epilepsie-Mode%20spielen.md</a></td></tr>
-<tr><td>Software Architecture Document</td><td><a href = ""></a></td></tr>
+<tr><td>Software Architecture Document</td><td><a href = "https://github.com/AlSalad/Ankalu/blob/master/documents/Software%20Architecture%20Dokument/Software%20Architecture%20Document.md">https://github.com/AlSalad/Ankalu/blob/master/documents/Software%20Architecture%20Dokument/Software%20Architecture%20Document.md</a></td></tr>
 </table>
 
 
@@ -276,7 +276,7 @@ n/a
 #####  3.9.1 User Interfaces  #####
 
 Screenshots:
--noch hinzuzufügen
+[https://github.com/AlSalad/Ankalu/tree/master/documents/Use%20Cases/Screenshots](https://github.com/AlSalad/Ankalu/tree/master/documents/Use%20Cases/Screenshots)
 
 Mock-Ups:
 [https://github.com/AlSalad/Ankalu/tree/master/documents/Use%20Cases/Mock-Ups](https://github.com/AlSalad/Ankalu/tree/master/documents/Use%20Cases/Mock-Ups)
