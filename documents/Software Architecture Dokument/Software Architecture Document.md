@@ -125,6 +125,10 @@ Pattern:
 
 ![https://github.com/AlSalad/Ankalu/blob/master/documents/Pattern/State%20Pattern.PNG](https://github.com/AlSalad/Ankalu/blob/master/documents/Pattern/State%20Pattern.PNG)
 
+[https://github.com/AlSalad/Ankalu/blob/master/documents/Pattern/State%20Pattern2.PNG](https://github.com/AlSalad/Ankalu/blob/master/documents/Pattern/State%20Pattern2.PNG)
+
+![https://github.com/AlSalad/Ankalu/blob/master/documents/Pattern/State%20Pattern2.PNG](https://github.com/AlSalad/Ankalu/blob/master/documents/Pattern/State%20Pattern2.PNG)
+
 ###  6. Process View  ###
 
 n/a
